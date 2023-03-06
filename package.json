@@ -29,5 +29,7 @@
     "styled-components": "^5.1.1"
   },
   "": {},
-  "jest": {}
+  "jest": {
+    "present": "react-native"
+  }
 }
