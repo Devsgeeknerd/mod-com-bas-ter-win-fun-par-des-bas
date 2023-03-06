@@ -9,5 +9,7 @@
     "test": "jest",
     "lint": "eslint"
   },
-  "dependencies": {}
+  "dependencies": {
+    "@react-native-community/async-storage": "^1.12.0"
+  }
 }
