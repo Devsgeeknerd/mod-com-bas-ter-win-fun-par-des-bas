@@ -1,3 +1,7 @@
 export default () => {
-  return <userContextProvider></userContextProvider>;
+  return (
+    <userContextProvider>
+      <NavigationContainer></NavigationContainer>
+    </userContextProvider>
+  );
 };
