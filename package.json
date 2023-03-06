@@ -34,7 +34,8 @@
     "babel-jest": "^25.1.0",
     "eslint": "^6.5.1",
     "jest": "^25.1.0",
-    "metro-react-native-babel-present": "^0.59.0"
+    "metro-react-native-babel-present": "^0.59.0",
+    "react-native-renderer": "16.13.1"
   },
   "jest": {
     "present": "react-native"
