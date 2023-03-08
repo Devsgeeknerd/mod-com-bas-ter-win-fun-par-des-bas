@@ -12,7 +12,9 @@ export default {
       },
       body: JSON.stringify({ token }),
     });
+
     const json = await req.json();
+
     return json;
   },
   signIn: async (email, password) => {
@@ -24,7 +26,9 @@ export default {
       },
       body: JSON.stringify({ email, password }),
     });
+
     const json = await req.json();
+
     return json;
   },
   signUp: async (name, email, password) => {
@@ -36,7 +40,9 @@ export default {
       },
       body: JSON.stringify({ name, email, password }),
     });
+
     const json = await req.json();
+
     return json;
   },
   logout: async () => {
@@ -50,7 +56,9 @@ export default {
       },
       body: JSON.stringify({ token }),
     });
+
     const json = await req.json();
+
     return json;
   },
   getBarbers: async (lat = null, lng = null, address = null) => {
@@ -63,13 +71,21 @@ export default {
     const req = await fetch(
       `${BASE_API}/barber?token=${token}&lat=${lat}&lng=${lng}&address=${address}`
     );
+
     const json = await req.json();
+
     return json;
   },
   getBarber: async (id) => {
     const token = await AsyncStorage.getItem("token");
+
     const req = await fetch(`${BASE_API}/barber/${id}?token=${token}`);
+
     const json = await req.json();
+
     return json;
+  },
+  setFavorite: async (barberId) => {
+    const token = await AsyncStorage.getItem("token");
   },
 };
