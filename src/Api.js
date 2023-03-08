@@ -129,4 +129,8 @@ export default {
     const json = await req.json();
     return json;
   },
+  search: async () => {},
+  getFavorites: async () => {},
+  getAppointments: async () => {},
+  updateUser: async () => {},
 };
