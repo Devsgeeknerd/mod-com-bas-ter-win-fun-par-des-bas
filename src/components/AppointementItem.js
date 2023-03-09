@@ -25,3 +25,9 @@ const UserName = styled.Text`
   font-size: 18px;
   font-weight: bold;
 `;
+
+const SplitArea = styled.View`
+  margin-top: 10px;
+  justify-content: space-between;
+  flex-direction: row;
+`;
