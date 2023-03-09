@@ -149,6 +149,14 @@ export default {
 
     return json;
   },
-  getAppointments: async () => {},
+  getAppointments: async () => {
+    const token = await AsyncStorage.getItem("token");
+
+    const req = await fetch(`${BASE_API}/user/appointment?token=${token}`);
+
+    const json = await req.json();
+
+    return json;
+  },
   updateUser: async () => {},
 };
