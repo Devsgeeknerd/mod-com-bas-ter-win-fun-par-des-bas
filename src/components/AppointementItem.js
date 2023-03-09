@@ -12,3 +12,10 @@ const UserArea = styled.View`
   flex-direction: row;
   align-items: center;
 `;
+
+const Avatar = styled.Image`
+  width: 56px;
+  height: 56px;
+  margin-right: 20px;
+  border-radius: 20px;
+`;
