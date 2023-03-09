@@ -31,3 +31,9 @@ const SplitArea = styled.View`
   justify-content: space-between;
   flex-direction: row;
 `;
+
+const ServiceText = styled.Text`
+  color: #000000;
+  font-size: 16px;
+  font-weight: bold;
+`;
