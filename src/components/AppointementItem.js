@@ -37,3 +37,12 @@ const ServiceText = styled.Text`
   font-size: 16px;
   font-weight: bold;
 `;
+
+const DateText = styled.Text`
+  background-color: #4eadbe;
+  color: #000000;
+  padding: 10px 15px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
+`;
