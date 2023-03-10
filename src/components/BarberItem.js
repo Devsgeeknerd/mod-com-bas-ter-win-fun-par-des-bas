@@ -9,3 +9,9 @@ const Area = styled.TouchableOpacity`
   border-radius: 20px;
   flex-direction: row;
 `;
+
+const Avatar = styled.Image`
+  width: 88px;
+  height: 88px;
+  border-radius: 20px;
+`;
