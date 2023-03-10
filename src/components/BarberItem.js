@@ -20,3 +20,8 @@ const InfoArea = styled.View`
   margin-left: 20px;
   justify-content: space-between;
 `;
+
+const UserName = styled.Text`
+  font-size: 17px;
+  font-weight: bold;
+`;
