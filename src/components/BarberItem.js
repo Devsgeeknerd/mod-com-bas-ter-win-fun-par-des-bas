@@ -15,3 +15,8 @@ const Avatar = styled.Image`
   height: 88px;
   border-radius: 20px;
 `;
+
+const InfoArea = styled.View`
+  margin-left: 20px;
+  justify-content: space-between;
+`;
