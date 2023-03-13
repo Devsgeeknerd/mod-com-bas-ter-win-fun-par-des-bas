@@ -25,3 +25,12 @@ const UserName = styled.Text`
   font-size: 17px;
   font-weight: bold;
 `;
+
+const SeeProfileButton = styled.View`
+  width: 85px;
+  height: 26px;
+  border: 1px solid #4ead4e;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+`;
