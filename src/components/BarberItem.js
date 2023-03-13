@@ -34,3 +34,8 @@ const SeeProfileButton = styled.View`
   justify-content: center;
   align-items: center;
 `;
+
+const SeeProfileButtonText = styled.Text`
+  color: #262626;
+  font-size: 13px;
+`;
