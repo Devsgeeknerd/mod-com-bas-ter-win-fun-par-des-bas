@@ -15,3 +15,8 @@ const Modalbody = styled.View`
   border-top-right-radius: 20px;
   border-top-left-radius: 20px;
 `;
+
+const CloseButton = styled.TouchableOpacity`
+  width: 40px;
+  height: 40px;
+`;
