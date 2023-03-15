@@ -20,3 +20,10 @@ const CloseButton = styled.TouchableOpacity`
   width: 40px;
   height: 40px;
 `;
+
+const ModalItem = styled.View`
+  background-color: #ffffff;
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 10px;
+`;
