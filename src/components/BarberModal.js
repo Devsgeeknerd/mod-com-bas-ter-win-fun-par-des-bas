@@ -45,3 +45,8 @@ const UserName = styled.Text`
   font-size: 18px;
   font-weight: bold;
 `;
+
+const ServiceInfo = styled.View`
+  justify-content: space-between;
+  flex-direction: row;
+`;
