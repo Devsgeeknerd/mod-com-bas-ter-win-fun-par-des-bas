@@ -39,3 +39,9 @@ const UserAvatar = styled.Image`
   margin-right: 15px;
   border-radius: 20px;
 `;
+
+const UserName = styled.Text`
+  color: #000000;
+  font-size: 18px;
+  font-weight: bold;
+`;
