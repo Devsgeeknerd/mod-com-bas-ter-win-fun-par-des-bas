@@ -32,3 +32,10 @@ const UserInfo = styled.View`
   align-items: center;
   flex-direction: row;
 `;
+
+const UserAvatar = styled.Image`
+  width: 56px;
+  height: 56px;
+  margin-right: 15px;
+  border-radius: 20px;
+`;
