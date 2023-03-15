@@ -27,3 +27,8 @@ const ModalItem = styled.View`
   padding: 10px;
   border-radius: 10px;
 `;
+
+const UserInfo = styled.View`
+  align-items: center;
+  flex-direction: row;
+`;
