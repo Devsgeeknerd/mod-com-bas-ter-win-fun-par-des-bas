@@ -50,3 +50,8 @@ const ServiceInfo = styled.View`
   justify-content: space-between;
   flex-direction: row;
 `;
+
+const ServiceName = styled.Text`
+  font-size: 16px;
+  font-weight: bold;
+`;
