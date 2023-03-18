@@ -55,3 +55,8 @@ const ServiceName = styled.Text`
   font-size: 16px;
   font-weight: bold;
 `;
+
+const ServicePrice = styled.Text`
+  font-size: 16px;
+  font-weight: bold;
+`;
