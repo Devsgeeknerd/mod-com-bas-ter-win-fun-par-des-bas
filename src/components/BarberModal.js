@@ -60,3 +60,11 @@ const ServicePrice = styled.Text`
   font-size: 16px;
   font-weight: bold;
 `;
+
+const FinishButton = styled.TouchableOpacity`
+  background-color: #268596;
+  height: 60px;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+`;
