@@ -78,3 +78,9 @@ const FinishButtonText = styled.Text`
 const DateInfo = styled.View`
   flex-direction: row;
 `;
+
+const DatePrevArea = styled.TouchableOpacity`
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex: 1;
+`;
