@@ -74,3 +74,7 @@ const FinishButtonText = styled.Text`
   font-size: 17px;
   font-weight: bold;
 `;
+
+const DateInfo = styled.View`
+  flex-direction: row;
+`;
