@@ -68,3 +68,9 @@ const FinishButton = styled.TouchableOpacity`
   justify-content: center;
   align-items: center;
 `;
+
+const FinishButtonText = styled.Text`
+  color: #ffffff;
+  font-size: 17px;
+  font-weight: bold;
+`;
