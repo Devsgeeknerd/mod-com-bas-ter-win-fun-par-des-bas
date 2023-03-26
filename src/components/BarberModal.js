@@ -96,3 +96,8 @@ const DateTitle = styled.Text`
   font-size: 17px;
   font-weight: bold;
 `;
+
+const DateNextArea = styled.TouchableOpacity`
+  align-items: flex-start;
+  flex: 1;
+`;
