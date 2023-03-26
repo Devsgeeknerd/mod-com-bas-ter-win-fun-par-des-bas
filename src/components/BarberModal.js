@@ -84,3 +84,9 @@ const DatePrevArea = styled.TouchableOpacity`
   align-items: flex-end;
   flex: 1;
 `;
+
+const DateTitleArea = styled.View`
+  width: 140px;
+  justify-content: center;
+  align-items: center;
+`;
