@@ -90,3 +90,9 @@ const DateTitleArea = styled.View`
   justify-content: center;
   align-items: center;
 `;
+
+const DateTitle = styled.Text`
+  color: #000000;
+  font-size: 17px;
+  font-weight: bold;
+`;
