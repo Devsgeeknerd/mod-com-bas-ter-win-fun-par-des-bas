@@ -101,3 +101,5 @@ const DateNextArea = styled.TouchableOpacity`
   align-items: flex-start;
   flex: 1;
 `;
+
+const DateList = styled.ScrollView``;
