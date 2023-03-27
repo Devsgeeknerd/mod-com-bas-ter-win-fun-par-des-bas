@@ -103,3 +103,12 @@ const DateNextArea = styled.TouchableOpacity`
 `;
 
 const DateList = styled.ScrollView``;
+
+const DateItem = styled.TouchableOpacity`
+  width: 45px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+`;
