@@ -112,3 +112,8 @@ const DateItem = styled.TouchableOpacity`
   justify-content: center;
   align-items: center;
 `;
+
+const DateItemWeekDay = styled.Text`
+  font-size: 16px;
+  font-weight: bold;
+`;
