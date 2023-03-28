@@ -132,3 +132,7 @@ const TimeItem = styled.TouchableOpacity`
   justify-content: center;
   align-items: center;
 `;
+
+const TimeItemText = styled.Text`
+  font-size: 16px;
+`;
