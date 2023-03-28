@@ -122,3 +122,5 @@ const DateItemNumber = styled.Text`
   font-size: 16px;
   font-weight: bold;
 `;
+
+const TimeList = styled.ScrollView``;
