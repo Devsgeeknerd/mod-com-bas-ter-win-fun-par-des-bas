@@ -117,3 +117,8 @@ const DateItemWeekDay = styled.Text`
   font-size: 16px;
   font-weight: bold;
 `;
+
+const DateItemNumber = styled.Text`
+  font-size: 16px;
+  font-weight: bold;
+`;
