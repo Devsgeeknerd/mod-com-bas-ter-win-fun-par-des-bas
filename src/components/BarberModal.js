@@ -124,3 +124,11 @@ const DateItemNumber = styled.Text`
 `;
 
 const TimeList = styled.ScrollView``;
+
+const TimeItem = styled.TouchableOpacity`
+  width: 75px;
+  height: 40px;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+`;
