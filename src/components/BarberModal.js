@@ -1,3 +1,4 @@
+import { useNavigation } from "@react-navigation/native";
 import styled from "styled-components/native";
 
 const modal = styled.Modal``;
@@ -154,4 +155,6 @@ const months = [
 
 const days = ["Dom", "Seg", "Ter", "Qua", "Qui", "Sex", "Sab"];
 
-export default () => {};
+export default () => {
+  const navigation = useNavigation();
+};
