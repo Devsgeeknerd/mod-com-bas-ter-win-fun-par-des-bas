@@ -160,4 +160,5 @@ export default () => {
   const navigation = useNavigation();
 
   const [selectedYear, setSelectedYear] = useState(0);
+  const [selectedMonth, setSelectedMonth] = useState(0);
 };
