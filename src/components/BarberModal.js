@@ -159,5 +159,5 @@ const days = ["Dom", "Seg", "Ter", "Qua", "Qui", "Sex", "Sab"];
 export default () => {
   const navigation = useNavigation();
 
-  const [] = useState(0);
+  const [selectedYear, setSelectedYear] = useState(0);
 };
