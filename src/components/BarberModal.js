@@ -136,3 +136,18 @@ const TimeItem = styled.TouchableOpacity`
 const TimeItemText = styled.Text`
   font-size: 16px;
 `;
+
+const months = [
+  "Janeiro",
+  "Fevereiro",
+  "Março",
+  "Abril",
+  "Maio",
+  "Junho",
+  "Julho",
+  "Agosto",
+  "Setembro",
+  "Outubro",
+  "Novembro",
+  "Dezembro",
+];
