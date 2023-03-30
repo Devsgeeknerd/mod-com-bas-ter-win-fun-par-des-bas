@@ -161,5 +161,5 @@ export default () => {
 
   const [selectedYear, setSelectedYear] = useState(0);
   const [selectedMonth, setSelectedMonth] = useState(0);
-  const [] = useState(0);
+  const [selectedDay] = useState(0);
 };
