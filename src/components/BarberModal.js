@@ -176,7 +176,7 @@ export default () => {
       for (let i = 1; i <= daysInMonth; i++) {
         let d = new Date(selectedYear, selectedMonth, i);
         let year = d.getFullYear();
-        let month;
+        let month = d.getMonth() + 1;
       }
     }
   });
