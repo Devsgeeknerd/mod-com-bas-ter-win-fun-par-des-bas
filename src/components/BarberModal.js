@@ -166,6 +166,7 @@ export default () => {
 
   useEffect(() => {
     if (user.available) {
+      let daysInMoth;
     }
   });
 };
