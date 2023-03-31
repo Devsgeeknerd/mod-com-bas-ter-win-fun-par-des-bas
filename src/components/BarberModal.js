@@ -193,6 +193,8 @@ export default () => {
           number: i,
         });
       }
+
+      setListDays();
     }
   });
 };
