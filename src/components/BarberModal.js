@@ -171,6 +171,7 @@ export default () => {
         setSelectedMonth + 1,
         0
       ).getDate();
+      let newListDays = [];
     }
   });
 };
