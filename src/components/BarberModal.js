@@ -184,6 +184,8 @@ export default () => {
         day = day < 10 ? "0" + day : day;
 
         let selDate = `${year}-${month}-${day}`;
+
+        let availability = user.available.filter((e) => e.date === selDate);
       }
     }
   });
