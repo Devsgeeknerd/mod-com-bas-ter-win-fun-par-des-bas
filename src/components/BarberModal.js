@@ -199,5 +199,5 @@ export default () => {
       setListHours([]);
       setSelectedHour(0);
     }
-  });
+  }, [user, selectedMonth, selectedYear]);
 };
