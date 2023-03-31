@@ -194,7 +194,7 @@ export default () => {
         });
       }
 
-      setListDays();
+      setListDays(newListDays);
     }
   });
 };
