@@ -186,6 +186,12 @@ export default () => {
         let selDate = `${year}-${month}-${day}`;
 
         let availability = user.available.filter((e) => e.date === selDate);
+
+        newListDays.push({
+          status: availability.length > 0 ? true : false,
+          weekday: days[d.getDay()],
+          number: i,
+        });
       }
     }
   });
