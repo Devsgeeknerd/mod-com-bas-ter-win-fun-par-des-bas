@@ -1,5 +1,5 @@
 import { useNavigation } from "@react-navigation/native";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import styled from "styled-components/native";
 
 const modal = styled.Modal``;
@@ -163,4 +163,6 @@ export default () => {
   const [selectedMonth, setSelectedMonth] = useState(0);
   const [selectedDay, setSelectedDay] = useState(0);
   const [selectedHour, setSelectedHour] = useState(0);
+
+  useEffect(() => {});
 };
