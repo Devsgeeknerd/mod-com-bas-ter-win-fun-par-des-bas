@@ -196,6 +196,7 @@ export default () => {
 
       setListDays(newListDays);
       setSelectedDay(0);
+      setListHours([]);
     }
   });
 };
