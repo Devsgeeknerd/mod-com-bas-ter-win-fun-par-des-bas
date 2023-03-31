@@ -166,7 +166,7 @@ export default () => {
 
   useEffect(() => {
     if (user.available) {
-      let daysInMonth = new Date(selectedYear);
+      let daysInMonth = new Date(selectedYear, setSelectedMonth + 1, 0);
     }
   });
 };
