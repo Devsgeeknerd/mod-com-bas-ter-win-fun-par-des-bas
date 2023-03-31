@@ -173,7 +173,7 @@ export default () => {
       ).getDate();
       let newListDays = [];
 
-      for(){}
+      for (let i = 1; i <= daysInMonth; i++) {}
     }
   });
 };
