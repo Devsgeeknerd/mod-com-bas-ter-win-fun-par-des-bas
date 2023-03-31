@@ -172,6 +172,8 @@ export default () => {
         0
       ).getDate();
       let newListDays = [];
+
+      for(){}
     }
   });
 };
