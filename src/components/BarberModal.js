@@ -164,5 +164,8 @@ export default () => {
   const [selectedDay, setSelectedDay] = useState(0);
   const [selectedHour, setSelectedHour] = useState(0);
 
-  useEffect(() => {});
+  useEffect(() => {
+    if (user.available) {
+    }
+  });
 };
