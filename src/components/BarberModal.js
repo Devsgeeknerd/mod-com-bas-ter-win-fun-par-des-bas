@@ -207,6 +207,8 @@ export default () => {
       let year = d.getFullYear();
       let month = d.getMonth() + 1;
       let day = d.getDay();
+
+      month = month < 10 ? "0" + month : month;
     }
   });
 };
