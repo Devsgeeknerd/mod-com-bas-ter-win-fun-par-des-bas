@@ -204,7 +204,7 @@ export default () => {
   useEffect(() => {
     if (user.available && selectedDay > 0) {
       let d = new Date(selectedYear, selectedMonth, selectedDay);
-      let year;
+      let year = d.getFullYear();
     }
   });
 };
