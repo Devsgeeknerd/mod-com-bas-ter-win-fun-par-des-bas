@@ -206,6 +206,7 @@ export default () => {
       let d = new Date(selectedYear, selectedMonth, selectedDay);
       let year = d.getFullYear();
       let month = d.getMonth();
+      let day;
     }
   });
 };
