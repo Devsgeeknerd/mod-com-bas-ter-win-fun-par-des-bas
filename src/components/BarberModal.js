@@ -224,6 +224,6 @@ export default () => {
   }, [user, selectedDay]);
 
   useEffect(() => {
-    let today;
+    let today = new Date();
   }, []);
 };
