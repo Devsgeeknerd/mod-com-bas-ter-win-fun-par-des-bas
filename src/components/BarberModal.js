@@ -200,4 +200,6 @@ export default () => {
       setSelectedHour(0);
     }
   }, [user, selectedMonth, selectedYear]);
+
+  useEffect(() => {});
 };
