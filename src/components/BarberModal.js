@@ -202,6 +202,7 @@ export default () => {
   }, [user, selectedMonth, selectedYear]);
 
   useEffect(() => {
-    if(){}
+    if (user.available) {
+    }
   });
 };
