@@ -222,4 +222,6 @@ export default () => {
     }
     setSelectedHour(null);
   }, [user, selectedDay]);
+
+  useEffect(() => {}, []);
 };
