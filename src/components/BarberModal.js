@@ -212,7 +212,7 @@ export default () => {
 
       day = day < 10 ? "0" + day : day;
 
-      let selDate;
+      let selDate = `${year}-${}-${}`;
     }
   });
 };
