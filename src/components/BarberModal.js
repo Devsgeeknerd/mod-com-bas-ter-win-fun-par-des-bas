@@ -225,5 +225,7 @@ export default () => {
 
   useEffect(() => {
     let today = new Date();
+
+    setSelectedYear();
   }, []);
 };
