@@ -205,8 +205,8 @@ export default () => {
     if (user.available && selectedDay > 0) {
       let d = new Date(selectedYear, selectedMonth, selectedDay);
       let year = d.getFullYear();
-      let month = d.getMonth();
-      let day;
+      let month = d.getMonth() + 1;
+      let day = d.getDay();
     }
   });
 };
