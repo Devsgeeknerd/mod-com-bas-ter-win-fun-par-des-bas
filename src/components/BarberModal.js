@@ -223,5 +223,7 @@ export default () => {
     setSelectedHour(null);
   }, [user, selectedDay]);
 
-  useEffect(() => {}, []);
+  useEffect(() => {
+    let today;
+  }, []);
 };
