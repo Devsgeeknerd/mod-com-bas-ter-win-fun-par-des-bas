@@ -214,7 +214,7 @@ export default () => {
 
       let selDate = `${year}-${month}-${day}`;
 
-      let availability = user;
+      let availability = user.available;
     }
   });
 };
