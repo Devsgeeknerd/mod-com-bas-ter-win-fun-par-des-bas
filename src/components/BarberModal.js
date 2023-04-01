@@ -209,6 +209,8 @@ export default () => {
       let day = d.getDay();
 
       month = month < 10 ? "0" + month : month;
+
+      day = day < 10 ? "0" + day : day;
     }
   });
 };
