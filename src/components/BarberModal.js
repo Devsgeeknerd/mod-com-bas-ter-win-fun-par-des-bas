@@ -217,7 +217,7 @@ export default () => {
       let availability = user.available.filter((e) => e.date === selDate);
 
       if (availability.length > 0) {
-        setListHours(availability[0]);
+        setListHours(availability[0].hours);
       }
     }
   });
