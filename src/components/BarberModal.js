@@ -226,6 +226,6 @@ export default () => {
   useEffect(() => {
     let today = new Date();
 
-    setSelectedYear(today);
+    setSelectedYear(today.getFullYear());
   }, []);
 };
