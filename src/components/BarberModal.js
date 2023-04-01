@@ -227,5 +227,6 @@ export default () => {
     let today = new Date();
 
     setSelectedYear(today.getFullYear());
+    setSelectedMonth();
   }, []);
 };
