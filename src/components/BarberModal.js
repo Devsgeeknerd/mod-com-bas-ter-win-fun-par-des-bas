@@ -203,7 +203,7 @@ export default () => {
 
   useEffect(() => {
     if (user.available && selectedDay > 0) {
-      let d = new Date();
+      let d = new Date(selectedYear);
     }
   });
 };
