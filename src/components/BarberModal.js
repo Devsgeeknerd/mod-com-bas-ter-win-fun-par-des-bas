@@ -216,7 +216,8 @@ export default () => {
 
       let availability = user.available.filter((e) => e.date === selDate);
 
-      if(){}
+      if (availability) {
+      }
     }
   });
 };
