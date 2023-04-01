@@ -220,6 +220,6 @@ export default () => {
         setListHours(availability[0].hours);
       }
     }
-    setSelectedHour();
+    setSelectedHour(null);
   });
 };
