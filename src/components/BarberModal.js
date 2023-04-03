@@ -237,6 +237,6 @@ export default () => {
   };
 
   const handleRightDateClick = () => {
-    setShow();
+    setShow(false);
   };
 };
