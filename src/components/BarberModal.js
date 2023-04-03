@@ -232,6 +232,6 @@ export default () => {
   }, []);
 
   const handleLeftDateClick = () => {
-    let mountDate;
+    let mountDate = new Date();
   };
 };
