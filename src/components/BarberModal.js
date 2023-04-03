@@ -230,4 +230,6 @@ export default () => {
     setSelectedMonth(today.getMonth());
     setSelectedDay(today.getDate());
   }, []);
+
+  const handleLeftDateClick = () {}
 };
