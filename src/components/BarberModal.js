@@ -232,6 +232,6 @@ export default () => {
   }, []);
 
   const handleLeftDateClick = () => {
-    let mountDate = new Date(selectedYear);
+    let mountDate = new Date(selectedYear, selectedMonth, 1);
   };
 };
