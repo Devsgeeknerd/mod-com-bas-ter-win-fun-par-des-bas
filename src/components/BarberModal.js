@@ -228,5 +228,6 @@ export default () => {
 
     setSelectedYear(today.getFullYear());
     setSelectedMonth(today.getMonth());
+    setSelectedDay();
   }, []);
 };
