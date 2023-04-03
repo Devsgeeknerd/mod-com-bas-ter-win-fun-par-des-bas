@@ -233,6 +233,6 @@ export default () => {
 
   const handleLeftDateClick = () => {
     let mountDate = new Date(selectedYear, selectedMonth, 1);
-    mountDate.setMonth();
+    mountDate.setMonth(mountDate.getMonth() - 1);
   };
 };
