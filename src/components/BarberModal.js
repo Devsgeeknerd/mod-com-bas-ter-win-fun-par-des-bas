@@ -231,5 +231,7 @@ export default () => {
     setSelectedDay(today.getDate());
   }, []);
 
-  const handleLeftDateClick = () {}
+  const handleLeftDateClick = () => {
+    let mountDate;
+  };
 };
