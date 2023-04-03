@@ -180,11 +180,9 @@ export default () => {
         let day = d.getDate();
 
         month = month < 10 ? "0" + month : month;
-
         day = day < 10 ? "0" + day : day;
 
         let selDate = `${year}-${month}-${day}`;
-
         let availability = user.available.filter((e) => e.date === selDate);
 
         newListDays.push({
@@ -209,11 +207,9 @@ export default () => {
       let day = d.getDay();
 
       month = month < 10 ? "0" + month : month;
-
       day = day < 10 ? "0" + day : day;
 
       let selDate = `${year}-${month}-${day}`;
-
       let availability = user.available.filter((e) => e.date === selDate);
 
       if (availability.length > 0) {
@@ -239,4 +235,6 @@ export default () => {
     setSelectedMonth(mountDate.getMonth());
     setSelectedDay(0);
   };
+
+  const handleRightDateClick = () => {};
 };
