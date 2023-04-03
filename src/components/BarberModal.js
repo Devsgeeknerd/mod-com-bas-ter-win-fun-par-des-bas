@@ -236,5 +236,7 @@ export default () => {
     setSelectedDay(0);
   };
 
-  const handleRightDateClick = () => {};
+  const handleRightDateClick = () => {
+    setShow();
+  };
 };
