@@ -257,7 +257,7 @@ export default () => {
         selectedDay,
         selectedHour
       );
-      if (response) {
+      if (response.error) {
       } else {
       }
     }
