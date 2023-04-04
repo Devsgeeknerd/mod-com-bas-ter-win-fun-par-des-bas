@@ -264,6 +264,7 @@ export default () => {
         alert(response.error);
       }
     } else {
+      alert();
     }
   };
 };
