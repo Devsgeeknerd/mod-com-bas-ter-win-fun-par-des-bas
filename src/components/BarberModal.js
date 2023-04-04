@@ -247,7 +247,7 @@ export default () => {
       selectedYear > 0 &&
       selectedMonth > 0 &&
       selectedDay > 0 &&
-      selectedHour
+      selectedHour != null
     ) {
     }
   };
