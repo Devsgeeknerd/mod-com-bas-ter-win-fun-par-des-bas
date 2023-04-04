@@ -252,7 +252,8 @@ export default () => {
       let response = await Api.setAppointment(
         user.id,
         user.services[service].id,
-        selectedYear
+        selectedYear,
+        selectedMonth + 1
       );
     }
   };
