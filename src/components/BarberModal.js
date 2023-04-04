@@ -257,7 +257,8 @@ export default () => {
         selectedDay,
         selectedHour
       );
-      if (response.error) {
+      if (response.error == "") {
+        setShow();
       } else {
       }
     }
