@@ -254,7 +254,8 @@ export default () => {
         user.services[service].id,
         selectedYear,
         selectedMonth + 1,
-        selectedDay
+        selectedDay,
+        selectedHour
       );
     }
   };
