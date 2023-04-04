@@ -259,6 +259,7 @@ export default () => {
       );
       if (response.error == "") {
         setShow(false);
+        navigation;
       } else {
       }
     }
