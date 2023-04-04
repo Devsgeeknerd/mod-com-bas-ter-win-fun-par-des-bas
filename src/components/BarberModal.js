@@ -241,7 +241,13 @@ export default () => {
   };
 
   const handleFinishClick = async () => {
-    if (user.if && service != null && selectedYear > 0 && selectedMonth) {
+    if (
+      user.if &&
+      service != null &&
+      selectedYear > 0 &&
+      selectedMonth > 0 &&
+      selectedDay
+    ) {
     }
   };
 };
