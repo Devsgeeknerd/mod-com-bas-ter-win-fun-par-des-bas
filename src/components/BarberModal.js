@@ -240,5 +240,7 @@ export default () => {
     setShow(false);
   };
 
-  const handleFinishClick = async () => {};
+  const handleFinishClick = async () => {
+    if() {}
+  };
 };
