@@ -257,7 +257,9 @@ export default () => {
         selectedDay,
         selectedHour
       );
-      if(){}else{}
+      if (response) {
+      } else {
+      }
     }
   };
 };
