@@ -241,7 +241,7 @@ export default () => {
   };
 
   const handleFinishClick = async () => {
-    if (user.if && service != null && selectedYear) {
+    if (user.if && service != null && selectedYear > 0 && selectedMonth) {
     }
   };
 };
