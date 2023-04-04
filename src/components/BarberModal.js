@@ -261,7 +261,7 @@ export default () => {
         setShow(false);
         navigation.navigate("Appointments");
       } else {
-        alert();
+        alert(response);
       }
     }
   };
