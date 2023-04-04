@@ -249,7 +249,7 @@ export default () => {
       selectedDay > 0 &&
       selectedHour != null
     ) {
-      let response = await Api.setAppointment(user.id);
+      let response = await Api.setAppointment(user.id, user);
     }
   };
 };
