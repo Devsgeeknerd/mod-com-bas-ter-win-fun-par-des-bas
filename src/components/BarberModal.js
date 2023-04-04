@@ -242,14 +242,14 @@ export default () => {
 
   const handleFinishClick = async () => {
     if (
-      user.if &&
+      user.id &&
       service != null &&
       selectedYear > 0 &&
       selectedMonth > 0 &&
       selectedDay > 0 &&
       selectedHour != null
     ) {
-      let response = await Api.setAppointment(user);
+      let response = await Api.setAppointment(user.id);
     }
   };
 };
