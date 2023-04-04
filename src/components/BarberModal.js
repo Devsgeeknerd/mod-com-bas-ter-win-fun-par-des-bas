@@ -258,7 +258,7 @@ export default () => {
         selectedHour
       );
       if (response.error == "") {
-        setShow();
+        setShow(false);
       } else {
       }
     }
