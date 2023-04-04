@@ -259,7 +259,7 @@ export default () => {
       );
       if (response.error == "") {
         setShow(false);
-        navigation.navigate();
+        navigation.navigate("Appointments");
       } else {
       }
     }
