@@ -241,7 +241,7 @@ export default () => {
   };
 
   const handleFinishClick = async () => {
-    if (user) {
+    if (user.if && service) {
     }
   };
 };
