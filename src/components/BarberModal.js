@@ -239,4 +239,6 @@ export default () => {
   const handleRightDateClick = () => {
     setShow(false);
   };
+
+  const handleFinishClick = () => {};
 };
