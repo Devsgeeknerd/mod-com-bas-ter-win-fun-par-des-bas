@@ -246,7 +246,8 @@ export default () => {
       service != null &&
       selectedYear > 0 &&
       selectedMonth > 0 &&
-      selectedDay
+      selectedDay > 0 &&
+      selectedHour
     ) {
     }
   };
