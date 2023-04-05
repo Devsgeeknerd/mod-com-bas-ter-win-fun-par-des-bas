@@ -273,7 +273,9 @@ export default () => {
   return (
     <Modal transparent={true} visible={show} animationType="slide">
       <ModalArea>
-        <Modalbody></Modalbody>
+        <Modalbody>
+          <CloseButton></CloseButton>
+        </Modalbody>
       </ModalArea>
     </Modal>
   );
