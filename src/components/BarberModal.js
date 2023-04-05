@@ -242,7 +242,7 @@ export default () => {
     mountDate.setMonth(mountDate.getMonth() + 1);
 
     setSelectedYear(mountDate.getFullYear());
-    setSelectedMonth(mountDate);
+    setSelectedMonth(mountDate.getMonth());
   }
 
   const handleCloseButton = () => {
