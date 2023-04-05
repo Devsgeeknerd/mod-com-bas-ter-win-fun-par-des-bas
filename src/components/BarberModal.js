@@ -238,7 +238,7 @@ export default () => {
   };
 
   const handleRightDateClick = () => {
-    let mountDate = new Date();
+    let mountDate = new Date(selectedYear);
   }
 
   const handleCloseButton = () => {
