@@ -237,6 +237,8 @@ export default () => {
     setSelectedDay(0);
   };
 
+  const handleRightDateClick = () => {}
+
   const handleCloseButton = () => {
     setShow(false);
   };
