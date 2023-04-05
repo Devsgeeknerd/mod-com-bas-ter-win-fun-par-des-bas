@@ -270,5 +270,5 @@ export default () => {
     }
   };
 
-  return <Modal transparent={true}></Modal>;
+  return <Modal transparent={true} visible={show}></Modal>;
 };
