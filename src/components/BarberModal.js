@@ -243,6 +243,7 @@ export default () => {
 
     setSelectedYear(mountDate.getFullYear());
     setSelectedMonth(mountDate.getMonth());
+    setSelectedDay(0);
   }
 
   const handleCloseButton = () => {
