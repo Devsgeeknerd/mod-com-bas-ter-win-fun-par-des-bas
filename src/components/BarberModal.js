@@ -267,4 +267,6 @@ export default () => {
       alert("Preencha todos os dados!");
     }
   };
+
+  return ()
 };
