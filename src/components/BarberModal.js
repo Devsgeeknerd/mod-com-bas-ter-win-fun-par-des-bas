@@ -244,7 +244,7 @@ export default () => {
     setSelectedYear(mountDate.getFullYear());
     setSelectedMonth(mountDate.getMonth());
     setSelectedDay(0);
-  }
+  };
 
   const handleCloseButton = () => {
     setShow(false);
@@ -283,7 +283,7 @@ export default () => {
     <Modal transparent={true} visible={show} animationType="slide">
       <ModalArea>
         <Modalbody>
-          <CloseButton onPress={}></CloseButton>
+          <CloseButton onPress={handleCloseButton}></CloseButton>
         </Modalbody>
       </ModalArea>
     </Modal>
