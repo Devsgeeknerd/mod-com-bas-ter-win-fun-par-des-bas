@@ -238,7 +238,7 @@ export default () => {
   };
 
   const handleRightDateClick = () => {
-    let mountDate
+    let mountDate = new Date();
   }
 
   const handleCloseButton = () => {
