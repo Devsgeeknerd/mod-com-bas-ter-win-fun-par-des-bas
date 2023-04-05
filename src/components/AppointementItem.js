@@ -50,15 +50,10 @@ const DateText = styled.Text`
 
 export default ({ data }) => {
   let d = data.datetime.split(" ");
-
   let time = d[1].substring(0.5);
-
   let date = new Date(d[0]);
-
   let year = date.getFullYear();
-
   let month = date.getMonth();
-
   let day = date.getDay();
 
   month = month < 10 ? "0" + month : month;

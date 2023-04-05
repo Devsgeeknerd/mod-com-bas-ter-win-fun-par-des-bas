@@ -2,7 +2,7 @@ import { useNavigation } from "@react-navigation/native";
 import { useEffect, useState } from "react";
 import styled from "styled-components/native";
 
-const modal = styled.Modal``;
+const Modal = styled.Modal``;
 
 const ModalArea = styled.View`
   background-color: rgba(0, 0, 0, 0.5);
@@ -268,5 +268,7 @@ export default () => {
     }
   };
 
-  return ()
+  return (
+    <Modal
+  )
 };
