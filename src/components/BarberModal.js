@@ -239,7 +239,7 @@ export default () => {
 
   const handleRightDateClick = () => {
     let mountDate = new Date(selectedYear, selectedMonth, 1);
-    mountDate.setMonth(mountDate);
+    mountDate.setMonth(mountDate.getMonth() + 1);
   }
 
   const handleCloseButton = () => {
