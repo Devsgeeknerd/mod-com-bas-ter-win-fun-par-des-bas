@@ -171,6 +171,7 @@ export default () => {
         setSelectedMonth + 1,
         0
       ).getDate();
+
       let newListDays = [];
 
       for (let i = 1; i <= daysInMonth; i++) {
@@ -257,6 +258,7 @@ export default () => {
         selectedDay,
         selectedHour
       );
+
       if (response.error == "") {
         setShow(false);
         navigation.navigate("Appointments");
@@ -268,7 +270,5 @@ export default () => {
     }
   };
 
-  return (
-    <Modal
-  )
+  return <Modal></Modal>;
 };
