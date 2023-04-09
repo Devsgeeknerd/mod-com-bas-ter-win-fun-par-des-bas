@@ -308,7 +308,7 @@ export default () => {
                 <NavPrevIcon width="35" height="35" fill="#000000" />
               </DatePrevArea>
               <DateTitleArea>
-                <DateTitle></DateTitle>
+                <DateTitle>{months}</DateTitle>
               </DateTitleArea>
             </DateInfo>
           </ModalItem>
