@@ -287,7 +287,9 @@ export default () => {
             <ExpandIcon width="40" height="40" fill="#000000" />
           </CloseButton>
           <ModalItem>
-            <UserInfo></UserInfo>
+            <UserInfo>
+              <UserAvatar></UserAvatar>
+            </UserInfo>
           </ModalItem>
         </Modalbody>
       </ModalArea>
