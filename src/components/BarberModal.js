@@ -296,7 +296,7 @@ export default () => {
             <ModalItem>
               <ServiceInfo>
                 <ServiceName>{user.services[service]}.name</ServiceName>
-                <ServicePrice></ServicePrice>
+                <ServicePrice>R$ {user}</ServicePrice>
               </ServiceInfo>
             </ModalItem>
           )}
