@@ -302,7 +302,9 @@ export default () => {
               </ServiceInfo>
             </ModalItem>
           )}
-          <ModalItem></ModalItem>
+          <ModalItem>
+            <DateInfo></DateInfo>
+          </ModalItem>
         </Modalbody>
       </ModalArea>
     </Modal>
