@@ -294,7 +294,9 @@ export default () => {
           </ModalItem>
           {service != null && (
             <ModalItem>
-              <ServiceInfo></ServiceInfo>
+              <ServiceInfo>
+                <ServiceName></ServiceName>
+              </ServiceInfo>
             </ModalItem>
           )}
         </Modalbody>
