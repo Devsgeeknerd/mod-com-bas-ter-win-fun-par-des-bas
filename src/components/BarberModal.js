@@ -289,7 +289,7 @@ export default () => {
           <ModalItem>
             <UserInfo>
               <UserAvatar source={{ uri: user.avatar }} />
-              <UserName></UserName>
+              <UserName>{user}</UserName>
             </UserInfo>
           </ModalItem>
         </Modalbody>
