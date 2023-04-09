@@ -284,7 +284,7 @@ export default () => {
       <ModalArea>
         <Modalbody>
           <CloseButton onPress={handleCloseButton}>
-            <ExpandIcon />
+            <ExpandIcon width="40" />
           </CloseButton>
         </Modalbody>
       </ModalArea>
