@@ -304,7 +304,7 @@ export default () => {
           )}
           <ModalItem>
             <DateInfo>
-              <DatePrevArea onPress={}></DatePrevArea>
+              <DatePrevArea onPress={handleLeftDateClick}></DatePrevArea>
             </DateInfo>
           </ModalItem>
         </Modalbody>
