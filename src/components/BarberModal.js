@@ -286,7 +286,9 @@ export default () => {
           <CloseButton onPress={handleCloseButton}>
             <ExpandIcon width="40" height="40" fill="#000000" />
           </CloseButton>
-          <ModalItem></ModalItem>
+          <ModalItem>
+            <UserInfo></UserInfo>
+          </ModalItem>
         </Modalbody>
       </ModalArea>
     </Modal>
