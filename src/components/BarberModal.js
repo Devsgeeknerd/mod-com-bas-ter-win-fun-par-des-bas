@@ -288,7 +288,7 @@ export default () => {
           </CloseButton>
           <ModalItem>
             <UserInfo>
-              <UserAvatar></UserAvatar>
+              <UserAvatar source={{}} />
             </UserInfo>
           </ModalItem>
         </Modalbody>
