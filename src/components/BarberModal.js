@@ -288,7 +288,7 @@ export default () => {
           </CloseButton>
           <ModalItem>
             <UserInfo>
-              <UserAvatar source={{ uri: user }} />
+              <UserAvatar source={{ uri: user.avatar }} />
             </UserInfo>
           </ModalItem>
         </Modalbody>
