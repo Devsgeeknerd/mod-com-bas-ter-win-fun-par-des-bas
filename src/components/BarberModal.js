@@ -295,7 +295,7 @@ export default () => {
           {service != null && (
             <ModalItem>
               <ServiceInfo>
-                <ServiceName>{user.services}</ServiceName>
+                <ServiceName>{user.services[service]}</ServiceName>
               </ServiceInfo>
             </ModalItem>
           )}
