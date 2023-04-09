@@ -292,7 +292,7 @@ export default () => {
               <UserName>{user.name}</UserName>
             </UserInfo>
           </ModalItem>
-          {service != null}
+          {service != null && <ModalItem></ModalItem>}
         </Modalbody>
       </ModalArea>
     </Modal>
