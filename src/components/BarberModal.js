@@ -283,7 +283,9 @@ export default () => {
     <Modal transparent={true} visible={show} animationType="slide">
       <ModalArea>
         <Modalbody>
-          <CloseButton onPress={handleCloseButton}></CloseButton>
+          <CloseButton onPress={handleCloseButton}>
+            <ExpandIcon />
+          </CloseButton>
         </Modalbody>
       </ModalArea>
     </Modal>
