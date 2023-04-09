@@ -313,7 +313,7 @@ export default () => {
                   {selectedYear}
                 </DateTitle>
               </DateTitleArea>
-              <DateNextArea></DateNextArea>
+              <DateNextArea onPress={}></DateNextArea>
             </DateInfo>
           </ModalItem>
         </Modalbody>
