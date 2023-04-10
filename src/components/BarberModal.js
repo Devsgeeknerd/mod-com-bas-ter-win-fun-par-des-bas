@@ -318,7 +318,7 @@ export default () => {
               </DateNextArea>
             </DateInfo>
             <DateList horizontal={true} showsHorizontalScrollIndicator={false}>
-              {listDays}
+              {listDays.map(() =>())}
             </DateList>
           </ModalItem>
         </Modalbody>
