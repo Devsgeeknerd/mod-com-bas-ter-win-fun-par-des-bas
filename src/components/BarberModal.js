@@ -329,7 +329,9 @@ export default () => {
                     backgroundColor:
                       item.number === setSelectedDay ? "#4eadbe" : "#ffffff",
                   }}
-                ></DateItem>
+                >
+                  <DateItemWeekDay></DateItemWeekDay>
+                </DateItem>
               ))}
             </DateList>
           </ModalItem>
