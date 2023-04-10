@@ -331,7 +331,7 @@ export default () => {
                   }}
                 >
                   <DateItemWeekDay
-                    style={{ color: item.number }}
+                    style={{ color: item.number === selectedDay }}
                   ></DateItemWeekDay>
                 </DateItem>
               ))}
