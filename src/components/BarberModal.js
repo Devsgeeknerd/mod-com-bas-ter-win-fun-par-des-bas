@@ -335,7 +335,9 @@ export default () => {
                       color:
                         item.number === selectedDay ? "#ffffff" : "#000000",
                     }}
-                  ></DateItemWeekDay>
+                  >
+                    {item}
+                  </DateItemWeekDay>
                 </DateItem>
               ))}
             </DateList>
