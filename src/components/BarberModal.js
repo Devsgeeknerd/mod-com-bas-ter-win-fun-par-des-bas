@@ -326,7 +326,8 @@ export default () => {
                   }
                   style={{
                     opacity: item.status ? 1 : 0.5,
-                    backgroundColor: item.number === setSelectedDay,
+                    backgroundColor:
+                      item.number === setSelectedDay ? "#4eadbe" : "#ffffff",
                   }}
                 ></DateItem>
               ))}
