@@ -324,6 +324,7 @@ export default () => {
                   onPress={() =>
                     item.status ? setSelectedDay(item.number) : null
                   }
+                  style={{}}
                 ></DateItem>
               ))}
             </DateList>
