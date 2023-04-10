@@ -330,7 +330,7 @@ export default () => {
                       item.number === setSelectedDay ? "#4eadbe" : "#ffffff",
                   }}
                 >
-                  <DateItemWeekDay style={{}}></DateItemWeekDay>
+                  <DateItemWeekDay style={{ color }}></DateItemWeekDay>
                 </DateItem>
               ))}
             </DateList>
