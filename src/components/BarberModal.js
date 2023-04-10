@@ -317,7 +317,10 @@ export default () => {
                 <NavNextIcon width="35" height="35" fill="#000000" />
               </DateNextArea>
             </DateInfo>
-            <DateList horizontal={true} showsHorizontalScrollIndicator={}></DateList>
+            <DateList
+              horizontal={true}
+              showsHorizontalScrollIndicator={false}
+            ></DateList>
           </ModalItem>
         </Modalbody>
       </ModalArea>
