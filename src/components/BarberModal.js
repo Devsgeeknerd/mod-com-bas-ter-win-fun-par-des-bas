@@ -321,7 +321,9 @@ export default () => {
               {listDays.map((item, key) => (
                 <DateItem
                   key={key}
-                  onPress={() => (item.status ? setSelectedDay(item) : null)}
+                  onPress={() =>
+                    item.status ? setSelectedDay(item.number) : null
+                  }
                 ></DateItem>
               ))}
             </DateList>
