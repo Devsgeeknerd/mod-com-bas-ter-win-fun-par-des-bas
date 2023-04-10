@@ -314,7 +314,7 @@ export default () => {
                 </DateTitle>
               </DateTitleArea>
               <DateNextArea onPress={handleRightDateClick}>
-                <NavNextIcon width="35" />
+                <NavNextIcon width="35" height="35" />
               </DateNextArea>
             </DateInfo>
           </ModalItem>
