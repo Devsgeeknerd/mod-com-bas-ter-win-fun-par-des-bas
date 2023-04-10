@@ -317,7 +317,7 @@ export default () => {
                 <NavNextIcon width="35" height="35" fill="#000000" />
               </DateNextArea>
             </DateInfo>
-            <DateList></DateList>
+            <DateList horizontal={}></DateList>
           </ModalItem>
         </Modalbody>
       </ModalArea>
