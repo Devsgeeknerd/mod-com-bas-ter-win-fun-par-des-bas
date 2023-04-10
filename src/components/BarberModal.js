@@ -319,7 +319,7 @@ export default () => {
             </DateInfo>
             <DateList horizontal={true} showsHorizontalScrollIndicator={false}>
               {listDays.map((item, key) => (
-                <DateItem></DateItem>
+                <DateItem key={}></DateItem>
               ))}
             </DateList>
           </ModalItem>
