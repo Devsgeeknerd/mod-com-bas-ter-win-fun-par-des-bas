@@ -379,7 +379,7 @@ export default () => {
             </ModalItem>
           )}
           <FinishButton onPress={handleFinishClick}>
-            <FinishButtonText></FinishButtonText>
+            <FinishButtonText>Finalizar Agendamento</FinishButtonText>
           </FinishButton>
         </Modalbody>
       </ModalArea>
