@@ -378,7 +378,9 @@ export default () => {
               </TimeList>
             </ModalItem>
           )}
-          <FinishButton onPress={handleFinishClick}></FinishButton>
+          <FinishButton onPress={handleFinishClick}>
+            <FinishButtonText></FinishButtonText>
+          </FinishButton>
         </Modalbody>
       </ModalArea>
     </Modal>
