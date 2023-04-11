@@ -352,7 +352,7 @@ export default () => {
           </ModalItem>
           {selectedDay > 0 && listHours.length > 0 && (
             <ModalItem>
-              <TimeList horizontal={true}></TimeList>
+              <TimeList horizontal={true} showsHorizontalScrollIndicator={}></TimeList>
             </ModalItem>
           )}
         </Modalbody>
