@@ -355,7 +355,9 @@ export default () => {
               <TimeList
                 horizontal={true}
                 showsHorizontalScrollIndicator={false}
-              ></TimeList>
+              >
+                {listHours}
+              </TimeList>
             </ModalItem>
           )}
         </Modalbody>
