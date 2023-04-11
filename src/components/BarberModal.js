@@ -359,7 +359,7 @@ export default () => {
                 {listHours.map((item, key) => (
                   <TimeItem
                     key={key}
-                    onPress={() => setSelectedHour()}
+                    onPress={() => setSelectedHour(item)}
                   ></TimeItem>
                 ))}
               </TimeList>
