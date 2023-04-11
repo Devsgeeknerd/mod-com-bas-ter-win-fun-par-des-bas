@@ -350,7 +350,7 @@ export default () => {
               ))}
             </DateList>
           </ModalItem>
-          {selectedDay > 0 && listHours}
+          {selectedDay > 0 && listHours.length}
         </Modalbody>
       </ModalArea>
     </Modal>
