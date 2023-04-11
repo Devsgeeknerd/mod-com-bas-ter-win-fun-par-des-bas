@@ -344,7 +344,7 @@ export default () => {
                         item.number === selectedDay ? "#ffffff" : "#000000",
                     }}
                   >
-                    {item}
+                    {item.number}
                   </DateItemNumber>
                 </DateItem>
               ))}
