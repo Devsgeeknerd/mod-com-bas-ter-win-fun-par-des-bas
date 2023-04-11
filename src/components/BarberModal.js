@@ -364,7 +364,9 @@ export default () => {
                       backgroundColor:
                         item === selectedHour ? "#4eadbe" : "#ffffff",
                     }}
-                  ></TimeItem>
+                  >
+                    <TimeItemText></TimeItemText>
+                  </TimeItem>
                 ))}
               </TimeList>
             </ModalItem>
