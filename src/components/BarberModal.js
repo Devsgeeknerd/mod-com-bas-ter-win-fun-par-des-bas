@@ -356,7 +356,7 @@ export default () => {
                 horizontal={true}
                 showsHorizontalScrollIndicator={false}
               >
-                {listHours.map(item)}
+                {listHours.map(item, key)}
               </TimeList>
             </ModalItem>
           )}
