@@ -360,7 +360,10 @@ export default () => {
                   <TimeItem
                     key={key}
                     onPress={() => setSelectedHour(item)}
-                    style={{ backgroundColor: item === selectedHour }}
+                    style={{
+                      backgroundColor:
+                        item === selectedHour ? "#4eadbe" : "#ffffff",
+                    }}
                   ></TimeItem>
                 ))}
               </TimeList>
