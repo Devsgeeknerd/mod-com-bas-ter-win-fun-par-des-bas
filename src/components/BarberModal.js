@@ -350,6 +350,7 @@ export default () => {
               ))}
             </DateList>
           </ModalItem>
+          {selectedDay}
         </Modalbody>
       </ModalArea>
     </Modal>
