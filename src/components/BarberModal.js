@@ -338,7 +338,7 @@ export default () => {
                   >
                     {item.weekday}
                   </DateItemWeekDay>
-                  <DateItemNumber style={{ color }}></DateItemNumber>
+                  <DateItemNumber style={{ color: item }}></DateItemNumber>
                 </DateItem>
               ))}
             </DateList>
