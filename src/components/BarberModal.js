@@ -370,7 +370,9 @@ export default () => {
                         color: item === selectedHour ? "#ffffff" : "#000000",
                         fontWeight: item === selectedHour ? "bold" : "normal",
                       }}
-                    ></TimeItemText>
+                    >
+                      {item}
+                    </TimeItemText>
                   </TimeItem>
                 ))}
               </TimeList>
