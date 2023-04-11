@@ -378,6 +378,7 @@ export default () => {
               </TimeList>
             </ModalItem>
           )}
+          <FinishButton></FinishButton>
         </Modalbody>
       </ModalArea>
     </Modal>
