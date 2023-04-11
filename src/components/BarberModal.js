@@ -368,7 +368,7 @@ export default () => {
                     <TimeItemText
                       style={{
                         color: item === selectedHour ? "#ffffff" : "#000000",
-                        fontWeight:
+                        fontWeight: item,
                       }}
                     ></TimeItemText>
                   </TimeItem>
