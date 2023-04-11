@@ -365,7 +365,7 @@ export default () => {
                         item === selectedHour ? "#4eadbe" : "#ffffff",
                     }}
                   >
-                    <TimeItemText style={{}}></TimeItemText>
+                    <TimeItemText style={{ color }}></TimeItemText>
                   </TimeItem>
                 ))}
               </TimeList>
