@@ -9,3 +9,5 @@ const TabItem = styled.TouchableOpacity`
   align-items: center;
   flex: 1;
 `;
+
+const TabItemCenter = styled.TouchableOpacity``;
