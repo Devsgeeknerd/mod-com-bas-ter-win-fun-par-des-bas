@@ -33,6 +33,6 @@ export default ({ state, navigation }) => {
   const { state: user } = useContext(UserContext);
 
   const goTo = (screenName) => {
-    navigation;
+    navigation.navigate();
   };
 };
