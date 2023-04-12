@@ -3,3 +3,5 @@ const TabArea = styled.View`
   height: 60px;
   flex-direction: row;
 `;
+
+const TabItem = styled.TouchableOpacity``;
