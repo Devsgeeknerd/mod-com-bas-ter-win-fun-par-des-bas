@@ -4,4 +4,6 @@ const TabArea = styled.View`
   flex-direction: row;
 `;
 
-const TabItem = styled.TouchableOpacity``;
+const TabItem = styled.TouchableOpacity`
+  flex: 1;
+`;
