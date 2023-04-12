@@ -26,3 +26,5 @@ const AvatarIcon = styled.Image`
   height: 24px;
   border-radius: 12px;
 `;
+
+export default () => {};
