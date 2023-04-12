@@ -4,6 +4,7 @@ import styled from "styled-components/native";
 
 import Api from "../Api";
 import ExpandIcon from "../assets/expand.svg";
+import NavPrevIcon from "../assets/nav_pre.svg";
 
 const Modal = styled.Modal``;
 
