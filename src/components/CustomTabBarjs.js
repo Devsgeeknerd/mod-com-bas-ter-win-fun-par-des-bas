@@ -38,7 +38,7 @@ export default ({ state, navigation }) => {
 
   return (
     <TabArea>
-      <TabItem></TabItem>
+      <TabItem onPress={()}></TabItem>
     </TabArea>
   );
 };
