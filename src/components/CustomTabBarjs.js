@@ -1,3 +1,5 @@
+import { useContext } from "react";
+
 const TabArea = styled.View`
   background-color: #4eadbe;
   height: 60px;
@@ -27,4 +29,6 @@ const AvatarIcon = styled.Image`
   border-radius: 12px;
 `;
 
-export default ({ state, navigation }) => {const {state:user}};
+export default ({ state, navigation }) => {
+  const { state: user } = useContext();
+};
