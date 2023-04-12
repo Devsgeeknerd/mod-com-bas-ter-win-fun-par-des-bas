@@ -31,4 +31,6 @@ const AvatarIcon = styled.Image`
 
 export default ({ state, navigation }) => {
   const { state: user } = useContext(UserContext);
+
+  const goTo = () => {};
 };
