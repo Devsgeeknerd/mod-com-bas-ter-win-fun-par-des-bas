@@ -27,4 +27,4 @@ const AvatarIcon = styled.Image`
   border-radius: 12px;
 `;
 
-export default () => {};
+export default ({ state }) => {};
