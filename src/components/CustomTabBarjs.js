@@ -14,6 +14,7 @@ const TabItemCenter = styled.TouchableOpacity`
   background-color: #ffffff;
   width: 700px;
   height: 70px;
+  border-radius: 35px;
   justify-content: center;
   align-items: center;
 `;
