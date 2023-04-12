@@ -5,6 +5,7 @@ const TabArea = styled.View`
 `;
 
 const TabItem = styled.TouchableOpacity`
-  flex: 1;
   justify-content: center;
+  align-items: center;
+  flex: 1;
 `;
