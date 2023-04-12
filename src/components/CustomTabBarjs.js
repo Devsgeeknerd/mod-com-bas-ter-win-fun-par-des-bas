@@ -10,4 +10,6 @@ const TabItem = styled.TouchableOpacity`
   flex: 1;
 `;
 
-const TabItemCenter = styled.TouchableOpacity``;
+const TabItemCenter = styled.TouchableOpacity`
+  width: 700px;
+`;
