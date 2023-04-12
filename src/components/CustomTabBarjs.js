@@ -6,4 +6,5 @@ const TabArea = styled.View`
 
 const TabItem = styled.TouchableOpacity`
   flex: 1;
+  justify-content: center;
 `;
