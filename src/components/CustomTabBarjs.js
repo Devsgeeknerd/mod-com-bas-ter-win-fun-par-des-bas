@@ -20,3 +20,5 @@ const TabItemCenter = styled.TouchableOpacity`
   justify-content: center;
   align-items: center;
 `;
+
+const AvatarIcon = styled.Image``;
