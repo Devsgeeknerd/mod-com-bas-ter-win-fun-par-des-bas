@@ -2,6 +2,8 @@ import { useNavigation } from "@react-navigation/native";
 import { useEffect, useState } from "react";
 import styled from "styled-components/native";
 
+import Api from "../Api";
+
 const Modal = styled.Modal``;
 
 const ModalArea = styled.View`
