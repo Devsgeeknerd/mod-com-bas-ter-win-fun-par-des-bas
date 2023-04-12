@@ -1,0 +1,1 @@
+const TabArea = styled.View``;
