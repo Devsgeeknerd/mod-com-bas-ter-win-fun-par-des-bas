@@ -13,4 +13,5 @@ const TabItem = styled.TouchableOpacity`
 const TabItemCenter = styled.TouchableOpacity`
   width: 700px;
   height: 70px;
+  justify-content: center;
 `;
