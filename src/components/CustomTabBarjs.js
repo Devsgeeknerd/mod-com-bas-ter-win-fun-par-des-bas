@@ -1,4 +1,5 @@
 const TabArea = styled.View`
-  height: 60px;
   background-color: #4eadbe;
+  height: 60px;
+  flex-direction: row;
 `;
