@@ -36,5 +36,5 @@ export default ({ state, navigation }) => {
     navigation.navigate(screenName);
   };
 
-  return()
+  return <TabArea></TabArea>;
 };
