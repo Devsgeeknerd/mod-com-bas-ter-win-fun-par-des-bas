@@ -1,1 +1,3 @@
-const TabArea = styled.View``;
+const TabArea = styled.View`
+  height: 60px;
+`;
