@@ -59,7 +59,7 @@ export default ({ state, navigation }) => {
       </TabItemCenter>
       <TabItem onPress={() => goTo("Favorites")}>
         <FavoriteIcon
-          style={{ opacity: state }}
+          style={{ opacity: state.index === 3 ? 1 : 0.5 }}
           width="24"
           height="24"
           fill="#ffffff"
