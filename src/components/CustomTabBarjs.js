@@ -65,7 +65,7 @@ export default ({ state, navigation }) => {
           fill="#ffffff"
         />
       </TabItem>
-      <TabItem onPress={() => goTo()}></TabItem>
+      <TabItem onPress={() => goTo("Profile")}></TabItem>
     </TabArea>
   );
 };
