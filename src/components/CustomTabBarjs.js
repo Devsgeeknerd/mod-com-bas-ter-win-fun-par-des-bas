@@ -58,7 +58,7 @@ export default ({ state, navigation }) => {
         <TodayIcon width="32" height="32" fill="#4eadbe" />
       </TabItemCenter>
       <TabItem onPress={() => goTo("Favorites")}>
-        <FavoriteIcon />
+        <FavoriteIcon style={{}} />
       </TabItem>
       <TabItem></TabItem>
     </TabArea>
