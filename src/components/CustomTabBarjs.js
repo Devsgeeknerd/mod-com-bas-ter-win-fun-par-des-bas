@@ -47,7 +47,7 @@ export default ({ state, navigation }) => {
         />
       </TabItem>
       <TabItem onPress={() => goTo("Search")}>
-        <SearchIcon />
+        <SearchIcon style={{}} />
       </TabItem>
       <TabItem></TabItem>
       <TabItem></TabItem>
