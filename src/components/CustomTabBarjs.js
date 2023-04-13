@@ -48,7 +48,7 @@ export default ({ state, navigation }) => {
       </TabItem>
       <TabItem onPress={() => goTo("Search")}>
         <SearchIcon
-          style={{ opacity: state }}
+          style={{ opacity: state.index === 1 ? 1 : 0.5 }}
           width="24"
           height="24"
           fill="#ffffff"
