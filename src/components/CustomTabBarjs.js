@@ -46,7 +46,7 @@ export default ({ state, navigation }) => {
           fill="#ffffff"
         />
       </TabItem>
-      <TabItem onPress={}></TabItem>
+      <TabItem onPress={() => goTo()}></TabItem>
       <TabItem></TabItem>
       <TabItem></TabItem>
       <TabItem></TabItem>
