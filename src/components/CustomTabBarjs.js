@@ -57,7 +57,7 @@ export default ({ state, navigation }) => {
       <TabItemCenter onPress={() => goTo("Appointment")}>
         <TodayIcon width="32" height="32" fill="#4eadbe" />
       </TabItemCenter>
-      <TabItem></TabItem>
+      <TabItem onPress={()=>()}></TabItem>
       <TabItem></TabItem>
     </TabArea>
   );
