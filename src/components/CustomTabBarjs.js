@@ -39,7 +39,7 @@ export default ({ state, navigation }) => {
   return (
     <TabArea>
       <TabItem onPress={() => goTo("Home")}>
-        <HomeIcon style={{}} />
+        <HomeIcon style={{}} width="24" />
       </TabItem>
     </TabArea>
   );
