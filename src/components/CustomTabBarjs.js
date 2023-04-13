@@ -46,6 +46,7 @@ export default ({ state, navigation }) => {
           fill="#ffffff"
         />
       </TabItem>
+      <TabItem></TabItem>
     </TabArea>
   );
 };
