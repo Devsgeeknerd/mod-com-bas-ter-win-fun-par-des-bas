@@ -47,6 +47,7 @@ export default ({ state, navigation }) => {
         />
       </TabItem>
       <TabItem></TabItem>
+      <TabItem></TabItem>
     </TabArea>
   );
 };
