@@ -10,3 +10,5 @@ const InputArea = styled.View`
   align-items: center;
   flex-direction: row;
 `;
+
+const Input = styled.TextInput``;
