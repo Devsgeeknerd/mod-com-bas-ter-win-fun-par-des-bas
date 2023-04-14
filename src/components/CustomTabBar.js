@@ -66,7 +66,11 @@ export default ({ state, navigation }) => {
         />
       </TabItem>
       <TabItem onPress={() => goTo("Profile")}>
-        {user.avatar != "" ? <AvatarIcon source={{ uri }} /> : <AccountIcon />}
+        {user.avatar != "" ? (
+          <AvatarIcon source={{ uri: user }} />
+        ) : (
+          <AccountIcon />
+        )}
       </TabItem>
     </TabArea>
   );
