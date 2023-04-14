@@ -1,4 +1,5 @@
 import { useContext } from "react";
+import styled from "styled-components/native";
 
 const TabArea = styled.View`
   background-color: #4eadbe;
