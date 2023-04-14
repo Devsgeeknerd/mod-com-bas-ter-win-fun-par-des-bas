@@ -1,7 +1,8 @@
 import { useContext } from "react";
 import styled from "styled-components/native";
 
-import UserContext from "../context/UserContext";
+import HomeIcon from "../assets/home.svg";
+import { UserContext } from "../context/UserContext";
 
 const TabArea = styled.View`
   background-color: #4eadbe;
