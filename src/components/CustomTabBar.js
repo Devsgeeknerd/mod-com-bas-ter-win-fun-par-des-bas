@@ -69,7 +69,7 @@ export default ({ state, navigation }) => {
         {user.avatar != "" ? (
           <AvatarIcon source={{ uri: user.avatar }} />
         ) : (
-          <AccountIcon style={{ opacity }} />
+          <AccountIcon style={{ opacity: state }} />
         )}
       </TabItem>
     </TabArea>
