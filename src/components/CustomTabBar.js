@@ -2,6 +2,7 @@ import { useContext } from "react";
 import styled from "styled-components/native";
 
 import FavoriteIcon from "../assets//favorite.svg";
+import AccountIcon from "../assets/account.svg";
 import HomeIcon from "../assets/home.svg";
 import SearchIcon from "../assets/search.svg";
 import TodayIcon from "../assets/today.svg";
