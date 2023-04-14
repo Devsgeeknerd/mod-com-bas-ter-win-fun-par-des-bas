@@ -14,4 +14,5 @@ const InputArea = styled.View`
 const Input = styled.TextInput`
   flex: 1;
   font-size: 16px;
+  color: #268569;
 `;
