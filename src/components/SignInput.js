@@ -4,5 +4,6 @@ const InputArea = styled.View`
   height: 60px;
   padding-left: 15px;
   border-radius: 30px;
+  align-items: center;
   flex-direction: row;
 `;
