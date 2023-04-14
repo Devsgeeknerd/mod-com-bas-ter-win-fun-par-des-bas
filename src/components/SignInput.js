@@ -18,4 +18,4 @@ const Input = styled.TextInput`
   flex: 1;
 `;
 
-export()=>{}
+export default () => {};
