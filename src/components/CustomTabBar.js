@@ -65,7 +65,9 @@ export default ({ state, navigation }) => {
           fill="#ffffff"
         />
       </TabItem>
-      <TabItem onPress={() => goTo("Profile")}>{user.avatar != '' ? <AvatarIcon/>}</TabItem>
+      <TabItem onPress={() => goTo("Profile")}>
+        {user.avatar != "" ? <AvatarIcon /> : <AccountIcon />}
+      </TabItem>
     </TabArea>
   );
 };
