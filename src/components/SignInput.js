@@ -1,3 +1,5 @@
+import styled from "styled-components";
+
 const InputArea = styled.View`
   background-color: #83d6e3;
   width: 100%;
