@@ -11,4 +11,6 @@ const InputArea = styled.View`
   flex-direction: row;
 `;
 
-const Input = styled.TextInput``;
+const Input = styled.TextInput`
+  flex: 1;
+`;
