@@ -1,1 +1,3 @@
-const InputArea = styled.View``;
+const InputArea = styled.View`
+  width: 100%;
+`;
