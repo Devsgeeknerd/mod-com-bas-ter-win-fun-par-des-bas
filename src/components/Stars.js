@@ -3,3 +3,5 @@ const StarArea = styled.View`
 `;
 
 const StarView = styled.View``;
+
+const StarText = styled.Text``;
