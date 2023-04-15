@@ -22,6 +22,7 @@ export default ({ IconSvg, placeholder, value, onChangeText, password }) => {
   return (
     <InputArea>
       <IconSvg width="24" height="24" fill="#268596" />
+      <Input />
     </InputArea>
   );
 };
