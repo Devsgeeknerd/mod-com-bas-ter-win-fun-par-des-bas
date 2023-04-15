@@ -18,5 +18,5 @@ export default ({ stars, showNumber }) => {
   let floor = Math.floor(stars);
   let left = stars - floor;
 
-  for(var){}
+  for (var i = 0; i < floor; ) {}
 };
