@@ -19,5 +19,9 @@ const Input = styled.TextInput`
 `;
 
 export default ({ IconSvg, placeholder, value, onChangeText, password }) => {
-  return <InputArea></InputArea>;
+  return (
+    <InputArea>
+      <IconSvg />
+    </InputArea>
+  );
 };
