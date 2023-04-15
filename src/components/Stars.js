@@ -1,1 +1,3 @@
-const StarArea = styled.View``;
+const StarArea = styled.View`
+  flex-direction: row;
+`;
