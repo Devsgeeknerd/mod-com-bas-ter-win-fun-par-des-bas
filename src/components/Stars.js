@@ -13,4 +13,6 @@ const StarText = styled.Text`
   font-weight: bold;
 `;
 
-export default ({ stars, showNumber }) => {};
+export default ({ stars, showNumber }) => {
+  let s = [0, 0, 0, 0, 0];
+};
