@@ -7,7 +7,8 @@ const StarArea = styled.View`
 const StarView = styled.View``;
 
 const StarText = styled.Text`
+  color: #737373;
+  margin-left: 5px;
   font-size: 12px;
   font-weight: bold;
-  margin-left: 5px;
 `;
