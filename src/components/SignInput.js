@@ -18,4 +18,6 @@ const Input = styled.TextInput`
   flex: 1;
 `;
 
-export default ({ IconSvg, placeholder, value, onChangeText, password }) => {};
+export default ({ IconSvg, placeholder, value, onChangeText, password }) => {
+  return ()
+};
