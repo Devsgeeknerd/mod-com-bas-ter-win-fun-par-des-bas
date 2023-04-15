@@ -21,4 +21,6 @@ export default ({ stars, showNumber }) => {
   for (var i = 0; i < floor; i++) {
     s[i] = 2;
   }
+
+  if(){}
 };
