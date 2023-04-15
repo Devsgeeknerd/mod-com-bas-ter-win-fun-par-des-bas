@@ -22,5 +22,6 @@ export default ({ stars, showNumber }) => {
     s[i] = 2;
   }
 
-  if(){}
+  if (left) {
+  }
 };
