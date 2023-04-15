@@ -8,4 +8,5 @@ const StarView = styled.View``;
 
 const StarText = styled.Text`
   font-size: 12px;
+  font-weight: bold;
 `;
