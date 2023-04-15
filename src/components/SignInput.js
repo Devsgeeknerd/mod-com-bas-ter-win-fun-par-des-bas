@@ -27,7 +27,7 @@ export default ({ IconSvg, placeholder, value, onChangeText, password }) => {
         placeholderTextColor="#268596"
         value={value}
         onChangeText={onChangeText}
-        secureTextEntry={}
+        secureTextEntry={password}
       />
     </InputArea>
   );
