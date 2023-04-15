@@ -12,7 +12,7 @@ const InputArea = styled.View`
 `;
 
 const Input = styled.TextInput`
-  color: #268569;
+  color: #268596;
   margin-left: 10px;
   font-size: 16px;
   flex: 1;
@@ -21,7 +21,7 @@ const Input = styled.TextInput`
 export default ({ IconSvg, placeholder, value, onChangeText, password }) => {
   return (
     <InputArea>
-      <IconSvg width="24" height="24" />
+      <IconSvg width="24" height="24" fill="#268596" />
     </InputArea>
   );
 };
