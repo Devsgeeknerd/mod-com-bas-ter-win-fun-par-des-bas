@@ -15,5 +15,5 @@ const StarText = styled.Text`
 
 export default ({ stars, showNumber }) => {
   let s = [0, 0, 0, 0, 0];
-  let floor = Math.floor();
+  let floor = Math.floor(stars);
 };
