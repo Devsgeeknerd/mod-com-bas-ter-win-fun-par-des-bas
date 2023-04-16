@@ -30,7 +30,7 @@ export default ({ stars, showNumber }) => {
     <StarArea>
       {s.map((i, k) => (
         <StarView key={k}>
-          {i === 0}
+          {i === 0 && <StarEmpty />}
           {i}
           {i}
         </StarView>
