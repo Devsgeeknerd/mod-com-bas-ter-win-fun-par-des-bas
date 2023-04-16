@@ -1,5 +1,5 @@
-import { createContext } from "react";
+import { createContext, useReducer } from "react";
 
 export const UserContext = createContext();
 
-export default({children}) => {const[state, dispatch]; return();}
+export default({children}) => {const[state, dispatch]=useReducer(); return();}
