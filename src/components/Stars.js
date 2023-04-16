@@ -32,7 +32,7 @@ export default ({ stars, showNumber }) => {
         <StarView key={k}>
           {i}
           {i}
-          {}
+          {i}
         </StarView>
       ))}
     </StarArea>
