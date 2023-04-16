@@ -3,6 +3,7 @@ import styled from "styled-components";
 
 import StarFull from "../assets/star.svg";
 import StarEmpty from "../assets/star_empty.svg";
+import StarHalf from "../assets/star_half.svg";
 
 const StarArea = styled.View`
   flex-direction: row;
