@@ -35,6 +35,7 @@ export default ({ stars, showNumber }) => {
           {i === 0 && <StarEmpty width="18" height="18" fill="#ff9200" />}
         </StarView>
       ))}
+      {showNumber}
     </StarArea>
   );
 };
