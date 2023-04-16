@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 
+import StarFull from "../assets/star.svg";
 import StarEmpty from "../assets/star_empty.svg";
 
 const StarArea = styled.View`
