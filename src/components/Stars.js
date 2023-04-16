@@ -1,6 +1,8 @@
 import React from "react";
 import styled from "styled-components";
 
+import StarEmpty from "../assets/star_empty.svg";
+
 const StarArea = styled.View`
   flex-direction: row;
 `;
