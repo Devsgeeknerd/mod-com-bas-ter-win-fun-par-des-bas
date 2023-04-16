@@ -2,4 +2,4 @@ import { createContext } from "react";
 
 export const UserContext = createContext();
 
-export default({}) => {return();}
+export default({children}) => {return();}
