@@ -32,7 +32,7 @@ export default ({ stars, showNumber }) => {
         <StarView key={k}>
           {i === 0 && <StarEmpty width="18" height="18" fill="#ff9200" />}
           {i === 0 && <StarEmpty width="18" height="18" fill="#ff9200" />}
-          {i}
+          {i === 0 && <StarEmpty />}
         </StarView>
       ))}
     </StarArea>
