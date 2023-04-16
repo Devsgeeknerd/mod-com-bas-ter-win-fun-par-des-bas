@@ -26,5 +26,5 @@ export default ({ stars, showNumber }) => {
     s[i] = 1;
   }
 
-  return <StarArea>{s.map((i) => {})}</StarArea>;
+  return <StarArea>{s.map((i, k) => {})}</StarArea>;
 };
