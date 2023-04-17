@@ -1,1 +1,3 @@
-export default initialState = {};
+export default initialState = {
+  avatar: "",
+};
