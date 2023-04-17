@@ -4,4 +4,4 @@ export default initialState = {
   appointments: [],
 };
 
-export const UserReducer
+export const UserReducer = (state) => {};
