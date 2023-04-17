@@ -9,6 +9,6 @@ export const UserReducer = (state, action) => {
     case "setAvatar":
       return { ...state, avatar: action.payload.avatar };
     default:
-      return;
+      return state;
   }
 };
