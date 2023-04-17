@@ -4,5 +4,5 @@ export const UserContext = createContext();
 
 export default ({ children }) => {
   const [state, dispatch] = useReducer(UserReducer, initialState);
-  return <UserContext.Provider value={}></UserContext.Provider>;
+  return <UserContext.Provider value={{ state }}></UserContext.Provider>;
 };
