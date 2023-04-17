@@ -4,4 +4,4 @@ export default initialState = {
   appointments: [],
 };
 
-export const UserReducer = (state, action) => {switch(action.type)};
+export const UserReducer = (state, action) => {switch(action.type){case}};
