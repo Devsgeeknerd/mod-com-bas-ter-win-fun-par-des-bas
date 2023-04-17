@@ -1,4 +1,4 @@
 export default () => {
-  const[];
+  const[loading];
   const[];
 };
