@@ -1,4 +1,4 @@
 export default () => {
   const[loading, setLoading];
-  const[list];
+  const[list, setList];
 };
