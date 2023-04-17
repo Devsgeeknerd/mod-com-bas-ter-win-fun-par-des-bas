@@ -4,4 +4,4 @@ export default initialState = {
   appointments: [],
 };
 
-export
+export const
