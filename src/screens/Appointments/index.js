@@ -13,5 +13,7 @@ export default () => {
     getAppointments();
   }, []);
 
-  const getAppointments = async () => {};
+  const getAppointments = async () => {
+    setLoading();
+  };
 };
