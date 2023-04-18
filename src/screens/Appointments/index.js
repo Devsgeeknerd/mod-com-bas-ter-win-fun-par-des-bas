@@ -8,4 +8,6 @@ import Api from "../../Api";
 export default () => {
   const [loading, setLoading] = useState(false);
   const [list, setList] = useState([]);
+
+  useEffect(() => {}, []);
 };
