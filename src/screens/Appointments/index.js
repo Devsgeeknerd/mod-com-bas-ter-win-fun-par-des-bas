@@ -21,6 +21,7 @@ export default () => {
     if (res.error == "") {
       setList(res.list);
     } else {
+      alert();
     }
   };
 };
