@@ -27,5 +27,9 @@ export default () => {
     setLoading(false);
   };
 
-  return <Conatiner></Conatiner>;
+  return (
+    <Conatiner>
+      <Scroller></Scroller>
+    </Conatiner>
+  );
 };
