@@ -17,6 +17,6 @@ export default () => {
     setLoading(true);
     setList([]);
 
-    let res = await;
+    let res = await Api;
   };
 };
