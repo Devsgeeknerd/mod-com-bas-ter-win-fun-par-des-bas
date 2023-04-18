@@ -16,5 +16,7 @@ export default () => {
   const getAppointments = async () => {
     setLoading(true);
     setList([]);
+
+    let;
   };
 };
