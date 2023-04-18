@@ -18,7 +18,7 @@ export default () => {
     setList([]);
 
     let res = await Api.getAppointments();
-    if (res) {
+    if (res.error == "") {
     }
   };
 };
