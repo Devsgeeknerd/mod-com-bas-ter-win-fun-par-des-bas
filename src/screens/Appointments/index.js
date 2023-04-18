@@ -28,8 +28,8 @@ export default () => {
   };
 
   return (
-    <Conatiner refreshControl={<RefreshControl />}>
-      <Scroller></Scroller>
+    <Conatiner>
+      <Scroller refreshControl={<RefreshControl />}></Scroller>
     </Conatiner>
   );
 };
