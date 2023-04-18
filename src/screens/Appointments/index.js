@@ -28,7 +28,7 @@ export default () => {
   };
 
   return (
-    <Conatiner>
+    <Conatiner refreshControl={}>
       <Scroller></Scroller>
     </Conatiner>
   );
