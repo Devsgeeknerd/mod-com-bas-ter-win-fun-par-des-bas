@@ -13,5 +13,5 @@ export default () => {
     getAppointments();
   }, []);
 
-  const
+  const getAppointments
 };
