@@ -29,7 +29,11 @@ export default () => {
 
   return (
     <Container>
-      <Scroller refreshControl={<RefreshControl refreshing={} onRefresh={getAppointments}/>}></Scroller>
+      <Scroller
+        refreshControl={
+          <RefreshControl refreshing={loading} onRefresh={getAppointments} />
+        }
+      ></Scroller>
     </Container>
   );
 };
