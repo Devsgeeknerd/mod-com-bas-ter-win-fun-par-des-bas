@@ -1,3 +1,3 @@
 import styled from "styled-components";
 
-export const Container = styled;
+export const Container = styled.SafeAreaView``;
