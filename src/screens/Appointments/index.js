@@ -34,7 +34,7 @@ export default () => {
           <RefreshControl refreshing={loading} onRefresh={getAppointments} />
         }
       >
-        {!loading}
+        {!loading && list}
       </Scroller>
     </Container>
   );
