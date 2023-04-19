@@ -39,7 +39,7 @@ export default () => {
         )}
         <ListArea>
           {list.map((item, k) => (
-            <AppointmentItem />
+            <AppointmentItem key={}/>
           ))}
         </ListArea>
       </Scroller>
