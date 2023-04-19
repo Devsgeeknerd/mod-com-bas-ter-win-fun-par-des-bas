@@ -37,7 +37,7 @@ export default () => {
         {!loading && list.length === 0 && (
           <EmptyWarning>Não há agendamentos.</EmptyWarning>
         )}
-        <ListArea>{list}</ListArea>
+        <ListArea>{list.map(()=>())}</ListArea>
       </Scroller>
     </Container>
   );
