@@ -33,7 +33,9 @@ export default () => {
         refreshControl={
           <RefreshControl refreshing={loading} onRefresh={getAppointments} />
         }
-      ></Scroller>
+      >
+        {!loading}
+      </Scroller>
     </Container>
   );
 };
