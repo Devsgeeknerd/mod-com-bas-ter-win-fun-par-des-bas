@@ -37,6 +37,7 @@ export default () => {
         {!loading && list.length === 0 && (
           <EmptyWarning>Não há agendamentos.</EmptyWarning>
         )}
+        <ListArea></ListArea>
       </Scroller>
     </Container>
   );
