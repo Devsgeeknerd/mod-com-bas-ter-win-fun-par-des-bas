@@ -34,7 +34,9 @@ export default () => {
           <RefreshControl refreshing={loading} onRefresh={getAppointments} />
         }
       >
-        {!loading && list.length === 0 && <EmptyWarning></EmptyWarning>}
+        {!loading && list.length === 0 && (
+          <EmptyWarning>Não há agendamentos.</EmptyWarning>
+        )}
       </Scroller>
     </Container>
   );
