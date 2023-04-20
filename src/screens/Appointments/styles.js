@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from "styled-components/native";
 
 export const Container = styled.SafeAreaView`
   background-color: #63c2d1;
@@ -15,4 +15,4 @@ export const ListArea = styled.View`
   margin-bottom: 20px;
 `;
 
-export const EmptyWarning = styled;
+export const EmptyWarning = styled.Text;
