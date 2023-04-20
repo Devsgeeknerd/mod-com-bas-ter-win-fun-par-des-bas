@@ -6,6 +6,6 @@ export default () => {
 
   const [userInfo, setUserInfo] = useState({
     id: route.params.id,
-    avatar: route,
+    avatar: route.params,
   });
 };
