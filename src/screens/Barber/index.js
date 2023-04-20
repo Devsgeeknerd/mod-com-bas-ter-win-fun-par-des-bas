@@ -1,4 +1,4 @@
 export default () => {
   const navigation = useNavigation();
-  const route
+  const route = useRoute();
 };
