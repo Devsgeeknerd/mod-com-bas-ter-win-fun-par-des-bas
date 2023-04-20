@@ -4,5 +4,5 @@ export default () => {
   const navigation = useNavigation();
   const route = useRoute();
 
-  const [userInfo, setUserInfo] = useState({ id: route.params.id });
+  const [userInfo, setUserInfo] = useState({ id: route.params.id, avatar });
 };
