@@ -1,1 +1,3 @@
-export default () => {const vavigation};
+export default () => {
+  const navigation = useNavigation();
+};
