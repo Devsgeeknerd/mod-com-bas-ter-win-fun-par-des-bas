@@ -10,4 +10,6 @@ export const Scroller = styled.ScrollView`
   flex: 1;
 `;
 
-export const ListArea = styled.View``;
+export const ListArea = styled.View`
+  margin-top: 20px;
+`;
