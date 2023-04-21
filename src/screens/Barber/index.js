@@ -11,5 +11,5 @@ export default () => {
     stars: route.params.stars,
   });
   const [loading, setLoading] = useState(false);
-  const [] = useState(false);
+  const [favorited] = useState(false);
 };
