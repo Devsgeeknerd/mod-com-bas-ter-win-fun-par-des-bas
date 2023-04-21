@@ -15,5 +15,5 @@ export default () => {
   const [selectedService, setSelectedService] = useState(null);
   const [showModal, setShowModal] = useState(false);
 
-  useEffect(() => {const getBarberInfo=async()=>{setLoading(true);let})
+  useEffect(() => {const getBarberInfo=async()=>{setLoading(true);let json})
 };
