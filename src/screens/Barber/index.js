@@ -6,6 +6,8 @@ import Swiper from 'react-native-swiper';
 import Stars from '../../components/Stars';
 import BarberModal from '../../components/BarberModal';
 
+import FavoriteFullIcon from '../../assets/favorite_full.svg';
+
 export default () => {
   const navigation = useNavigation();
   const route = useRoute();
