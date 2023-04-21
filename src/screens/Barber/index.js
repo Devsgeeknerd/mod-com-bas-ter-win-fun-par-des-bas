@@ -3,6 +3,8 @@ import { Text } from 'react-native';
 import { useNavigation, useRoute } from '@react-navigation/native';
 import Swiper from 'react-native-swiper';
 
+import Stars from '../../components/Stars';
+
 export default () => {
   const navigation = useNavigation();
   const route = useRoute();
