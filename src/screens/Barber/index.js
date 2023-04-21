@@ -4,6 +4,7 @@ import { useNavigation, useRoute } from '@react-navigation/native';
 import Swiper from 'react-native-swiper';
 
 import Stars from '../../components/Stars';
+import BarberModal from '../../components/BarberModal';
 
 export default () => {
   const navigation = useNavigation();
