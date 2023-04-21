@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 
 export default () => {
   const navigation = useNavigation();
@@ -13,5 +13,7 @@ export default () => {
   const [loading, setLoading] = useState(false);
   const [favorited, setFavorited] = useState(false);
   const [selectedService, setSelectedService] = useState(null);
-  const [showModal, serShowModal] = useState(false);
+  const [showModal, setShowModal] = useState(false);
+
+  useEffect(() => {});
 };
