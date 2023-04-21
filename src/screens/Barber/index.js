@@ -8,6 +8,7 @@ import BarberModal from '../../components/BarberModal';
 
 import FavoriteFullIcon from '../../assets/favorite_full.svg';
 import FavoriteIcon from '../../assets/favorite.svg';
+import BackIcon from '../../assets/back.svg';
 
 export default () => {
   const navigation = useNavigation();
