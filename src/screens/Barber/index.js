@@ -7,6 +7,7 @@ import Stars from '../../components/Stars';
 import BarberModal from '../../components/BarberModal';
 
 import FavoriteFullIcon from '../../assets/favorite_full.svg';
+import FavoriteIcon from '../../assets/favorite.svg';
 
 export default () => {
   const navigation = useNavigation();
