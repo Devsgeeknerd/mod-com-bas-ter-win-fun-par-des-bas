@@ -8,6 +8,6 @@ export default () => {
     id: route.params.id,
     avatar: route.params.avatar,
     name: route.params.name,
-    stars:
+    stars: route,
   });
 };
