@@ -10,5 +10,5 @@ export default () => {
     name: route.params.name,
     stars: route.params.stars,
   });
-  const [loading, setLoading] = useState();
+  const [loading, setLoading] = useState(false);
 };
