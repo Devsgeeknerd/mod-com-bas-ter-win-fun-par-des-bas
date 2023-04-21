@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Text } from 'react-native';
 import { useNavigation, useRoute } from '@react-navigation/native';
+import Swiper from 'react-native-swiper';
 
 export default () => {
   const navigation = useNavigation();
