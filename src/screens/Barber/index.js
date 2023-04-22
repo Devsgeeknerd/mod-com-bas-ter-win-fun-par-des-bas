@@ -12,7 +12,7 @@ import BackIcon from '../../assets/back.svg';
 import NavPrevIcon from '../../assets/nav_prev.svg';
 import NavNextIcon from '../../assets/nav_next.svg';
 
-import {Container} from './styles';
+import {Container,Scroller} from './styles';
 
 export default () => {
   const navigation = useNavigation();
