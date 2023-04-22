@@ -14,6 +14,8 @@ import NavNextIcon from '../../assets/nav_next.svg';
 
 import {Container,Scroller,PageBody,BackButton,LoadingIcon,SwipeDot,SwipeDotActive,SwipeItem,SwipeImage,FakeSwiper,UserInfoArea,UserAvatar,UserInfo,UserInfoName,UserFavButton,ServiceArea,ServiceTitle,ServiceItem,ServiceInfo,ServiceName,ServicePrice,ServiceChooseButton,ServiceChooseButtonText,TestimonialArea,TestimonialItem,TestimonialInfo,TestimonialName,TestimonialBody} from './styles';
 
+import Api from '../../Api';
+
 export default () => {
   const navigation = useNavigation();
   const route = useRoute();
