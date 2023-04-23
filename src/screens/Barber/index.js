@@ -82,5 +82,7 @@ export default () => {
     navigation.goBack();
   };
 
-  const handleFavClick = () => {};
+  const handleFavClick = () => {
+    setFavorited();
+  };
 };
