@@ -89,7 +89,7 @@ export default () => {
 
   const handleServiceChoose = (key) => {
     setSelectedService(key);
-    setShowModal();
+    setShowModal(true);
   };
 
   return <Container></Container>;
