@@ -87,5 +87,5 @@ export default () => {
     Api.setFavorite(userInfo.id);
   };
 
-  const
+  const handleServiceChoose = () => {};
 };
