@@ -94,7 +94,7 @@ export default () => {
 
   return (
     <Container>
-      <Scroller>{userInfo}</Scroller>
+      <Scroller>{userInfo.photos}</Scroller>
     </Container>
   );
 };
