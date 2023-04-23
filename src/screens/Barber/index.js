@@ -94,7 +94,7 @@ export default () => {
 
   return (
     <Container>
-      <Scroller>{userInfo.photos && userInfo.photos}</Scroller>
+      <Scroller>{userInfo.photos && userInfo.photos.length > 0 ?}</Scroller>
     </Container>
   );
 };
