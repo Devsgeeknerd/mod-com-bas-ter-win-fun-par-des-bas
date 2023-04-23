@@ -77,4 +77,6 @@ export default () => {
     };
     getBarberInfo();
   }, []);
+
+  const
 };
