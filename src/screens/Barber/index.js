@@ -83,6 +83,6 @@ export default () => {
   };
 
   const handleFavClick = () => {
-    setFavorited();
+    setFavorited(!favorited);
   };
 };
