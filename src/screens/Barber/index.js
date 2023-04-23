@@ -88,6 +88,6 @@ export default () => {
   };
 
   const handleServiceChoose = (key) => {
-    setSelectedService();
+    setSelectedService(key);
   };
 };
