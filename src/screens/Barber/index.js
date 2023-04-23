@@ -84,6 +84,6 @@ export default () => {
 
   const handleFavClick = () => {
     setFavorited(!favorited);
-    Api.setFavorite(userInfo);
+    Api.setFavorite(userInfo.id);
   };
 };
