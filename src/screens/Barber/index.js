@@ -31,5 +31,5 @@ export default () => {
   const [selectedService, setSelectedService] = useState(null);
   const [showModal, setShowModal] = useState(false);
 
-  useEffect(() => {const getBarberInfo=async()=>{setLoading(true);let json=wait Api.getBarberInfo(userInfo.id);if(json.error == ''){setUserInfo(json.data);setFavorited(json.data.favorited);}else{alert("Erro:");}},[])
+  useEffect(() => {const getBarberInfo=async()=>{setLoading(true);let json=wait Api.getBarberInfo(userInfo.id);if(json.error == ''){setUserInfo(json.data);setFavorited(json.data.favorited);}else{alert("Erro: "+json);}},[])
 };
