@@ -78,5 +78,5 @@ export default () => {
     getBarberInfo();
   }, []);
 
-  const
+  const handleBackButton = () => {};
 };
