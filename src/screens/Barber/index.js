@@ -94,7 +94,13 @@ export default () => {
 
   return (
     <Container>
-      <Scroller>{userInfo.photos && userInfo.photos.length > 0 ? <Swiper></Swiper>}</Scroller>
+      <Scroller>
+        {userInfo.photos && userInfo.photos.length > 0 ? (
+          <Swiper></Swiper>
+        ) : (
+          <FakeSwiper></FakeSwiper>
+        )}
+      </Scroller>
     </Container>
   );
 };
