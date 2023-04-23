@@ -96,7 +96,7 @@ export default () => {
     <Container>
       <Scroller>
         {userInfo.photos && userInfo.photos.length > 0 ? (
-          <Swiper style={{ height: 240 }}></Swiper>
+          <Swiper style={{ height: 240 }}dot={}></Swiper>
         ) : (
           <FakeSwiper></FakeSwiper>
         )}
