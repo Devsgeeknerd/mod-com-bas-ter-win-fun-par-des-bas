@@ -89,5 +89,6 @@ export default () => {
 
   const handleServiceChoose = (key) => {
     setSelectedService(key);
+    setShowModal();
   };
 };
