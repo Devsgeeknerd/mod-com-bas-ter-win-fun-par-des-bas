@@ -78,5 +78,7 @@ export default () => {
     getBarberInfo();
   }, []);
 
-  const handleBackButton = () => {};
+  const handleBackButton = () => {
+    navigation.goBack();
+  };
 };
