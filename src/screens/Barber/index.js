@@ -100,7 +100,7 @@ export default () => {
             style={{ height: 240 }}
             dot={<Swiper />}
             activeDot={<SwiperDotActive />}
-            paginationStyle={{}}
+            paginationStyle={{ top: 15 }}
           ></Swiper>
         ) : (
           <FakeSwiper></FakeSwiper>
