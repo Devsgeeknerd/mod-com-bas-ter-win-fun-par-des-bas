@@ -94,7 +94,7 @@ export default () => {
 
   return (
     <Container>
-      <Scroller></Scroller>
+      <Scroller>{userInfo}</Scroller>
     </Container>
   );
 };
