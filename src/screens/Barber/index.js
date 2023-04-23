@@ -86,4 +86,6 @@ export default () => {
     setFavorited(!favorited);
     Api.setFavorite(userInfo.id);
   };
+
+  const
 };
