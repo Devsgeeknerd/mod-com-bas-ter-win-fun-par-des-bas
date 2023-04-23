@@ -82,5 +82,5 @@ export default () => {
     navigation.goBack();
   };
 
-  const
+  const handleFavClick = () => {};
 };
