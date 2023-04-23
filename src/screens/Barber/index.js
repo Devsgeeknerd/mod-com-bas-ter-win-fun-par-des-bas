@@ -92,5 +92,9 @@ export default () => {
     setShowModal(true);
   };
 
-  return <Container></Container>;
+  return (
+    <Container>
+      <Scroller></Scroller>
+    </Container>
+  );
 };
