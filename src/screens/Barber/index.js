@@ -103,7 +103,7 @@ export default () => {
             paginationStyle={{ top: 15, right: 15, bottom: null, left: null }}
             autoplay={true}
           >
-            {userInfo.photos.map((item)=>())}
+            {userInfo.photos.map((item, key)=>())}
           </Swiper>
         ) : (
           <FakeSwiper></FakeSwiper>
