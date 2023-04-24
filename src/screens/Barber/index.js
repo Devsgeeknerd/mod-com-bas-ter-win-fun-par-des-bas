@@ -105,7 +105,7 @@ export default () => {
           >
             {userInfo.photos.map((item, key) => (
               <SwipeItem key={key}>
-                <SwipeImage source={{}} />
+                <SwipeImage source={{uri:}} />
               </SwipeItem>
             ))}
           </Swiper>
