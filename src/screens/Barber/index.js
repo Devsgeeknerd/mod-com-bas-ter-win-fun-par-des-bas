@@ -103,7 +103,7 @@ export default () => {
             paginationStyle={{ top: 15, right: 15, bottom: null, left: null }}
             autoplay={true}
           >
-            {userInfo}
+            {userInfo.photos}
           </Swiper>
         ) : (
           <FakeSwiper></FakeSwiper>
