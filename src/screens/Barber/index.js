@@ -104,7 +104,7 @@ export default () => {
             autoplay={true}
           >
             {userInfo.photos.map((item, key) => (
-              <SwipeItem key={}></SwipeItem>
+              <SwipeItem key={key}></SwipeItem>
             ))}
           </Swiper>
         ) : (
