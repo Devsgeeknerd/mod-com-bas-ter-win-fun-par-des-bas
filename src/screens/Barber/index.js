@@ -119,7 +119,7 @@ export default () => {
               <UserInfoName>{userInfo.name}</UserInfoName>
               <Stars stars={userInfo.stars} showNumber={true} />
             </UserInfo>
-            <UserFavButton onPress={handleFavClick}></UserFavButton>
+            <UserFavButton onPress={handleFavClick}>{favorited}</UserFavButton>
           </UserInfoArea>
         </PageBody>
       </Scroller>
