@@ -116,7 +116,7 @@ export default () => {
           <UserInfoArea>
             <UserAvatar source={{ uri: userInfo.avatar }} />
             <UserInfo>
-              <UserInfoName></UserInfoName>
+              <UserInfoName>{userInfo}</UserInfoName>
             </UserInfo>
           </UserInfoArea>
         </PageBody>
