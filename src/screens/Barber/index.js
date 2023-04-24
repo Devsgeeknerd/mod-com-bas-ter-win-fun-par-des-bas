@@ -113,7 +113,9 @@ export default () => {
           <FakeSwiper></FakeSwiper>
         )}
         <PageBody>
-          <UserInfoArea></UserInfoArea>
+          <UserInfoArea>
+            <UserAvatar />
+          </UserInfoArea>
         </PageBody>
       </Scroller>
     </Container>
