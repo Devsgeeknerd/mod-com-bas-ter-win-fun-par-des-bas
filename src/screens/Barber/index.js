@@ -114,7 +114,7 @@ export default () => {
         )}
         <PageBody>
           <UserInfoArea>
-            <UserAvatar source={{}} />
+            <UserAvatar source={{uri:}} />
           </UserInfoArea>
         </PageBody>
       </Scroller>
