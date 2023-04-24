@@ -123,7 +123,7 @@ export default () => {
               {favorited ? (
                 <FavoriteFullIcon width="24" height="24" fill="#ff0000" />
               ) : (
-                <FavoriteIcon />
+                <FavoriteIcon width="24" />
               )}
             </UserFavButton>
           </UserInfoArea>
