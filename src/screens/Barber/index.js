@@ -119,6 +119,7 @@ export default () => {
               <UserInfoName>{userInfo.name}</UserInfoName>
               <Stars stars={userInfo.stars} showNumber={true} />
             </UserInfo>
+            <UserFavButton></UserFavButton>
           </UserInfoArea>
         </PageBody>
       </Scroller>
