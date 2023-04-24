@@ -102,7 +102,9 @@ export default () => {
             activeDot={<SwiperDotActive />}
             paginationStyle={{ top: 15, right: 15, bottom: null, left: null }}
             autoplay={true}
-          ></Swiper>
+          >
+            {userInfo}
+          </Swiper>
         ) : (
           <FakeSwiper></FakeSwiper>
         )}
