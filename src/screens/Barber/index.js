@@ -112,6 +112,7 @@ export default () => {
         ) : (
           <FakeSwiper></FakeSwiper>
         )}
+        <PageBody></PageBody>
       </Scroller>
     </Container>
   );
