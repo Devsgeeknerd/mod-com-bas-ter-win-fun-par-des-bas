@@ -112,7 +112,9 @@ export default () => {
         ) : (
           <FakeSwiper></FakeSwiper>
         )}
-        <PageBody></PageBody>
+        <PageBody>
+          <UserInfoArea></UserInfoArea>
+        </PageBody>
       </Scroller>
     </Container>
   );
