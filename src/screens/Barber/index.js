@@ -127,6 +127,7 @@ export default () => {
               )}
             </UserFavButton>
           </UserInfoArea>
+          {loading}
         </PageBody>
       </Scroller>
     </Container>
