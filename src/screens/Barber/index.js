@@ -150,6 +150,7 @@ export default () => {
                 style={{ height: 110 }}
                 showsPagination={false}
                 showsButtons={true}
+                prevButton={}
               ></Swiper>
             </TestimonialArea>
           )}
