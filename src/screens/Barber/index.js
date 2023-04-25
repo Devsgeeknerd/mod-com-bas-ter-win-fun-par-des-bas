@@ -138,7 +138,7 @@ export default () => {
                     <ServicePrice>R$ {item.price.toFixed(2)}</ServicePrice>
                   </ServiceInfo>
                   <ServiceChooseButton
-                    onPress={() => handleServiceChoose()}
+                    onPress={() => handleServiceChoose(key)}
                   ></ServiceChooseButton>
                 </ServiceItem>
               ))}
