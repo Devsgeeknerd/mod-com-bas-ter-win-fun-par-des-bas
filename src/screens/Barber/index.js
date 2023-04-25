@@ -135,6 +135,7 @@ export default () => {
                 <ServiceItem key={key}>
                   <ServiceInfo>
                     <ServiceName>{item.name}</ServiceName>
+                    <ServicePrice></ServicePrice>
                   </ServiceInfo>
                 </ServiceItem>
               ))}
