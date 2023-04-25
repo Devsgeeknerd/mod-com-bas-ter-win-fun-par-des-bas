@@ -131,7 +131,7 @@ export default () => {
           {userInfo.services && (
             <ServiceArea>
               <ServicesTitle>Lista de serviços</ServicesTitle>
-              {userInfo}
+              {userInfo.services}
             </ServiceArea>
           )}
         </PageBody>
