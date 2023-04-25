@@ -132,7 +132,9 @@ export default () => {
             <ServiceArea>
               <ServicesTitle>Lista de serviços</ServicesTitle>
               {userInfo.services.map((item, key) => (
-                <ServiceItem key={key}></ServiceItem>
+                <ServiceItem key={key}>
+                  <ServiceInfo></ServiceInfo>
+                </ServiceItem>
               ))}
             </ServiceArea>
           )}
