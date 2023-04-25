@@ -130,7 +130,7 @@ export default () => {
           {loading && <LoadingIcon size="large" color="#000000" />}
           {userInfo.services && (
             <ServiceArea>
-              <ServicesTitle></ServicesTitle>
+              <ServicesTitle>Lista de serviços</ServicesTitle>
             </ServiceArea>
           )}
         </PageBody>
