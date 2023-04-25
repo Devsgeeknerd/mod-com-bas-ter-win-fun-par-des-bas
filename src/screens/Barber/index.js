@@ -144,6 +144,7 @@ export default () => {
               ))}
             </ServiceArea>
           )}
+          {userInfo}
         </PageBody>
       </Scroller>
     </Container>
