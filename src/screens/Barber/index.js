@@ -128,7 +128,11 @@ export default () => {
             </UserFavButton>
           </UserInfoArea>
           {loading && <LoadingIcon size="large" color="#000000" />}
-          {userInfo.services && <ServiceArea></ServiceArea>}
+          {userInfo.services && (
+            <ServiceArea>
+              <ServiceTitle></ServiceTitle>
+            </ServiceArea>
+          )}
         </PageBody>
       </Scroller>
     </Container>
