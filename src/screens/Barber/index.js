@@ -144,7 +144,9 @@ export default () => {
               ))}
             </ServiceArea>
           )}
-          {userInfo.testimonials && userInfo.testimonials.length}
+          {userInfo.testimonials && userInfo.testimonials.length > 0 && (
+            <TestimonialArea></TestimonialArea>
+          )}
         </PageBody>
       </Scroller>
     </Container>
