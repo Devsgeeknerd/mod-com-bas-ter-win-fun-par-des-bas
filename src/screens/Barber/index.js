@@ -29,7 +29,7 @@ import {
   UserInfoName,
   UserFavButton,
   ServiceArea,
-  ServiceTitle,
+  ServicesTitle,
   ServiceItem,
   ServiceInfo,
   ServiceName,
@@ -130,7 +130,7 @@ export default () => {
           {loading && <LoadingIcon size="large" color="#000000" />}
           {userInfo.services && (
             <ServiceArea>
-              <ServiceTitle></ServiceTitle>
+              <ServicesTitle></ServicesTitle>
             </ServiceArea>
           )}
         </PageBody>
