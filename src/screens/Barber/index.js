@@ -134,7 +134,7 @@ export default () => {
               {userInfo.services.map((item, key) => (
                 <ServiceItem key={key}>
                   <ServiceInfo>
-                    <ServiceName>{item}</ServiceName>
+                    <ServiceName>{item.name}</ServiceName>
                   </ServiceInfo>
                 </ServiceItem>
               ))}
