@@ -131,7 +131,7 @@ export default () => {
           {userInfo.services && (
             <ServiceArea>
               <ServicesTitle>Lista de serviços</ServicesTitle>
-              {userInfo.services.map((item)=>())}
+              {userInfo.services.map((item, key)=>())}
             </ServiceArea>
           )}
         </PageBody>
