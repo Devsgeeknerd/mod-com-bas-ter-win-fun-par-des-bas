@@ -146,7 +146,11 @@ export default () => {
           )}
           {userInfo.testimonials && userInfo.testimonials.length > 0 && (
             <TestimonialArea>
-              <Swiper style={{ height: 110 }} showsPagination={false}showsButtons={}></Swiper>
+              <Swiper
+                style={{ height: 110 }}
+                showsPagination={false}
+                showsButtons={true}
+              ></Swiper>
             </TestimonialArea>
           )}
         </PageBody>
