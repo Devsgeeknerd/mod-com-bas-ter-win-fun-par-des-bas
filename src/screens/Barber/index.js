@@ -144,7 +144,7 @@ export default () => {
               ))}
             </ServiceArea>
           )}
-          {userInfo}
+          {userInfo.testimonials}
         </PageBody>
       </Scroller>
     </Container>
