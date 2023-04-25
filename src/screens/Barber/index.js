@@ -146,7 +146,7 @@ export default () => {
           )}
           {userInfo.testimonials && userInfo.testimonials.length > 0 && (
             <TestimonialArea>
-              <Swiper></Swiper>
+              <Swiper style={{}}></Swiper>
             </TestimonialArea>
           )}
         </PageBody>
