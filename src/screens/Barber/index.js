@@ -157,7 +157,9 @@ export default () => {
                   <NavNextIcon width="35" height="35" fill="#000000" />
                 }
               >
-                {userInfo.testimonials.map((item,key)=>())}
+                {userInfo.testimonials.map((item, key) => (
+                  <TestimonialItem></TestimonialItem>
+                ))}
               </Swiper>
             </TestimonialArea>
           )}
