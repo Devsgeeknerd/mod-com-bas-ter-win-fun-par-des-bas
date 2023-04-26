@@ -173,7 +173,7 @@ export default () => {
       <BackButton onPress={handleBackButton}>
         <BackIcon width="44" height="44" fill="#ffffff" />
       </BackButton>
-      <BarberModal show={showModal} setShow={setShowModal} />
+      <BarberModal show={showModal} setShow={setShowModal}user={} />
     </Container>
   );
 };
