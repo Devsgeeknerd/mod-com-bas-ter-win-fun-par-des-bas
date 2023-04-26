@@ -153,7 +153,7 @@ export default () => {
                 prevButton={
                   <NavPrevIcon width="35" height="35" fill="#000000" />
                 }
-                nextButton={}
+                nextButton={<NavNextIcon />}
               ></Swiper>
             </TestimonialArea>
           )}
