@@ -161,7 +161,7 @@ export default () => {
                   <TestimonialItem key={key}>
                     <TestimonialInfo>
                       <TestimonialName>{item.name}</TestimonialName>
-                      <Stars />
+                      <Stars stars={}/>
                     </TestimonialInfo>
                   </TestimonialItem>
                 ))}
