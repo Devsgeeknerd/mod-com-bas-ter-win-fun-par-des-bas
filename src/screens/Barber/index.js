@@ -156,7 +156,9 @@ export default () => {
                 nextButton={
                   <NavNextIcon width="35" height="35" fill="#000000" />
                 }
-              ></Swiper>
+              >
+                {userInfo}
+              </Swiper>
             </TestimonialArea>
           )}
         </PageBody>
