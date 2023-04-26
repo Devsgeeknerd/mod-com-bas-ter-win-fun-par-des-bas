@@ -170,6 +170,7 @@ export default () => {
           )}
         </PageBody>
       </Scroller>
+      <BackButton></BackButton>
     </Container>
   );
 };
