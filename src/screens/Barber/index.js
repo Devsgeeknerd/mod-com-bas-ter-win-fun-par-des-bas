@@ -170,7 +170,7 @@ export default () => {
           )}
         </PageBody>
       </Scroller>
-      <BackButton onPress={}></BackButton>
+      <BackButton onPress={handleBackButton}></BackButton>
     </Container>
   );
 };
