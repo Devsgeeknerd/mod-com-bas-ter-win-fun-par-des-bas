@@ -171,7 +171,7 @@ export default () => {
         </PageBody>
       </Scroller>
       <BackButton onPress={handleBackButton}>
-        <BackIcon />
+        <BackIcon width="44" />
       </BackButton>
     </Container>
   );
