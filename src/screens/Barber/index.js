@@ -163,7 +163,7 @@ export default () => {
                       <TestimonialName>{item.name}</TestimonialName>
                       <Stars stars={item.rate} showNumber={false} />
                     </TestimonialInfo>
-                    <TestimonialBody></TestimonialBody>
+                    <TestimonialBody>{item}</TestimonialBody>
                   </TestimonialItem>
                 ))}
               </Swiper>
