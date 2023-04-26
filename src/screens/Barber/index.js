@@ -159,7 +159,9 @@ export default () => {
               >
                 {userInfo.testimonials.map((item, key) => (
                   <TestimonialItem key={key}>
-                    <TestimonialInfo></TestimonialInfo>
+                    <TestimonialInfo>
+                      <TestimonialName></TestimonialName>
+                    </TestimonialInfo>
                   </TestimonialItem>
                 ))}
               </Swiper>
