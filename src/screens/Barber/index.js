@@ -150,7 +150,7 @@ export default () => {
                 style={{ height: 110 }}
                 showsPagination={false}
                 showsButtons={true}
-                prevButton={<NavPrevIcon width="35" />}
+                prevButton={<NavPrevIcon width="35" height="35" />}
               ></Swiper>
             </TestimonialArea>
           )}
