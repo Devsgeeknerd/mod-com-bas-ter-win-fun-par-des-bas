@@ -160,7 +160,7 @@ export default () => {
                 {userInfo.testimonials.map((item, key) => (
                   <TestimonialItem key={key}>
                     <TestimonialInfo>
-                      <TestimonialName>{item}</TestimonialName>
+                      <TestimonialName>{item.name}</TestimonialName>
                     </TestimonialInfo>
                   </TestimonialItem>
                 ))}
