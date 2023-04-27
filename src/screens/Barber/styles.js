@@ -17,3 +17,5 @@ export const SwipeDot = styled.View`
   margin: 3px;
   border-radius: 5px;
 `;
+
+export
