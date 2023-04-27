@@ -26,4 +26,6 @@ export const SwipeDotActive = styled.View`
   margin: 3px;
 `;
 
-export const SwipeItem = styled.View``;
+export const SwipeItem = styled.View`
+  flex: 1;
+`;
