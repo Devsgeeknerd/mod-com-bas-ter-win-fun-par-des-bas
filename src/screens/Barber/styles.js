@@ -14,5 +14,6 @@ export const SwipeDot = styled.View`
   background-color: #ffffff;
   width: 10px;
   height: 10px;
+  margin: 3px;
   border-radius: 5px;
 `;
