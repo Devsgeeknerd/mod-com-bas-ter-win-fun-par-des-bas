@@ -9,3 +9,5 @@ export const Container = styled.SafeAreaView`
 export const Scroller = styled.ScrollView`
   flex: 1;
 `;
+
+export
