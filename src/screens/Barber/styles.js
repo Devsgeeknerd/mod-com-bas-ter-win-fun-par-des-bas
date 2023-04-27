@@ -26,4 +26,4 @@ export const SwipeDotActive = styled.View`
   margin: 3px;
 `;
 
-export const SwipeItem
+export const SwipeItem = styled;
