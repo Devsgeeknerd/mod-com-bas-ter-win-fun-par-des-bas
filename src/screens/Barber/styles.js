@@ -19,7 +19,8 @@ export const SwipeDot = styled.View`
 `;
 
 export const SwipeDotActive = styled.View`
+  background-color: #000000;
   width: 10px;
   height: 10px;
-  background-color: #000000;
+  border-radius: 5px;
 `;
