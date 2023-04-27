@@ -31,4 +31,4 @@ export const SwipeItem = styled.View`
   flex: 1;
 `;
 
-export const SwipeImage
+export const SwipeImage = styled;
