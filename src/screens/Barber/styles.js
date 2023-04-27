@@ -21,4 +21,5 @@ export const SwipeDot = styled.View`
 export const SwipeDotActive = styled.View`
   width: 10px;
   height: 10px;
+  background-color: #000000;
 `;
