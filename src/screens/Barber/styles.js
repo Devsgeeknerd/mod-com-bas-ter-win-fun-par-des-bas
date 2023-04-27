@@ -10,4 +10,6 @@ export const Scroller = styled.ScrollView`
   flex: 1;
 `;
 
-export const SwipeDot = styled.View``;
+export const SwipeDot = styled.View`
+  width: 10px;
+`;
