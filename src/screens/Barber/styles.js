@@ -12,4 +12,5 @@ export const Scroller = styled.ScrollView`
 
 export const SwipeDot = styled.View`
   width: 10px;
+  height: 10px;
 `;
