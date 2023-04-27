@@ -18,4 +18,4 @@ export const SwipeDot = styled.View`
   border-radius: 5px;
 `;
 
-export
+export const
