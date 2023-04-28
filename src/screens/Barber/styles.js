@@ -48,4 +48,4 @@ export const PageBody = styled.View`
   border-top-left-radius: 50px;
 `;
 
-export
+export const
