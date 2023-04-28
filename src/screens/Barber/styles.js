@@ -62,3 +62,5 @@ export const UserAvatar = styled.Image`
   border-width: 4px;
   border-color: #ffffff;
 `;
+
+export
