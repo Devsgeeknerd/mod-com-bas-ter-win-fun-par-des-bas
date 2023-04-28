@@ -36,4 +36,4 @@ export const SwipeImage = styled.Image`
   height: 240px;
 `;
 
-export const
+export const FakeSwiper
