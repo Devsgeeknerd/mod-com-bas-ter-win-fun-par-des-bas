@@ -53,4 +53,4 @@ export const UserInfoArea = styled.View`
   flex-direction: row;
 `;
 
-export const UserAvatar = styled;
+export const UserAvatar = styled.Image;
