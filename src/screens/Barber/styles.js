@@ -52,3 +52,5 @@ export const UserInfoArea = styled.View`
   margin-top: -30px;
   flex-direction: row;
 `;
+
+export
