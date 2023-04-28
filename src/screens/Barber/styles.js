@@ -35,3 +35,5 @@ export const SwipeImage = styled.Image`
   width: 100%;
   height: 240px;
 `;
+
+export
