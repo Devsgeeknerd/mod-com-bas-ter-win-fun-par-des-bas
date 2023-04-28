@@ -48,4 +48,6 @@ export const PageBody = styled.View`
   border-top-left-radius: 50px;
 `;
 
-export const UserInfoArea = styled.View``;
+export const UserInfoArea = styled.View`
+  flex-direction: row;
+`;
