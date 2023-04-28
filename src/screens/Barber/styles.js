@@ -56,5 +56,6 @@ export const UserInfoArea = styled.View`
 export const UserAvatar = styled.Image`
   width: 110px;
   height: 110px;
+  margin-left: 30px;
   border-radius: 20px;
 `;
