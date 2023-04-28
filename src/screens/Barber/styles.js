@@ -40,3 +40,5 @@ export const FakeSwiper = styled.View`
   background-color: #63c2d1;
   height: 140px;
 `;
+
+export
