@@ -63,4 +63,4 @@ export const UserAvatar = styled.Image`
   border-color: #ffffff;
 `;
 
-export const UserInfo = styled;
+export const UserInfo = styled.View``;
