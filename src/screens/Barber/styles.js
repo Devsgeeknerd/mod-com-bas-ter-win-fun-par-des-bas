@@ -53,4 +53,6 @@ export const UserInfoArea = styled.View`
   flex-direction: row;
 `;
 
-export const UserAvatar = styled.Image;
+export const UserAvatar = styled.Image`
+  width: 110px;
+`;
