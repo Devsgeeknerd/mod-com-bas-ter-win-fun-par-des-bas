@@ -41,4 +41,4 @@ export const FakeSwiper = styled.View`
   height: 140px;
 `;
 
-export const PageBody
+export const PageBody = styled;
