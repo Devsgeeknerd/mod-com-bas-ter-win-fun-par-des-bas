@@ -92,4 +92,4 @@ export const ServiceArea = styled.View`
   margin-top: 30px;
 `;
 
-export
+export const 
