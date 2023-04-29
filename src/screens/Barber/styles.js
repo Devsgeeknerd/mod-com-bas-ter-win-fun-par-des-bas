@@ -75,4 +75,4 @@ export const UserInfoName = styled.Text`
   font-weight: bold;
 `;
 
-export const UserFavButton=
+export const UserFavButton = styled;
