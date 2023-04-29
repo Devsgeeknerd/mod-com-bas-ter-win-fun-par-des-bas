@@ -77,4 +77,5 @@ export const UserInfoName = styled.Text`
 
 export const UserFavButton = styled.TouchableOpacity`
   width: 40px;
+  height: 40px;
 `;
