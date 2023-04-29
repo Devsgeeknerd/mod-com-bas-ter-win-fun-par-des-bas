@@ -92,4 +92,6 @@ export const ServiceArea = styled.View`
   margin-top: 30px;
 `;
 
-export const ServiceTitle = styled.Text``;
+export const ServiceTitle = styled.Text`
+  font-size: 18px;
+`;
