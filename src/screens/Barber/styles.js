@@ -94,4 +94,5 @@ export const ServiceArea = styled.View`
 
 export const ServiceTitle = styled.Text`
   font-size: 18px;
+  font-weight: bold;
 `;
