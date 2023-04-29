@@ -91,3 +91,5 @@ export const UserFavButton = styled.TouchableOpacity`
 export const ServiceArea = styled.View`
   margin-top: 30px;
 `;
+
+export
