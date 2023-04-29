@@ -100,4 +100,4 @@ export const ServiceTitle = styled.Text`
   margin-left: 30px;
 `;
 
-export
+export const
