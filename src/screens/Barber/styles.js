@@ -67,3 +67,5 @@ export const UserInfo = styled.View`
   justify-content: flex-end;
   flex: 1;
 `;
+
+export
