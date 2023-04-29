@@ -99,3 +99,5 @@ export const ServiceTitle = styled.Text`
   margin-bottom: 20px;
   margin-left: 30px;
 `;
+
+export
