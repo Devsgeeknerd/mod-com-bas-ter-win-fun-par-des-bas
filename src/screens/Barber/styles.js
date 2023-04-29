@@ -70,6 +70,7 @@ export const UserInfo = styled.View`
 
 export const UserInfoName = styled.Text`
   color: #000000;
+  margin-bottom: 10px;
   font-size: 18px;
   font-weight: bold;
 `;
