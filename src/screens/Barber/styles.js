@@ -68,4 +68,4 @@ export const UserInfo = styled.View`
   flex: 1;
 `;
 
-export const
+export const UserInfoName
