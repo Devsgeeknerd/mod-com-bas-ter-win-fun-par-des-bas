@@ -70,4 +70,5 @@ export const UserInfo = styled.View`
 
 export const UserInfoName = styled.Text`
   color: #000000;
+  font-size: 18px;
 `;
