@@ -82,4 +82,5 @@ export const UserFavButton = styled.TouchableOpacity`
   border: 2px solid #999999;
   border-radius: 20px;
   justify-content: center;
+  align-items: center;
 `;
