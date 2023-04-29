@@ -88,4 +88,4 @@ export const UserFavButton = styled.TouchableOpacity`
   align-items: center;
 `;
 
-export const ServiceArea = styled;
+export const ServiceArea = styled.View``;
