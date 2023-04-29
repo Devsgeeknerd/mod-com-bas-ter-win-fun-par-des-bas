@@ -88,4 +88,4 @@ export const UserFavButton = styled.TouchableOpacity`
   align-items: center;
 `;
 
-export
+export const;
