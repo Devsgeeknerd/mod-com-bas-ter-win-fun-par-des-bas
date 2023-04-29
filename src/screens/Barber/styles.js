@@ -68,4 +68,6 @@ export const UserInfo = styled.View`
   flex: 1;
 `;
 
-export const UserInfoName = styled.Text``;
+export const UserInfoName = styled.Text`
+  color: #000000;
+`;
