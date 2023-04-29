@@ -80,4 +80,5 @@ export const UserFavButton = styled.TouchableOpacity`
   width: 40px;
   height: 40px;
   border: 2px solid #999999;
+  border-radius: 20px;
 `;
