@@ -118,5 +118,6 @@ export const ServiceName = styled.View`
 `;
 
 export const ServicePrice = styled.Text`
+  color: #268596;
   font-size: 14px;
 `;
