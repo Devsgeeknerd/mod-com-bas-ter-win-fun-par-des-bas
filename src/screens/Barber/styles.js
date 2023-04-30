@@ -107,4 +107,4 @@ export const ServiceItem = styled.View`
   flex-direction: row;
 `;
 
-export const
+export const ServiceInfo
