@@ -128,4 +128,6 @@ export const ServiceChooseButton = styled.TouchableOpacity`
   border-radius: 10px;
 `;
 
-export const ServiceChooseButtonText = styled.Text``;
+export const ServiceChooseButtonText = styled.Text`
+  font-size: 14px;
+`;
