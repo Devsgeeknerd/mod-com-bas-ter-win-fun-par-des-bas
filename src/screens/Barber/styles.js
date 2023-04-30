@@ -100,4 +100,6 @@ export const ServiceTitle = styled.Text`
   margin-left: 30px;
 `;
 
-export const ServiceItem = styled.View;
+export const ServiceItem = styled.View`
+  flex-direction: row;
+`;
