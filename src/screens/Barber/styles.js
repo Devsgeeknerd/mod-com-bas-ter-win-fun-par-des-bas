@@ -124,5 +124,6 @@ export const ServicePrice = styled.Text`
 
 export const ServiceChooseButton = styled.TouchableOpacity`
   background-color: #4eadbe;
+  padding: 10px 15px;
   border-radius: 10px;
 `;
