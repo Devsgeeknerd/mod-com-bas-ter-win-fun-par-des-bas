@@ -111,4 +111,6 @@ export const ServiceInfo = styled.View`
   flex: 1;
 `;
 
-export const ServiceName = styled.View``;
+export const ServiceName = styled.View`
+  font-size: 16px;
+`;
