@@ -129,6 +129,7 @@ export const ServiceChooseButton = styled.TouchableOpacity`
 `;
 
 export const ServiceChooseButtonText = styled.Text`
+  color: #ffffff;
   font-size: 14px;
   font-weight: bold;
 `;
