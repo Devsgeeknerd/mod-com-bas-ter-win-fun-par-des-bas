@@ -110,3 +110,5 @@ export const ServiceItem = styled.View`
 export const ServiceInfo = styled.View`
   flex: 1;
 `;
+
+export
