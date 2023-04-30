@@ -106,3 +106,5 @@ export const ServiceItem = styled.View`
   margin-bottom: 20px;
   flex-direction: row;
 `;
+
+export
