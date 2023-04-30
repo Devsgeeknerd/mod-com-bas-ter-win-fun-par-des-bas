@@ -111,4 +111,4 @@ export const ServiceInfo = styled.View`
   flex: 1;
 `;
 
-export const ServiceName
+export const ServiceName = styled;
