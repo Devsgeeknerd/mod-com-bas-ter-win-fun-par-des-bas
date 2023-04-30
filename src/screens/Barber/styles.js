@@ -122,4 +122,4 @@ export const ServicePrice = styled.Text`
   font-size: 14px;
 `;
 
-export const
+export const ServiceChooseButton
