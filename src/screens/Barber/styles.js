@@ -112,6 +112,7 @@ export const ServiceInfo = styled.View`
 `;
 
 export const ServiceName = styled.View`
+  color: #268596;
   font-size: 16px;
   font-weight: bold;
 `;
