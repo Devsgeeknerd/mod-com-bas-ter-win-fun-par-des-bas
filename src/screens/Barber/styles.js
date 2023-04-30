@@ -117,4 +117,6 @@ export const ServiceName = styled.View`
   font-weight: bold;
 `;
 
-export const ServicePrice = styled.Text``;
+export const ServicePrice = styled.Text`
+  font-size: 14px;
+`;
