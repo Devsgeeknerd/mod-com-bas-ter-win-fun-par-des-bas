@@ -117,4 +117,4 @@ export const ServiceName = styled.View`
   font-weight: bold;
 `;
 
-export const ServicePrice
+export const ServicePrice = styled;
