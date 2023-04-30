@@ -101,5 +101,6 @@ export const ServiceTitle = styled.Text`
 `;
 
 export const ServiceItem = styled.View`
+  margin-left: 30px;
   flex-direction: row;
 `;
