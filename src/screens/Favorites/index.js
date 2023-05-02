@@ -15,5 +15,5 @@ import BarberItem from "../../components/BarberItem";
 import api from "../../Api";
 
 export default () => {
-  const [loading, setLoading] = useState();
+  const [loading, setLoading] = useState(false);
 };
