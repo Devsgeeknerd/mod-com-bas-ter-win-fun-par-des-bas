@@ -154,3 +154,5 @@ export const TestimonialInfo = styled.Text`
   justify-content: space-between;
   flex-direction: row;
 `;
+
+export
