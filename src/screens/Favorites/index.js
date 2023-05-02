@@ -14,4 +14,6 @@ import {
 import BarberItem from "../../components/BarberItem";
 import api from "../../Api";
 
-export default
+export default () => {
+  const
+}
