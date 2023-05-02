@@ -1,4 +1,10 @@
 import React, { useState, useEffect } from "react";
 import { RefreshControl } from "react-native";
 
-import { Container, HeaderArea, HeaderTitle, Scroller } from "./styles";
+import {
+  Container,
+  HeaderArea,
+  HeaderTitle,
+  Scroller,
+  LoadingIcon,
+} from "./styles";
