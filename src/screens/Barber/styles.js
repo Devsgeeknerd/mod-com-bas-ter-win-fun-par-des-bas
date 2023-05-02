@@ -168,4 +168,5 @@ export const TestimonialBody = styled.Text`
 
 export const BackButton = styled.TouchableOpacity`
   position: absolute;
+  left: 0;
 `;
