@@ -166,4 +166,4 @@ export const TestimonialBody = styled.Text`
   font-size: 13px;
 `;
 
-export const BackButton = styled;
+export const BackButton = styled.TouchableOpacity``;
