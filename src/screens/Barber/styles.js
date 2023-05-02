@@ -139,4 +139,6 @@ export const TestimonialArea = styled.View`
   margin-bottom: 50px;
 `;
 
-export const TestimonialItem = styled.View``;
+export const TestimonialItem = styled.View`
+  background-color: #268596;
+`;
