@@ -157,4 +157,5 @@ export const TestimonialInfo = styled.Text`
 
 export const TestimonialName = styled.Text`
   color: #ffffff;
+  font-size: 14px;
 `;
