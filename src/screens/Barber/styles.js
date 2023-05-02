@@ -139,4 +139,4 @@ export const TestimonialArea = styled.View`
   margin-bottom: 50px;
 `;
 
-export
+export const
