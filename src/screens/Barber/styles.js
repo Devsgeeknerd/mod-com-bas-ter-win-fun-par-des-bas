@@ -155,4 +155,4 @@ export const TestimonialInfo = styled.Text`
   flex-direction: row;
 `;
 
-export
+export const
