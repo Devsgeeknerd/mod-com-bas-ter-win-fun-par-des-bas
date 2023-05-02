@@ -161,4 +161,4 @@ export const TestimonialName = styled.Text`
   font-weight: bold;
 `;
 
-export
+export const
