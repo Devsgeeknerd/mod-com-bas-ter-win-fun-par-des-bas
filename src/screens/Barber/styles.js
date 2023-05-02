@@ -134,4 +134,6 @@ export const ServiceChooseButtonText = styled.Text`
   font-weight: bold;
 `;
 
-export const TestimonialArea = styled.View``;
+export const TestimonialArea = styled.View`
+  margin-top: 30px;
+`;
