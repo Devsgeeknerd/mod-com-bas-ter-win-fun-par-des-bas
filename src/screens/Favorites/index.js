@@ -11,4 +11,4 @@ import {
   EmptyWarning,
 } from "./styles";
 
-import from"";
+import BarberItem from "";
