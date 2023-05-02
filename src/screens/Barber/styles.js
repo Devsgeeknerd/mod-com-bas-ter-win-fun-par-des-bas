@@ -142,4 +142,5 @@ export const TestimonialArea = styled.View`
 export const TestimonialItem = styled.View`
   background-color: #268596;
   padding: 15px;
+  border: 10px;
 `;
