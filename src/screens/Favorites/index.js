@@ -16,5 +16,5 @@ import api from "../../Api";
 
 export default () => {
   const [loading, setLoading] = useState(false);
-  const[list,setList];
+  const [list, setList] = useState([]);
 };
