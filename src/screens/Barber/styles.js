@@ -155,4 +155,6 @@ export const TestimonialInfo = styled.Text`
   flex-direction: row;
 `;
 
-export const TestimonialName = styled.Text``;
+export const TestimonialName = styled.Text`
+  color: #ffffff;
+`;
