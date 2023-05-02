@@ -7,4 +7,5 @@ import {
   HeaderTitle,
   Scroller,
   LoadingIcon,
+  ListArea,
 } from "./styles";
