@@ -149,4 +149,4 @@ export const TestimonialItem = styled.View`
   justify-content: center;
 `;
 
-export const TestimonialInfo = styled;
+export const TestimonialInfo = styled.Text``;
