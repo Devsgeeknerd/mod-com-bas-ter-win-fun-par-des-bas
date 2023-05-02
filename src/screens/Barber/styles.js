@@ -136,4 +136,5 @@ export const ServiceChooseButtonText = styled.Text`
 
 export const TestimonialArea = styled.View`
   margin-top: 30px;
+  margin-bottom: 50px;
 `;
