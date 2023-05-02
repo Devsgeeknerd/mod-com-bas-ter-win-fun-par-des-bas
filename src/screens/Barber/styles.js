@@ -166,4 +166,4 @@ export const TestimonialBody = styled.Text`
   font-size: 13px;
 `;
 
-export
+export const
