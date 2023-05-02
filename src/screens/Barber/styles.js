@@ -145,4 +145,5 @@ export const TestimonialItem = styled.View`
   padding: 15px;
   border: 10px;
   justify-content: center;
+  margin-left: 50px;
 `;
