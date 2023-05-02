@@ -149,4 +149,6 @@ export const TestimonialItem = styled.View`
   justify-content: center;
 `;
 
-export const TestimonialInfo = styled.Text``;
+export const TestimonialInfo = styled.Text`
+  flex-direction: row;
+`;
