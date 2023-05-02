@@ -167,6 +167,7 @@ export const TestimonialBody = styled.Text`
 `;
 
 export const BackButton = styled.TouchableOpacity`
-  position: absolute;
+  top: 0;
   left: 0;
+  position: absolute;
 `;
