@@ -173,4 +173,6 @@ export const BackButton = styled.TouchableOpacity`
   z-index: 9;
 `;
 
-export const LoadingIcon = styled.ActivityIndicator``;
+export const LoadingIcon = styled.ActivityIndicator`
+  margin-top: 50px;
+`;
