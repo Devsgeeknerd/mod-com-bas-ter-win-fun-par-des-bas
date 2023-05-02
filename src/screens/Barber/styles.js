@@ -150,6 +150,7 @@ export const TestimonialItem = styled.View`
 `;
 
 export const TestimonialInfo = styled.Text`
+  margin-bottom: 5px;
   justify-content: space-between;
   flex-direction: row;
 `;
