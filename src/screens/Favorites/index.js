@@ -12,4 +12,4 @@ import {
 } from "./styles";
 
 import BarberItem from "../../components/BarberItem";
-import api "../../Api";
+import api from "../../Api";
