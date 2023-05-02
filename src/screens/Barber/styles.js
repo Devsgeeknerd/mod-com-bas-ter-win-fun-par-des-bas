@@ -173,4 +173,4 @@ export const BackButton = styled.TouchableOpacity`
   z-index: 9;
 `;
 
-export const
+export const LoadingIcon
