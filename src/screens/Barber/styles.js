@@ -143,4 +143,5 @@ export const TestimonialItem = styled.View`
   background-color: #268596;
   padding: 15px;
   border: 10px;
+  height: 110px;
 `;
