@@ -22,5 +22,7 @@ export default () => {
     getFavorites();
   }, []);
 
-  const getFavorites = async () => {};
+  const getFavorites = async () => {
+    setLoading();
+  };
 };
