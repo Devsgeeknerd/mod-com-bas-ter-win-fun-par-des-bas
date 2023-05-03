@@ -49,6 +49,7 @@ export default () => {
         {!loading && list.length === 0 && (
           <EmptyWarning>Não ha favoritos.</EmptyWarning>
         )}
+        <ListArea></ListArea>
       </Scroller>
     </Container>
   );
