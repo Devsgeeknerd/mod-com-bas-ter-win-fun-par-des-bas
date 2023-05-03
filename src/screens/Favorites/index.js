@@ -23,6 +23,6 @@ export default () => {
   }, []);
 
   const getFavorites = async () => {
-    setLoading();
+    setLoading(true);
   };
 };
