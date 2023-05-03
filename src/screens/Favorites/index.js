@@ -41,7 +41,7 @@ export default () => {
       <HeaderArea>
         <HeaderTitle>Favoritos</HeaderTitle>
       </HeaderArea>
-      <Scroller refreshControl={}></Scroller>
+      <Scroller refreshControl={<RefreshControl />}></Scroller>
     </Container>
   );
 };
