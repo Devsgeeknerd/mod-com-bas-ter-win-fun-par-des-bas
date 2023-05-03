@@ -38,7 +38,9 @@ export default () => {
 
   return (
     <Container>
-      <HeaderArea></HeaderArea>
+      <HeaderArea>
+        <HeaderTitle></HeaderTitle>
+      </HeaderArea>
     </Container>
   );
 };
