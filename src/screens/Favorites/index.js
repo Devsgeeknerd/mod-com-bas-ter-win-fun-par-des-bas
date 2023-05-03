@@ -36,5 +36,9 @@ export default () => {
     setLoading(false);
   };
 
-  return <Container></Container>;
+  return (
+    <Container>
+      <HeaderArea></HeaderArea>
+    </Container>
+  );
 };
