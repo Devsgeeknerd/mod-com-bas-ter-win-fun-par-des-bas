@@ -21,4 +21,6 @@ export default () => {
   useEffect(() => {
     getFavorites();
   }, []);
+
+  const
 };
