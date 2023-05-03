@@ -49,7 +49,11 @@ export default () => {
         {!loading && list.length === 0 && (
           <EmptyWarning>Não ha favoritos.</EmptyWarning>
         )}
-        <ListArea>{list.map((item, k)=>())}</ListArea>
+        <ListArea>
+          {list.map((item, k) => (
+            <BarberItem />
+          ))}
+        </ListArea>
       </Scroller>
     </Container>
   );
