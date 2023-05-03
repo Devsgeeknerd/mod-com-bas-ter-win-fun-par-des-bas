@@ -32,5 +32,7 @@ export default () => {
     } else {
       alert("Erro: " + res.error);
     }
+
+    setLoading();
   };
 };
