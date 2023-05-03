@@ -12,7 +12,7 @@ import {
 } from "./styles";
 
 import BarberItem from "../../components/BarberItem";
-import api from "../../Api";
+import Api from "../../Api";
 
 export default () => {
   const [loading, setLoading] = useState(false);
@@ -26,6 +26,6 @@ export default () => {
     setLoading(true);
     setList([]);
 
-    let res=await;
+    let res = await Api;
   };
 };
