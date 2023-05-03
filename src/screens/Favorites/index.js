@@ -46,7 +46,9 @@ export default () => {
           <RefreshControl refreshing={loading} onRefresh={getFavorites} />
         }
       >
-        {!loading && list.length === 0 && <EmptyWarning></EmptyWarning>}
+        {!loading && list.length === 0 && (
+          <EmptyWarning>Não ha favoritos.</EmptyWarning>
+        )}
       </Scroller>
     </Container>
   );
