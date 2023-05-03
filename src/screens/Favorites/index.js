@@ -42,7 +42,7 @@ export default () => {
         <HeaderTitle>Favoritos</HeaderTitle>
       </HeaderArea>
       <Scroller
-        refreshControl={<RefreshControl refreshing={loading} />}
+        refreshControl={<RefreshControl refreshing={loading} onRefresh={}/>}
       ></Scroller>
     </Container>
   );
