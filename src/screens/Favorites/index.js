@@ -45,7 +45,9 @@ export default () => {
         refreshControl={
           <RefreshControl refreshing={loading} onRefresh={getFavorites} />
         }
-      ></Scroller>
+      >
+        {!loading}
+      </Scroller>
     </Container>
   );
 };
