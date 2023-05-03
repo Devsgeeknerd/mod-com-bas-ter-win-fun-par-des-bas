@@ -22,5 +22,5 @@ export default () => {
     getFavorites();
   }, []);
 
-  const
+  const getFavorites
 };
