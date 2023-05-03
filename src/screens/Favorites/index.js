@@ -25,5 +25,7 @@ export default () => {
   const getFavorites = async () => {
     setLoading(true);
     setList([]);
+
+    let;
   };
 };
