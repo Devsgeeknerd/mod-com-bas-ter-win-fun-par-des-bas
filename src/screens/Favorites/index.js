@@ -18,5 +18,7 @@ export default () => {
   const [loading, setLoading] = useState(false);
   const [list, setList] = useState([]);
 
-  useEffect(() => {}, []);
+  useEffect(() => {
+    getFavorites();
+  }, []);
 };
