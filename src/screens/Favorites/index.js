@@ -39,7 +39,7 @@ export default () => {
   return (
     <Container>
       <HeaderArea>
-        <HeaderTitle></HeaderTitle>
+        <HeaderTitle>Favoritos</HeaderTitle>
       </HeaderArea>
     </Container>
   );
