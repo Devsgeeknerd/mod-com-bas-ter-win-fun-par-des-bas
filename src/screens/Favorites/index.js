@@ -26,6 +26,6 @@ export default () => {
     setLoading(true);
     setList([]);
 
-    let res = await Api;
+    let res = await Api.getFavorites();
   };
 };
