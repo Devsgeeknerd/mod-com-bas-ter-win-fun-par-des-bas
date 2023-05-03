@@ -26,6 +26,6 @@ export default () => {
     setLoading(true);
     setList([]);
 
-    let;
+    let res;
   };
 };
