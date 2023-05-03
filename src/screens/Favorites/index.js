@@ -41,6 +41,7 @@ export default () => {
       <HeaderArea>
         <HeaderTitle>Favoritos</HeaderTitle>
       </HeaderArea>
+      <Scroller></Scroller>
     </Container>
   );
 };
