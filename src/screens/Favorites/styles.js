@@ -5,4 +5,4 @@ export const Container = styled.SafeAreaView`
   flex: 1;
 `;
 
-export const HeaderArea = styled;
+export const HeaderArea = styled.View``;
