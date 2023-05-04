@@ -22,4 +22,4 @@ export const Scroller = styled.ScrollView`
   flex: 1;
 `;
 
-export const LoadingIcon
+export const LoadingIcon = styled;
