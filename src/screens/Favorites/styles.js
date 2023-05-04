@@ -11,4 +11,4 @@ export const HeaderArea = styled.View`
   justify-content: center;
 `;
 
-export
+export const
