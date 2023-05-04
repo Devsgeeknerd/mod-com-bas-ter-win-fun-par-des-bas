@@ -27,4 +27,4 @@ export const LoadingIcon = styled.View`
   margin-bottom: 20px;
 `;
 
-export
+export const
