@@ -12,8 +12,9 @@ export const HeaderArea = styled.View`
 `;
 
 export const HeaderTitle = styled.Text`
-  font-size: 18px;
   color: #ffffff;
+  font-size: 18px;
+  font-weight: bold;
 `;
 
 export const Scroller = styled.ScrollView`
