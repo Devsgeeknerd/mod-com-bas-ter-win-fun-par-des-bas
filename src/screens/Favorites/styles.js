@@ -11,7 +11,7 @@ export const HeaderArea = styled.View`
   justify-content: center;
 `;
 
-export const HeaderTitle = styled;
+export const HeaderTitle = styled.Text``;
 
 export const Scroller = styled.ScrollView`
   padding: 0px 20px;
