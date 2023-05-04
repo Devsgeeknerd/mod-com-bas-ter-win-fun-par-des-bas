@@ -22,9 +22,9 @@ export const Scroller = styled.ScrollView`
   flex: 1;
 `;
 
-export const LoadingIcon = styled.View`
+export const LoadingIcon = styled;
+
+export const ListArea = styled.View`
   margin-top: 20px;
   margin-bottom: 20px;
 `;
-
-export const ListArea
