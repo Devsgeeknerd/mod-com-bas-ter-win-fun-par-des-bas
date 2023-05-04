@@ -32,6 +32,7 @@ export const ListArea = styled.View`
 `;
 
 export const EmptyWarning = styled.Text`
+  color: #ffffff;
   margin-top: 30px;
   text-align: center;
 `;
