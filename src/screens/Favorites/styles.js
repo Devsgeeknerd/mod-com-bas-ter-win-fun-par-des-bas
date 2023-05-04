@@ -11,4 +11,6 @@ export const HeaderArea = styled.View`
   justify-content: center;
 `;
 
-export const Scroller = styled.ScrollView``;
+export const Scroller = styled.ScrollView`
+  flex: 1;
+`;
