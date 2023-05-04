@@ -26,3 +26,5 @@ export const LoadingIcon = styled.View`
   margin-top: 20px;
   margin-bottom: 20px;
 `;
+
+export
