@@ -19,4 +19,4 @@ import {
   ListArea,
 } from "./styles";
 
-import BarberItem from "";
+import BarberItem from "../../components/BarberItem";
