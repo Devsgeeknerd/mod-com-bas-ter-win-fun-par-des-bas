@@ -1,1 +1,1 @@
-import "react";
+import from "react";
