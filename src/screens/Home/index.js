@@ -15,4 +15,5 @@ import {
   LocationArea,
   LocationInput,
   LocationFinder,
+  LoadingIcon,
 } from "./styles";
