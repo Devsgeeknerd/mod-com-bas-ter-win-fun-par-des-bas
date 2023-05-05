@@ -24,4 +24,6 @@ import BarberItem from "../../components/BarberItem";
 import SearchIcon from "../../assets/search.svg";
 import MyLocationIcon from "../../assets/my_location.svg";
 
-export default () => {};
+export default () => {
+  const
+};
