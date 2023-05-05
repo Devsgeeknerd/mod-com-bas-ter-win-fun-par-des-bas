@@ -1,2 +1,2 @@
 import React, { useState, useEffect } from "react";
-import{Platform}
+import{Platform, RefreshControl}
