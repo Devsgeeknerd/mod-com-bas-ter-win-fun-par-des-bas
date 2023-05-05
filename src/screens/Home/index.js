@@ -27,5 +27,5 @@ import MyLocationIcon from "../../assets/my_location.svg";
 export default () => {
   const navigation = useNavigation();
 
-  const
+  const [locationText]
 };
