@@ -12,4 +12,5 @@ import {
   HeaderArea,
   HeaderTitle,
   SearchButton,
+  LocationArea,
 } from "./styles";
