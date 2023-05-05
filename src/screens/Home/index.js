@@ -6,4 +6,4 @@ import Geolocation from "@react-native-community/geolocation";
 
 import Api from "../../Api";
 
-import { Container, Scroller, HeaderArea } from "./styles";
+import { Container, Scroller, HeaderArea, HeaderTitle } from "./styles";
