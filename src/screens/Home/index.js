@@ -13,4 +13,5 @@ import {
   HeaderTitle,
   SearchButton,
   LocationArea,
+  LocationInput,
 } from "./styles";
