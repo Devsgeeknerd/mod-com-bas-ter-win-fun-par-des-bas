@@ -21,4 +21,4 @@ import {
 
 import BarberItem from "../../components/BarberItem";
 
-import 
+import SearchIcon
