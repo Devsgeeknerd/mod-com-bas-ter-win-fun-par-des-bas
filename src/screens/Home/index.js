@@ -14,4 +14,5 @@ import {
   SearchButton,
   LocationArea,
   LocationInput,
+  LocationFinder,
 } from "./styles";
