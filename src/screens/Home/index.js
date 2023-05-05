@@ -28,5 +28,5 @@ export default () => {
   const navigation = useNavigation();
 
   const [locationText, setLocationText] = useState("");
-  const [] = useState(null);
+  const [coords] = useState(null);
 };
