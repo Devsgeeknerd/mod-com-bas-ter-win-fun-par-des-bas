@@ -33,5 +33,7 @@ export default () => {
   const [list, setList] = useState([]);
   const [refreshing, setRefreshing] = useState(false);
 
-  const handleLocationFinder = async () => {};
+  const handleLocationFinder = async () => {
+    setCoords();
+  };
 };
