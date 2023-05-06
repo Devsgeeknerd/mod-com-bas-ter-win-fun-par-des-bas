@@ -45,6 +45,8 @@ export default () => {
       setLoading(true);
       setLocationText("");
       setList([]);
+
+      Geolocation;
     }
   };
 };
