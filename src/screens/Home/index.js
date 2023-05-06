@@ -43,6 +43,7 @@ export default () => {
 
     if (result == "granted") {
       setLoading(true);
+      setLocationText("");
     }
   };
 };
