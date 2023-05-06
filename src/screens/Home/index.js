@@ -34,6 +34,6 @@ export default () => {
   const [refreshing, setRefreshing] = useState(false);
 
   const handleLocationFinder = async () => {
-    setCoords();
+    setCoords(null);
   };
 };
