@@ -42,6 +42,7 @@ export default () => {
     );
 
     if (result == "granted") {
+      setLoading();
     }
   };
 };
