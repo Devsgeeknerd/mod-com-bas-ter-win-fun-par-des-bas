@@ -35,6 +35,6 @@ export default () => {
 
   const handleLocationFinder = async () => {
     setCoords(null);
-    let result = await request(Platform.OS === "ios"? PERMISSIONS);
+    let result = await request(Platform.OS === "ios"? PERMISSIONS.IOS);
   };
 };
