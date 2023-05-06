@@ -47,7 +47,7 @@ export default () => {
       setList([]);
 
       Geolocation.getCurrentPosition((info) => {
-        setCoords(info);
+        setCoords(info.coords);
       });
     }
   };
