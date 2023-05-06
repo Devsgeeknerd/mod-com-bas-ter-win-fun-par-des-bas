@@ -33,5 +33,5 @@ export default () => {
   const [list, setList] = useState([]);
   const [refreshing, setRefreshing] = useState(false);
 
-  const
+  const handleLocationFinder
 };
