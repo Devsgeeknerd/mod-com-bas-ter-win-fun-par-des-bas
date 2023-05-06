@@ -41,7 +41,7 @@ export default () => {
         : PERMISSIONS.ANDROID.ACCESS_FINE_LOCATION
     );
 
-    if (result) {
+    if (result == "granted") {
     }
   };
 };
