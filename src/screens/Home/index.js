@@ -31,5 +31,5 @@ export default () => {
   const [coords, setCoords] = useState(null);
   const [Loading, setLoading] = useState(false);
   const [list, setList] = useState([]);
-  const [refreshing, SetRefreshing] = useState();
+  const [refreshing, setRefreshing] = useState(false);
 };
