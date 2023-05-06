@@ -42,7 +42,7 @@ export default () => {
     );
 
     if (result == "granted") {
-      setLoading();
+      setLoading(true);
     }
   };
 };
