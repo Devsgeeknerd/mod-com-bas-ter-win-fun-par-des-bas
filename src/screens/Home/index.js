@@ -35,6 +35,6 @@ export default () => {
 
   const handleLocationFinder = async () => {
     setCoords(null);
-    let result;
+    let result=await;
   };
 };
