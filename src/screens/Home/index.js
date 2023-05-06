@@ -48,6 +48,7 @@ export default () => {
 
       Geolocation.getCurrentPosition((info) => {
         setCoords(info.coords);
+        getBarbers();
       });
     }
   };
