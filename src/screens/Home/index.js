@@ -46,7 +46,7 @@ export default () => {
       setLocationText("");
       setList([]);
 
-      Geolocation;
+      Geolocation.getCurrentPosition(() => {});
     }
   };
 };
