@@ -29,5 +29,5 @@ export default () => {
 
   const [locationText, setLocationText] = useState("");
   const [coords, setCoords] = useState(null);
-  const [] = useState(false);
+  const [Loading] = useState(false);
 };
