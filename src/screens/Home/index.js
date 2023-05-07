@@ -59,5 +59,8 @@ export default () => {
 
     let lat = null;
     let lng = null;
+
+    if (coords) {
+    }
   };
 };
