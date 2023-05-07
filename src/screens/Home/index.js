@@ -53,5 +53,7 @@ export default () => {
     }
   };
 
-  const getBarbers = async () => {};
+  const getBarbers = async () => {
+    setLoading();
+  };
 };
