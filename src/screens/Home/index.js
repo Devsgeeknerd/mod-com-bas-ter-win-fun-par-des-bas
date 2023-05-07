@@ -70,6 +70,7 @@ export default () => {
         setLocationText(res.loc);
       }
       setList(res.data);
+    } else {
     }
   };
 };
