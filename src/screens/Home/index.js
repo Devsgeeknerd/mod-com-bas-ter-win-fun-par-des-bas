@@ -53,5 +53,5 @@ export default () => {
     }
   };
 
-  const getBarbers
+  const getBarbers = async () => {};
 };
