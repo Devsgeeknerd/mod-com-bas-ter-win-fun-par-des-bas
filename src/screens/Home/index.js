@@ -57,6 +57,6 @@ export default () => {
     setLoading(true);
     setList([]);
 
-    let lat;
+    let lat = null;
   };
 };
