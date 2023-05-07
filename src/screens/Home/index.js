@@ -65,6 +65,6 @@ export default () => {
       lng = coords.longitude;
     }
 
-    let res = await Api.getBarbers(lat);
+    let res = await Api.getBarbers(lat, lng);
   };
 };
