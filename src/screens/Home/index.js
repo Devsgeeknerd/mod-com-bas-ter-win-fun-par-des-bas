@@ -59,12 +59,12 @@ export default () => {
 
     let lat = null;
     let lng = null;
-
     if (coords) {
       lat = coords.latitude;
       lng = coords.longitude;
     }
 
     let res = await Api.getBarbers(lat, lng, locationText);
+    if(){}
   };
 };
