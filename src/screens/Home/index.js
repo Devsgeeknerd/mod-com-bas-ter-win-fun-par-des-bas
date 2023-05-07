@@ -62,6 +62,7 @@ export default () => {
 
     if (coords) {
       lat = coords.latitude;
+      lng;
     }
   };
 };
