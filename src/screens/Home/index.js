@@ -55,5 +55,6 @@ export default () => {
 
   const getBarbers = async () => {
     setLoading(true);
+    setList([]);
   };
 };
