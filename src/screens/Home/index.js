@@ -69,7 +69,7 @@ export default () => {
       if (res.loc) {
         setLocationText(res.loc);
       }
-      setList(res);
+      setList(res.data);
     }
   };
 };
