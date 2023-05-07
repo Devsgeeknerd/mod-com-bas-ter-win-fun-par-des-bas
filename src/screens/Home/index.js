@@ -65,6 +65,6 @@ export default () => {
       lng = coords.longitude;
     }
 
-    let res;
+    let res=await;
   };
 };
