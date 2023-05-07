@@ -61,6 +61,7 @@ export default () => {
     let lng = null;
 
     if (coords) {
+      lat;
     }
   };
 };
