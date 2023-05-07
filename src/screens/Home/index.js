@@ -65,6 +65,7 @@ export default () => {
     }
 
     let res = await Api.getBarbers(lat, lng, locationText);
-    if(){}
+    if (res) {
+    }
   };
 };
