@@ -58,6 +58,6 @@ export default () => {
     setList([]);
 
     let lat = null;
-    let lng = 
+    let lng = null;
   };
 };
