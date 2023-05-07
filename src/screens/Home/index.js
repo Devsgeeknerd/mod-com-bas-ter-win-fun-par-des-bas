@@ -71,7 +71,7 @@ export default () => {
       }
       setList(res.data);
     } else {
-      alert("Erro: " + res);
+      alert("Erro: " + res.error);
     }
   };
 };
