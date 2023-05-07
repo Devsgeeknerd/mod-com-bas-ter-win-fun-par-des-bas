@@ -71,6 +71,7 @@ export default () => {
       }
       setList(res.data);
     } else {
+      alert();
     }
   };
 };
