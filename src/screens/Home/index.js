@@ -74,6 +74,6 @@ export default () => {
       alert("Erro: " + res.error);
     }
 
-    setLoading();
+    setLoading(false);
   };
 };
