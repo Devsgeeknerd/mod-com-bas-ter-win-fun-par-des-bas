@@ -99,7 +99,9 @@ export default () => {
         }
       >
         <HeaderArea>
-          <HeaderTitle numberOfLines={2}></HeaderTitle>
+          <HeaderTitle numberOfLines={2}>
+            Encontre o seu barbeiro favorito
+          </HeaderTitle>
         </HeaderArea>
       </Scroller>
     </Container>
