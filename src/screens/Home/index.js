@@ -91,5 +91,9 @@ export default () => {
     getBarbers();
   };
 
-  return <Container></Container>;
+  return (
+    <Container>
+      <Scroller></Scroller>
+    </Container>
+  );
 };
