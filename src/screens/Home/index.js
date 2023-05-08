@@ -102,6 +102,7 @@ export default () => {
           <HeaderTitle numberOfLines={2}>
             Encontre o seu barbeiro favorito
           </HeaderTitle>
+          <SearchButton></SearchButton>
         </HeaderArea>
       </Scroller>
     </Container>
