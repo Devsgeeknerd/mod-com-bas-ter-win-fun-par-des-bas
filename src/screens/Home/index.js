@@ -77,5 +77,7 @@ export default () => {
     setLoading(false);
   };
 
-  useEffect(() => {});
+  useEffect(() => {
+    getBarbers();
+  });
 };
