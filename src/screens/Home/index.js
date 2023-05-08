@@ -93,7 +93,7 @@ export default () => {
 
   return (
     <Container>
-      <Scroller refreshControl></Scroller>
+      <Scroller refreshControl={<RefreshControl />}></Scroller>
     </Container>
   );
 };
