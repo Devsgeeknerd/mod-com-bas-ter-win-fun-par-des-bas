@@ -86,5 +86,7 @@ export default () => {
     getBarbers();
   };
 
-  const handleLocationSearch
+  const handleLocationSearch = () => {
+    setCoords({});
+  };
 };
