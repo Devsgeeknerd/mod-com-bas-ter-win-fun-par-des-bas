@@ -88,5 +88,6 @@ export default () => {
 
   const handleLocationSearch = () => {
     setCoords({});
+    getBarbers();
   };
 };
