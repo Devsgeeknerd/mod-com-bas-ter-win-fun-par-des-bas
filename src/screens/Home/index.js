@@ -103,7 +103,7 @@ export default () => {
             Encontre o seu barbeiro favorito
           </HeaderTitle>
           <SearchButton onPress={() => navigation.navigate("Search")}>
-            <SearchIcon width="26"></SearchIcon>
+            <SearchIcon width="26" height="26"></SearchIcon>
           </SearchButton>
         </HeaderArea>
       </Scroller>
