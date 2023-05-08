@@ -82,6 +82,6 @@ export default () => {
   }, []);
 
   const onRefresh = () => {
-    setRefreshing();
+    setRefreshing(false);
   };
 };
