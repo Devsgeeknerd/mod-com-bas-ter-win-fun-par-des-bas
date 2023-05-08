@@ -94,7 +94,9 @@ export default () => {
   return (
     <Container>
       <Scroller
-        refreshControl={<RefreshControl refreshing={refreshing} onRefresh={} />}
+        refreshControl={
+          <RefreshControl refreshing={refreshing} onRefresh={onRefresh} />
+        }
       ></Scroller>
     </Container>
   );
