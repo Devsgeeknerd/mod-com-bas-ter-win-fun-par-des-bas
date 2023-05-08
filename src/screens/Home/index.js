@@ -76,4 +76,6 @@ export default () => {
 
     setLoading(false);
   };
+
+  useEffect(() => {});
 };
