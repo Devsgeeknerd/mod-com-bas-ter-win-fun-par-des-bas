@@ -81,5 +81,7 @@ export default () => {
     getBarbers();
   }, []);
 
-  const onRefresh
+  const onRefresh = () => {
+    setRefreshing();
+  };
 };
