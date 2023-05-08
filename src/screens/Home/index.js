@@ -85,4 +85,6 @@ export default () => {
     setRefreshing(false);
     getBarbers();
   };
+
+  const
 };
