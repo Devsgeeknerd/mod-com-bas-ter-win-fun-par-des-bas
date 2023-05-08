@@ -93,7 +93,7 @@ export default () => {
 
   return (
     <Container>
-      <Scroller></Scroller>
+      <Scroller refreshControl></Scroller>
     </Container>
   );
 };
