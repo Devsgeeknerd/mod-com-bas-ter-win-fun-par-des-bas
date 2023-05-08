@@ -81,5 +81,5 @@ export default () => {
     getBarbers();
   }, []);
 
-  const
+  const onRefresh
 };
