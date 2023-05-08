@@ -102,7 +102,7 @@ export default () => {
           <HeaderTitle numberOfLines={2}>
             Encontre o seu barbeiro favorito
           </HeaderTitle>
-          <SearchButton onPress={() => "Search"}></SearchButton>
+          <SearchButton onPress={() => navigation("Search")}></SearchButton>
         </HeaderArea>
       </Scroller>
     </Container>
