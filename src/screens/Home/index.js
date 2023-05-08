@@ -90,4 +90,6 @@ export default () => {
     setCoords({});
     getBarbers();
   };
+
+  return()
 };
