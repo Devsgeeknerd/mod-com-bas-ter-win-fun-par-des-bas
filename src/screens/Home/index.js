@@ -83,5 +83,6 @@ export default () => {
 
   const onRefresh = () => {
     setRefreshing(false);
+    getBarbers();
   };
 };
