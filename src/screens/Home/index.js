@@ -79,5 +79,7 @@ export default () => {
 
   useEffect(() => {
     getBarbers();
-  });
+  }, []);
+
+  const
 };
