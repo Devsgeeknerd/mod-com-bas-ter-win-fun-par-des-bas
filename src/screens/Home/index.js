@@ -99,7 +99,7 @@ export default () => {
         }
       >
         <HeaderArea>
-          <HeaderTitle></HeaderTitle>
+          <HeaderTitle numberOfLines={2}></HeaderTitle>
         </HeaderArea>
       </Scroller>
     </Container>
