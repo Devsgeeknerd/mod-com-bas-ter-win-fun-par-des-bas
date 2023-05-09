@@ -17,4 +17,4 @@ export const HeaderArea = styled.View`
   flex-direction: row;
 `;
 
-export const HeaderTitle
+export const HeaderTitle = styled;
