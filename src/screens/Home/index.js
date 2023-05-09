@@ -115,7 +115,7 @@ export default () => {
             onEndEditing={handleLocationSearch}
           />
           <LocationFinder onPress={handleLocationFinder}>
-            <MyLocationIcon width="24" height="24" />
+            <MyLocationIcon width="24" height="24" fill="#ffffff" />
           </LocationFinder>
         </LocationArea>
       </Scroller>
