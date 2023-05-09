@@ -110,7 +110,7 @@ export default () => {
           <LocationInput
             placeholder="Onde você está?"
             placeholderTextColor="#ffffff"
-            value={}
+            value={locationText}
           ></LocationInput>
         </LocationArea>
       </Scroller>
