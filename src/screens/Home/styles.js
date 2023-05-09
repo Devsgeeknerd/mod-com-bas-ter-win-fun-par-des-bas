@@ -11,4 +11,6 @@ export const Scroller = styled.ScrollView`
   flex: 1;
 `;
 
-export const HeaderArea = styled.View``;
+export const HeaderArea = styled.View`
+  flex-direction: row;
+`;
