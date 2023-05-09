@@ -107,7 +107,10 @@ export default () => {
           </SearchButton>
         </HeaderArea>
         <LocationArea>
-          <LocationInput placeholder="Onde você está?"></LocationInput>
+          <LocationInput
+            placeholder="Onde você está?"
+            placeholderTextColor="#ffffff"
+          ></LocationInput>
         </LocationArea>
       </Scroller>
     </Container>
