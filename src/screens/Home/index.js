@@ -106,7 +106,9 @@ export default () => {
             <SearchIcon width="26" height="26" fill="#ffffff"></SearchIcon>
           </SearchButton>
         </HeaderArea>
-        <LocationArea></LocationArea>
+        <LocationArea>
+          <LocationInput placeholder=""></LocationInput>
+        </LocationArea>
       </Scroller>
     </Container>
   );
