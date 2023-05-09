@@ -121,7 +121,7 @@ export default () => {
         {loading && <LoadingIcon size="large" color="#ffffff" />}
         <ListArea>
           {list.map((item, k) => (
-            <BarberItem />
+            <BarberItem key={}/>
           ))}
         </ListArea>
       </Scroller>
