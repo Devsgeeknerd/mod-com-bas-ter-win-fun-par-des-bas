@@ -11,4 +11,4 @@ export const Scroller = styled.ScrollView`
   flex: 1;
 `;
 
-export
+export const
