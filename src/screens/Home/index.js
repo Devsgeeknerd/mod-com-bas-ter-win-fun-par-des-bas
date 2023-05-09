@@ -114,7 +114,7 @@ export default () => {
             onChangeText={(t) => setLocationText(t)}
             onEndEditing={handleLocationSearch}
           />
-          <LocationFinder onPress={}></LocationFinder>
+          <LocationFinder onPress={handleLocationFinder}></LocationFinder>
         </LocationArea>
       </Scroller>
     </Container>
