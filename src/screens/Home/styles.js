@@ -6,4 +6,6 @@ export const Container = styled.SafeAreaView`
   flex: 1;
 `;
 
-export const HeaderArea = styled.ScrollView``;
+export const HeaderArea = styled.ScrollView`
+  flex: 1;
+`;
