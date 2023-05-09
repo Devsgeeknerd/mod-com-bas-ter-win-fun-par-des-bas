@@ -7,5 +7,6 @@ export const Container = styled.SafeAreaView`
 `;
 
 export const HeaderArea = styled.ScrollView`
+  padding: 20px;
   flex: 1;
 `;
