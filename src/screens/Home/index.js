@@ -111,7 +111,7 @@ export default () => {
             placeholder="Onde você está?"
             placeholderTextColor="#ffffff"
             value={locationText}
-            onChangetext={}
+            onChangeText={(t) => setLocationText(t)}
           ></LocationInput>
         </LocationArea>
       </Scroller>
