@@ -16,3 +16,5 @@ export const HeaderArea = styled.View`
   align-items: center;
   flex-direction: row;
 `;
+
+export
