@@ -119,7 +119,7 @@ export default () => {
           </LocationFinder>
         </LocationArea>
         {loading && <LoadingIcon size="large" color="#ffffff" />}
-        <ListArea>{list}</ListArea>
+        <ListArea>{list.map(()=>())}</ListArea>
       </Scroller>
     </Container>
   );
