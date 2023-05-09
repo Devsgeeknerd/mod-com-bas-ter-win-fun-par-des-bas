@@ -113,7 +113,8 @@ export default () => {
             value={locationText}
             onChangeText={(t) => setLocationText(t)}
             onEndEditing={handleLocationSearch}
-          ></LocationInput>
+          />
+          <LocationFinder></LocationFinder>
         </LocationArea>
       </Scroller>
     </Container>
