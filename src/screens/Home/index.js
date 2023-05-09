@@ -118,7 +118,7 @@ export default () => {
             <MyLocationIcon width="24" height="24" fill="#ffffff" />
           </LocationFinder>
         </LocationArea>
-        {loading}
+        {loading && <LoadingIcon />}
       </Scroller>
     </Container>
   );
