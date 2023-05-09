@@ -13,5 +13,6 @@ export const Scroller = styled.ScrollView`
 
 export const HeaderArea = styled.View`
   justify-content: space-between;
+  align-items: center;
   flex-direction: row;
 `;
