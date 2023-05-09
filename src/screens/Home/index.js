@@ -112,7 +112,7 @@ export default () => {
             placeholderTextColor="#ffffff"
             value={locationText}
             onChangeText={(t) => setLocationText(t)}
-            onEndEditing={}
+            onEndEditing={handleLocationSearch}
           ></LocationInput>
         </LocationArea>
       </Scroller>
