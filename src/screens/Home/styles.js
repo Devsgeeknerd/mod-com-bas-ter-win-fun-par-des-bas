@@ -41,5 +41,6 @@ export const LocationArea = styled.View`
 `;
 
 export const LocationInput = styled.TextInput`
+  font-size: 16px;
   flex: 1;
 `;
