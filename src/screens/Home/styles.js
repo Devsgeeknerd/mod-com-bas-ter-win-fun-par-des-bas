@@ -40,4 +40,4 @@ export const LocationArea = styled.View`
   flex-direction: row;
 `;
 
-export const LocationInput
+export const LocationInput = styled;
