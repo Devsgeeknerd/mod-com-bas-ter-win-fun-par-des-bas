@@ -39,3 +39,5 @@ export const LocationArea = styled.View`
   align-items: center;
   flex-direction: row;
 `;
+
+export
