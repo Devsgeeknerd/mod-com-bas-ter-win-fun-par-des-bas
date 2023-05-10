@@ -51,4 +51,4 @@ export const LocationFinder = styled.TouchableOpacity`
   height: 24px;
 `;
 
-export
+export const
