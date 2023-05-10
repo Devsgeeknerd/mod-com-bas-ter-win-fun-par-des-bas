@@ -55,4 +55,4 @@ export const LoadingIcon = styled.ActivityIndicator`
   margin-top: 50px;
 `;
 
-export
+export const
