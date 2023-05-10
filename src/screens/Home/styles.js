@@ -32,6 +32,7 @@ export const SearchButton = styled.TouchableOpacity`
 export const LocationArea = styled.View`
   background-color: #4eadbe;
   height: 60px;
+  margin-top: 30px;
   padding-right: 30px;
   padding-left: 30px;
   border-radius: 30px;
