@@ -24,4 +24,6 @@ export const HeaderTitle = styled.Text`
   font-weight: bold;
 `;
 
-export const SearchButton = styled.TouchableOpacity``;
+export const SearchButton = styled.TouchableOpacity`
+  width: 26px;
+`;
