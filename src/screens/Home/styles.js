@@ -29,4 +29,6 @@ export const SearchButton = styled.TouchableOpacity`
   height: 26px;
 `;
 
-export const LocationArea = styled.View``;
+export const LocationArea = styled.View`
+  background-color: #4eadbe;
+`;
