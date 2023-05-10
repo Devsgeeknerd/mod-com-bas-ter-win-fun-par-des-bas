@@ -28,3 +28,5 @@ export const SearchButton = styled.TouchableOpacity`
   width: 26px;
   height: 26px;
 `;
+
+export
