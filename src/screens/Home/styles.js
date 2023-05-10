@@ -46,4 +46,4 @@ export const LocationInput = styled.TextInput`
   flex: 1;
 `;
 
-export const LocationFinder = styled;
+export const LocationFinder = styled.TouchableOpacity``;
