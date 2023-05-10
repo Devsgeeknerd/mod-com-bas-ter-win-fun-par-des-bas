@@ -55,4 +55,4 @@ export const LoadingIcon = styled.ActivityIndicator`
   margin-top: 50px;
 `;
 
-export const ListArea = styled;
+export const ListArea = styled.View``;
