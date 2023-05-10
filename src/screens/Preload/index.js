@@ -1,2 +1,2 @@
-import React from "";
+import React from "react";
 export default () => {};
