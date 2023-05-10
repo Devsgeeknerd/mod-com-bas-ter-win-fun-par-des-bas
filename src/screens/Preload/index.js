@@ -1,4 +1,4 @@
 import React, { useEffect, useContext } from "react";
-import {} from "./styles";
+import { Container } from "./styles";
 
 export default () => {};
