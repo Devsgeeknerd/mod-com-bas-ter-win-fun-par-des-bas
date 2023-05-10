@@ -24,4 +24,4 @@ export const HeaderTitle = styled.Text`
   font-weight: bold;
 `;
 
-export const SearchButton = styled;
+export const SearchButton = styled.View``;
