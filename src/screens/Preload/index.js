@@ -8,4 +8,6 @@ import Api from "../../Api";
 
 import BarberLogo from "../../assets/barber.svg";
 
-export default () => {const};
+export default () => {
+  const {} = useContext();
+};
