@@ -8,4 +8,4 @@ import Api from "../../Api";
 
 import BarberLogo from "../../assets/barber.svg";
 
-export default () => {};
+export default () => {const};
