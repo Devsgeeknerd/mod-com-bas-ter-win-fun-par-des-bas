@@ -12,5 +12,5 @@ export default () => {
   const { dispatch: userDispatch } = useContext(UserContext);
   const navigation = useNavigation();
 
-  useEffect(() => {const});
+  useEffect(() => {const checkToken});
 };
