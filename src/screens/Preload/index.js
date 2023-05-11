@@ -9,5 +9,5 @@ import Api from "../../Api";
 import BarberLogo from "../../assets/barber.svg";
 
 export default () => {
-  const { dispatch } = useContext(UserContext);
+  const { dispatch: userDispatch } = useContext(UserContext);
 };
