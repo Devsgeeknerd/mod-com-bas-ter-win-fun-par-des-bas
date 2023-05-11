@@ -13,6 +13,8 @@ export default () => {
   const navigation = useNavigation();
 
   useEffect(() => {
-    const checkToken = async () => {const token=await};
+    const checkToken = async () => {
+      const token = await AsyncStorage;
+    };
   });
 };
