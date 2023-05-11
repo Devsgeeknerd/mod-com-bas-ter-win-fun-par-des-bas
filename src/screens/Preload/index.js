@@ -28,7 +28,7 @@ export default () => {
           navigation.navigate("SingIn");
         }
       } else {
-        navigation.navigate();
+        navigation.navigate("SingIn");
       }
     };
   });
