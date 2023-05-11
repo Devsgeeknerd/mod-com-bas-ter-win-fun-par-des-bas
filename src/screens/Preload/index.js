@@ -6,6 +6,6 @@ import { useNavigation } from "@react-navigation/native";
 import { userContext } from "../../contexts/UserContext";
 import Api from "../../Api";
 
-import BarberLogo
+import BarberLogo from "../../assets/barber.svg";
 
 export default () => {};
