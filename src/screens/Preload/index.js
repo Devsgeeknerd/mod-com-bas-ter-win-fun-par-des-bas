@@ -3,6 +3,6 @@ import { Container, LoadingIcon } from "./styles";
 import AsyncStorage from "@react-native-community/async-storage";
 import { useNavigation } from "@react-navigation/native";
 
-import {} from "";
+import { userContext } from "../../contexts/UserContext";
 
 export default () => {};
