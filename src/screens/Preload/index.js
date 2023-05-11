@@ -3,7 +3,7 @@ import { Container, LoadingIcon } from "./styles";
 import AsyncStorage from "@react-native-community/async-storage";
 import { useNavigation } from "@react-navigation/native";
 
-import UserContext, { userContext } from "../../contexts/UserContext";
+import { UserContext } from "../../contexts/UserContext";
 import Api from "../../Api";
 
 import BarberLogo from "../../assets/barber.svg";
@@ -19,7 +19,7 @@ export default () => {
         let res = await Api.checkToken(token);
         if (res.token) {
           await AsyncStorage.setItem("token", res.token);
-          userDispatch({});
+          userDispatch({type:});
         }
       }
     };
