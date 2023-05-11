@@ -19,7 +19,7 @@ export default () => {
         let res = await Api.checkToken(token);
         if (res.token) {
           await AsyncStorage.setItem("token", res.token);
-          userDispatch({ type: "setAvatar", payload: {avatar:} });
+          userDispatch({ type: "setAvatar", payload: {avatar:res.} });
         }
       }
     };
