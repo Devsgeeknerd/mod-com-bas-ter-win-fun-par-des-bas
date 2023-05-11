@@ -32,7 +32,7 @@ export default () => {
       }
     };
     checkToken();
-  },[]);
+  }, []);
 
-  return()
+  return <Container></Container>;
 };
