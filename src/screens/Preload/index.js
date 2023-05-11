@@ -34,5 +34,9 @@ export default () => {
     checkToken();
   }, []);
 
-  return <Container></Container>;
+  return (
+    <Container>
+      <BarberLogo />
+    </Container>
+  );
 };
