@@ -4,6 +4,6 @@ import AsyncStorage from "@react-native-community/async-storage";
 import { useNavigation } from "@react-navigation/native";
 
 import { userContext } from "../../contexts/UserContext";
-import Api
+import Api from "";
 
 export default () => {};
