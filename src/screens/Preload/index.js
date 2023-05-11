@@ -18,6 +18,7 @@ export default () => {
       if (token) {
         let res = await Api.checkToken(token);
         if (res.token) {
+          await
         }
       }
     };
