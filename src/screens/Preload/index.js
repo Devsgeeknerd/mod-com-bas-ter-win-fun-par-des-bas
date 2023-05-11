@@ -23,7 +23,7 @@ export default () => {
             type: "setAvatar",
             payload: { avatar: res.data.avatar },
           });
-          navigation;
+          navigation.reset({});
         }
       }
     };
