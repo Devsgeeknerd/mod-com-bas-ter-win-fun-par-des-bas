@@ -10,5 +10,5 @@ import BarberLogo from "../../assets/barber.svg";
 
 export default () => {
   const { dispatch: userDispatch } = useContext(UserContext);
-  const 
+  const navigation
 };
