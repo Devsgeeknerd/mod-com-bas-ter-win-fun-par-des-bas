@@ -8,6 +8,6 @@ import Api from "../../Api";
 export default () => {
   const navigation = useNavigation();
   const handleLogouClick = async () => {
-    await Api;
+    await Api.logout();
   };
 };
