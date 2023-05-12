@@ -7,5 +7,7 @@ import Api from "../../Api";
 
 export default () => {
   const navigation = useNavigation();
-  const handleLogouClick = async () => {await};
+  const handleLogouClick = async () => {
+    await Api;
+  };
 };
