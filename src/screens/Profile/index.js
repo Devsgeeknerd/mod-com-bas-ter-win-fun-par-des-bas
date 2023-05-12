@@ -1,5 +1,5 @@
 import React from "react";
-import {} from "react-native";
+import { Text } from "react-native";
 import { useNavigation } from "@react-navigation/native";
 import { Container } from "./styles";
 
@@ -12,5 +12,9 @@ export default () => {
     navigation.reset({ routes: [{ name: "SignIn" }] });
   };
 
-  return <Container></Container>;
+  return (
+    <Container>
+      <Text></Text>
+    </Container>
+  );
 };
