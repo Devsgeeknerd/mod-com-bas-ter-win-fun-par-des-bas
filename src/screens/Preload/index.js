@@ -36,7 +36,7 @@ export default () => {
 
   return (
     <Container>
-      <BarberLogo />
+      <BarberLogo width="100%" />
       <LoadingIcon />
     </Container>
   );
