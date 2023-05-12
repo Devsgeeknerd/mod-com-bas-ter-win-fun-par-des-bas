@@ -11,4 +11,6 @@ export default () => {
     await Api.logout();
     navigation.reset({ routes: [{ name: "SignIn" }] });
   };
+
+  return()
 };
