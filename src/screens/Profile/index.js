@@ -5,4 +5,4 @@ import {} from "./styles";
 
 import Api from "../../Api";
 
-export default () => {};
+export default () => {const};
