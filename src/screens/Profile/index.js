@@ -1,7 +1,7 @@
 import React from "react";
 import {} from "react-native";
 import { useNavigation } from "@react-navigation/native";
-import {} from "./styles";
+import { Container } from "./styles";
 
 import Api from "../../Api";
 
@@ -12,5 +12,5 @@ export default () => {
     navigation.reset({ routes: [{ name: "SignIn" }] });
   };
 
-  return()
+  return <Container></Container>;
 };
