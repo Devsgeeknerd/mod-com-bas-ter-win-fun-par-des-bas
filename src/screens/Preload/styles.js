@@ -8,4 +8,6 @@ export const Container = styled.SafeAreaView`
   flex: 1;
 `;
 
-export const LoadingIcon = styled.ActivityIndicator``;
+export const LoadingIcon = styled.ActivityIndicator`
+  margin-top: 50px;
+`;
