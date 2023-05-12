@@ -8,4 +8,4 @@ export const Container = styled.SafeAreaView`
   flex: 1;
 `;
 
-export const LoadingIcon
+export const LoadingIcon = styled;
