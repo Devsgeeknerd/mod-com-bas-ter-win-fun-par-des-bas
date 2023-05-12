@@ -9,6 +9,6 @@ export default () => {
   const navigation = useNavigation();
   const handleLogouClick = async () => {
     await Api.logout();
-    navigation.reset({ routes });
+    navigation.reset({ routes: [{ name }] });
   };
 };
