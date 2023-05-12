@@ -14,7 +14,7 @@ export default () => {
 
   return (
     <Container>
-      <Text></Text>
+      <Text>Profile</Text>
     </Container>
   );
 };
