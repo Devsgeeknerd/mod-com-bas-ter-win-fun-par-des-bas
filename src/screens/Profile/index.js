@@ -15,7 +15,7 @@ export default () => {
   return (
     <Container>
       <Text>Profile</Text>
-      <Button title="Sair" onPress={}/>
+      <Button title="Sair" onPress={handleLogouClick} />
     </Container>
   );
 };
