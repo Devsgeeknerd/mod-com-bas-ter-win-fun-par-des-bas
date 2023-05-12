@@ -1,5 +1,5 @@
 import React from "react";
-import { Text } from "react-native";
+import { Button, Text } from "react-native";
 import { useNavigation } from "@react-navigation/native";
 import { Container } from "./styles";
 
@@ -15,6 +15,7 @@ export default () => {
   return (
     <Container>
       <Text>Profile</Text>
+      <Button />
     </Container>
   );
 };
