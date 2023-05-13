@@ -1,2 +1,8 @@
 import React, { useState } from "react";
-import { Container, SearchArea, SearchInput, Scroller } from "./styles";
+import {
+  Container,
+  SearchArea,
+  SearchInput,
+  Scroller,
+  LoadingIcon,
+} from "./styles";
