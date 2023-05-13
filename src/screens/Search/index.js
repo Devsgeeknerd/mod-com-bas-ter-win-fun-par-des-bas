@@ -32,6 +32,7 @@ export default () => {
           setEmptyList(true);
         }
       } else {
+        alert();
       }
     }
   };
