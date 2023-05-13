@@ -27,7 +27,7 @@ export default () => {
       let res = await Api.search(searchText);
       if (res.error == "") {
         if (res.list.length > 0) {
-          setList();
+          setList(res);
         }
       }
     }
