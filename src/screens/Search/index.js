@@ -5,4 +5,5 @@ import {
   SearchInput,
   Scroller,
   LoadingIcon,
+  ListArea,
 } from "./styles";
