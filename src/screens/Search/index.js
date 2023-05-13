@@ -28,6 +28,7 @@ export default () => {
       if (res.error == "") {
         if (res.list.length > 0) {
           setList(res.list);
+        } else {
         }
       }
     }
