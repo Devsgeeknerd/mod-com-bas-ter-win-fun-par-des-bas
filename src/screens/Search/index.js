@@ -26,7 +26,8 @@ export default () => {
     if (searchText != "") {
       let res = await Api.search(searchText);
       if (res.error == "") {
-        if(){}
+        if (res) {
+        }
       }
     }
   };
