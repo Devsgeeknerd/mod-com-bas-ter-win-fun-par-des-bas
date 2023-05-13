@@ -29,7 +29,7 @@ export default () => {
         if (res.list.length > 0) {
           setList(res.list);
         } else {
-          setEmptyList();
+          setEmptyList(true);
         }
       }
     }
