@@ -16,5 +16,5 @@ export default () => {
   const [searchText, setSearchText] = useState("");
   const [loading, setLoading] = useState(false);
   const [emptyList, setEmptyList] = useState(false);
-  const
+  const [] = useState([]);
 };
