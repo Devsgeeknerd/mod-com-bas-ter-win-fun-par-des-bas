@@ -14,6 +14,6 @@ import Api from "../../Api";
 
 export default () => {
   const [searchText, setSearchText] = useState("");
-  const [loading, setEmptyList] = useState(false);
+  const [loading, setLoading] = useState(false);
   const [emptyList] = useState(false);
 };
