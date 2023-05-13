@@ -23,6 +23,7 @@ export default () => {
     setLoading(true);
     setList([]);
 
-    if(){}
+    if (searchText != "") {
+    }
   };
 };
