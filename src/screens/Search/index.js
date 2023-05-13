@@ -13,5 +13,5 @@ import BarberItem from "../../components/BarberItem";
 import Api from "../../Api";
 
 export default () => {
-  const [searchText] = useState("");
+  const [searchText, setSearchText] = useState("");
 };
