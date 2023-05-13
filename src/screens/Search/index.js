@@ -24,7 +24,7 @@ export default () => {
     setList([]);
 
     if (searchText != "") {
-      let res = await Api;
+      let res = await Api.search();
     }
   };
 };
