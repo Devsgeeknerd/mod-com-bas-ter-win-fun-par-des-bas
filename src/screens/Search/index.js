@@ -11,3 +11,5 @@ import {
 
 import BarberItem from "../../components/BarberItem";
 import Api from "../../Api";
+
+export
