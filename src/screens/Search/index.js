@@ -31,6 +31,7 @@ export default () => {
         } else {
           setEmptyList(true);
         }
+      } else {
       }
     }
   };
