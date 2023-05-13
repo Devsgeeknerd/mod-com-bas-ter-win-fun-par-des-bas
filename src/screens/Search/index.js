@@ -18,5 +18,7 @@ export default () => {
   const [emptyList, setEmptyList] = useState(false);
   const [list, setList] = useState([]);
 
-  const searchBarbers = async () => {};
+  const searchBarbers = async () => {
+    setEmptyList();
+  };
 };
