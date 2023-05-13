@@ -32,7 +32,7 @@ export default () => {
           setEmptyList(true);
         }
       } else {
-        alert("Erro: ");
+        alert("Erro: " + res);
       }
     }
   };
