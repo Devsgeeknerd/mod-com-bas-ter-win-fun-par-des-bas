@@ -9,4 +9,4 @@ import {
   EmptyWarning,
 } from "./styles";
 
-import
+import BarberItem
