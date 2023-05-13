@@ -20,6 +20,6 @@ export default () => {
 
   const searchBarbers = async () => {
     setEmptyList(false);
-    setLoading();
+    setLoading(true);
   };
 };
