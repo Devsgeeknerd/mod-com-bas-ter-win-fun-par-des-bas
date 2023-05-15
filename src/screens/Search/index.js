@@ -45,6 +45,7 @@ export default () => {
         <SearchInput
           placeholder="Digite o nome do barbeiro"
           placeholderTextColor="#ffffff"
+          value={}
         />
       </SearchArea>
     </Container>
