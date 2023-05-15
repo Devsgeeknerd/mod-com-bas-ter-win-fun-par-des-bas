@@ -53,7 +53,9 @@ export default () => {
           selectedTextOnFocus
         />
       </SearchArea>
-      <Scroller>{loading && <LoadingIcon size="large" />}</Scroller>
+      <Scroller>
+        {loading && <LoadingIcon size="large" color="#000000" />}
+      </Scroller>
     </Container>
   );
 };
