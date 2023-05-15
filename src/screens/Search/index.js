@@ -49,6 +49,7 @@ export default () => {
           onChangeText={(t) => setSearchText(t)}
           onEndEditing={searchBarbers}
           returnKeyType="search"
+          autoFocus
         />
       </SearchArea>
     </Container>
