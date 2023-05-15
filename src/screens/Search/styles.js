@@ -14,4 +14,4 @@ export const SearchArea = styled.View`
   border-radius: 20px;
 `;
 
-export
+export const
