@@ -50,6 +50,7 @@ export default () => {
           onEndEditing={searchBarbers}
           returnKeyType="search"
           autoFocus
+          selectedTextOnFocus
         />
       </SearchArea>
     </Container>
