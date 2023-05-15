@@ -55,7 +55,7 @@ export default () => {
       </SearchArea>
       <Scroller>
         {loading && <LoadingIcon size="large" color="#000000" />}
-        {emptyList}
+        {emptyList && <EmptyWarning></EmptyWarning>}
       </Scroller>
     </Container>
   );
