@@ -47,6 +47,7 @@ export default () => {
           placeholderTextColor="#ffffff"
           value={searchText}
           onChangeText={(t) => setSearchText(t)}
+          onEndEditing={}
         />
       </SearchArea>
     </Container>
