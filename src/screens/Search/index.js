@@ -41,7 +41,9 @@ export default () => {
 
   return (
     <Container>
-      <SearchArea></SearchArea>
+      <SearchArea>
+        <SearchInput />
+      </SearchArea>
     </Container>
   );
 };
