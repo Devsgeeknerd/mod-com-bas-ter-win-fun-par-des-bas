@@ -20,4 +20,4 @@ export const SearchInput = styled.TextInput`
   flex: 1;
 `;
 
-export const Scroller
+export const Scroller = styled;
