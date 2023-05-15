@@ -60,7 +60,7 @@ export default () => {
             Não achamos barbeiros com o nome "{searchText}"
           </EmptyWarning>
         )}
-        <ListArea>{list.map(()=>())}</ListArea>
+        <ListArea>{list.map((item)=>())}</ListArea>
       </Scroller>
     </Container>
   );
