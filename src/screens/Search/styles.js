@@ -14,4 +14,6 @@ export const SearchArea = styled.View`
   border-radius: 20px;
 `;
 
-export const SearchInput = styled.TextInput``;
+export const SearchInput = styled.TextInput`
+  flex: 1;
+`;
