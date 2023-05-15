@@ -53,6 +53,7 @@ export default () => {
           selectedTextOnFocus
         />
       </SearchArea>
+      <Scroller></Scroller>
     </Container>
   );
 };
