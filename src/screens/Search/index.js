@@ -42,7 +42,10 @@ export default () => {
   return (
     <Container>
       <SearchArea>
-        <SearchInput placeholder="Digite o nome do barbeiro" />
+        <SearchInput
+          placeholder="Digite o nome do barbeiro"
+          placeholderTextColor="#ffffff"
+        />
       </SearchArea>
     </Container>
   );
