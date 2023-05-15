@@ -15,5 +15,6 @@ export const SearchArea = styled.View`
 `;
 
 export const SearchInput = styled.TextInput`
+  font-size: 16px;
   flex: 1;
 `;
