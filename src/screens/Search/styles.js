@@ -8,4 +8,5 @@ export const Container = styled.SafeAreaView`
 export const SearchArea = styled.View`
   background-color: #4eadbe;
   height: 40px;
+  border-radius: 20px;
 `;
