@@ -55,7 +55,11 @@ export default () => {
       </SearchArea>
       <Scroller>
         {loading && <LoadingIcon size="large" color="#000000" />}
-        {emptyList && <EmptyWarning></EmptyWarning>}
+        {emptyList && (
+          <EmptyWarning>
+            Não achamos barbeiros com o nome "{searchText}"
+          </EmptyWarning>
+        )}
       </Scroller>
     </Container>
   );
