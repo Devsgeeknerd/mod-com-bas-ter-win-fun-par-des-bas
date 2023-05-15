@@ -5,4 +5,6 @@ export const Container = styled.SafeAreaView`
   flex: 1;
 `;
 
-export const SearchArea = styled.View``;
+export const SearchArea = styled.View`
+  background-color: #4eadbe;
+`;
