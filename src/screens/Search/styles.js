@@ -13,3 +13,5 @@ export const SearchArea = styled.View`
   padding: 0px 20px;
   border-radius: 20px;
 `;
+
+export
