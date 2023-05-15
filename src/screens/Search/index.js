@@ -48,7 +48,7 @@ export default () => {
           value={searchText}
           onChangeText={(t) => setSearchText(t)}
           onEndEditing={searchBarbers}
-          returnKeyType=""
+          returnKeyType="search"
         />
       </SearchArea>
     </Container>
