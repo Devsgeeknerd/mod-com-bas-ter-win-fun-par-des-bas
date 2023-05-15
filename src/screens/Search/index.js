@@ -39,5 +39,9 @@ export default () => {
     setLoading();
   };
 
-  return <Container></Container>;
+  return (
+    <Container>
+      <SearchArea></SearchArea>
+    </Container>
+  );
 };
