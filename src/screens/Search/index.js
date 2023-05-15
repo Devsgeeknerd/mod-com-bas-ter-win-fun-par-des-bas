@@ -39,5 +39,5 @@ export default () => {
     setLoading();
   };
 
-  return()
+  return <Container></Container>;
 };
