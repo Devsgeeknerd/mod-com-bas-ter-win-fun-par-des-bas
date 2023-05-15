@@ -62,7 +62,7 @@ export default () => {
         )}
         <ListArea>
           {list.map((item, k) => (
-            <BarberItem />
+            <BarberItem key={}/>
           ))}
         </ListArea>
       </Scroller>
