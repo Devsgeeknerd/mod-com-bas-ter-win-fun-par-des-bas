@@ -19,3 +19,5 @@ export const SearchInput = styled.TextInput`
   font-size: 16px;
   flex: 1;
 `;
+
+export
