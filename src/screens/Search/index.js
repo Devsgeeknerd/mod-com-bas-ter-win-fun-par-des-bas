@@ -46,6 +46,7 @@ export default () => {
           placeholder="Digite o nome do barbeiro"
           placeholderTextColor="#ffffff"
           value={searchText}
+          onChangeText={}
         />
       </SearchArea>
     </Container>
