@@ -29,4 +29,4 @@ export const LoadingIcon = styled.ActivityIndicator`
   margin-top: 30px;
 `;
 
-export const
+export const ListArea
