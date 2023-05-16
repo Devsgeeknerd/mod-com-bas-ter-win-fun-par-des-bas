@@ -14,4 +14,4 @@ import {
   SingMessageButtonTextBold,
 } from "./styles";
 
-import Api from "";
+import Api from "../../Api";
