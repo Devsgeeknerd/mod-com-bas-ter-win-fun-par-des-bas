@@ -11,4 +11,5 @@ import {
   CustomButtonText,
   SingMessageButton,
   SingMessageButtonText,
+  SingMessageButtonTextBold,
 } from "./styles";
