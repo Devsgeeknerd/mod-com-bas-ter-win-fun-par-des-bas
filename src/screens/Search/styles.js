@@ -34,4 +34,4 @@ export const ListArea = styled.View`
   margin-bottom: 20px;
 `;
 
-export const EmptyWarning = styled;
+export const EmptyWarning = styled.Text``;
