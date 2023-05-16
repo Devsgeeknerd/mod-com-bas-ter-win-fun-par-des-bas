@@ -22,4 +22,4 @@ import BarberLogo from "../../assets/barber.svg";
 import EmailIcon from "../../assets/email.svg";
 import LockIcon from "";
 
-export;
+export default;
