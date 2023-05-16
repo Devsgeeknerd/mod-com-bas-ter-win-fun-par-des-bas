@@ -16,4 +16,4 @@ import {
 
 import Api from "../../Api";
 
-import
+import from'';
