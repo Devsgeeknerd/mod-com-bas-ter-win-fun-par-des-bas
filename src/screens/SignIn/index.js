@@ -49,6 +49,7 @@ export default () => {
   return (
     <Container>
       <BarberLogo width="100%" height="160" />
+      <InputArea></InputArea>
     </Container>
   );
 };
