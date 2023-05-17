@@ -28,7 +28,7 @@ export default () => {
 
   const handleSignClick = async () => {
     if (emailField != "" && passwordField != "") {
-      let json = await Api;
+      let json = await Api.signIn();
     }
   };
 };
