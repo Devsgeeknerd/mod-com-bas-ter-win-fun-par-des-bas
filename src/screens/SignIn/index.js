@@ -23,5 +23,5 @@ import EmailIcon from "../../assets/email.svg";
 import LockIcon from "";
 
 export default () => {
-  const { emailField } = useContext();
+  const { emailField, setEmailField } = useContext();
 };
