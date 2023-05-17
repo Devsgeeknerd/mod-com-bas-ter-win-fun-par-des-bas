@@ -35,7 +35,7 @@ export default () => {
           type: "setAvatar",
           payload: { avatar: json.data.avatar },
         });
-        navigation.reset({ routes: [{}] });
+        navigation.reset({ routes: [{ name }] });
       }
     }
   };
