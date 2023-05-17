@@ -26,5 +26,8 @@ export default () => {
   const { emailField, setEmailField } = useContext("");
   const { passwordField, setPasswordField } = useState("");
 
-  const handleSignClick = async () => {if(){}};
+  const handleSignClick = async () => {
+    if (emailField) {
+    }
+  };
 };
