@@ -31,7 +31,10 @@ export default () => {
       let json = await Api.signIn(emailField, passwordField);
       if (json.token) {
         await AsyncStorage.setItem("token", json.token);
-        userDispatch({ type: "setAvatar", payload: { avatar: json.data } });
+        userDispatch({
+          type: "setAvatar",
+          payload: { avatar: json.data.avatar },
+        });
       }
     }
   };
