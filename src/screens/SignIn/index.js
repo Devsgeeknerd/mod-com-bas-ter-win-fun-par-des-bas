@@ -37,6 +37,7 @@ export default () => {
         });
         navigation.reset({ routes: [{ name: "Maintab" }] });
       } else {
+        alert();
       }
     }
   };
