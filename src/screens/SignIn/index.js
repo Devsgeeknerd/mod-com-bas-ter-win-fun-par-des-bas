@@ -26,5 +26,5 @@ export default () => {
   const { emailField, setEmailField } = useContext("");
   const { passwordField, setPasswordField } = useState("");
 
-  const
+  const handleSingClick
 };
