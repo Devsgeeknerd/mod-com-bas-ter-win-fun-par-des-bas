@@ -37,7 +37,7 @@ export default () => {
         });
         navigation.reset({ routes: [{ name: "Maintab" }] });
       } else {
-        alert();
+        alert("E-mail e/ou senha errados!");
       }
     }
   };
