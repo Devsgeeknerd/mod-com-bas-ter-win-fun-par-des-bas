@@ -36,6 +36,7 @@ export default () => {
           payload: { avatar: json.data.avatar },
         });
         navigation.reset({ routes: [{ name: "Maintab" }] });
+      } else {
       }
     }
   };
