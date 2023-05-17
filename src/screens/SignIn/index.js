@@ -50,7 +50,7 @@ export default () => {
     <Container>
       <BarberLogo width="100%" height="160" />
       <InputArea>
-        <SingInput />
+        <SingInput IconSvg={}/>
       </InputArea>
     </Container>
   );
