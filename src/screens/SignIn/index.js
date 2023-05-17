@@ -35,6 +35,7 @@ export default () => {
           type: "setAvatar",
           payload: { avatar: json.data.avatar },
         });
+        navigation;
       }
     }
   };
