@@ -44,6 +44,6 @@ export default () => {
     }
   };
   const handleMessageButtonClick = () => {
-    navigation.reset({ routes });
+    navigation.reset({ routes: "SignUp" });
   };
 };
