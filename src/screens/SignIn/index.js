@@ -46,5 +46,9 @@ export default () => {
   const handleMessageButtonClick = () => {
     navigation.reset({ routes: "SignUp" });
   };
-  return <Container></Container>;
+  return (
+    <Container>
+      <BarberLogo />
+    </Container>
+  );
 };
