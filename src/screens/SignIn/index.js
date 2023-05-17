@@ -43,5 +43,7 @@ export default () => {
       alert("Preencha os campos!");
     }
   };
-  const handleMessageButtonClick
+  const handleMessageButtonClick = () => {
+    navigation;
+  };
 };
