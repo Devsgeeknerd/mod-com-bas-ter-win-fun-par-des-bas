@@ -28,6 +28,7 @@ export default () => {
 
   const handleSignClick = async () => {
     if (emailField != "" && passwordField != "") {
+      let;
     }
   };
 };
