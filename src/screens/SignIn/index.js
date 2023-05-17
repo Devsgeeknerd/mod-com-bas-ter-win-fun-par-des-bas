@@ -24,5 +24,5 @@ import LockIcon from "";
 
 export default () => {
   const { emailField, setEmailField } = useContext("");
-  const { passwordField, setPassword } = useState("");
+  const { passwordField, setPasswordField } = useState("");
 };
