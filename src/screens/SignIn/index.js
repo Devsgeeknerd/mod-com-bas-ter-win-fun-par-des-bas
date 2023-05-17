@@ -44,6 +44,6 @@ export default () => {
     }
   };
   const handleMessageButtonClick = () => {
-    navigation.reset({});
+    navigation.reset({ routes });
   };
 };
