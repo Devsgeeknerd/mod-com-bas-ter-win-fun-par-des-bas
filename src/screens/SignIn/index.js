@@ -40,7 +40,7 @@ export default () => {
         alert("E-mail e/ou senha errados!");
       }
     } else {
-      alert();
+      alert("Preencha os campos!");
     }
   };
 };
