@@ -30,7 +30,7 @@ export default () => {
     if (emailField != "" && passwordField != "") {
       let json = await Api.signIn(emailField, passwordField);
       if (json.token) {
-        await AsyncStorage.setItem("token");
+        await AsyncStorage.setItem("token", json);
       }
     }
   };
