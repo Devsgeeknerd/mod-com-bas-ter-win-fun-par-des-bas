@@ -39,6 +39,7 @@ export default () => {
       } else {
         alert("E-mail e/ou senha errados!");
       }
+    } else {
     }
   };
 };
