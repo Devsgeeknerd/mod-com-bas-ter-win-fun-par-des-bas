@@ -60,7 +60,7 @@ export default () => {
           IconSvg={LockIcon}
           placeholder="Digite sua senha"
           value={passwordField}
-          onChangeText={}
+          onChangeText={t}
         />
       </InputArea>
     </Container>
