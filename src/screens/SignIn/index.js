@@ -71,6 +71,7 @@ export default () => {
         <SingMessageButtonText>
           Ainda não possou uma conta?
         </SingMessageButtonText>
+        <SingMessageButtonTextBold></SingMessageButtonTextBold>
       </SingMessageButton>
     </Container>
   );
