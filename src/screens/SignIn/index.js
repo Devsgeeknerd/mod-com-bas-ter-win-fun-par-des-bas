@@ -67,7 +67,7 @@ export default () => {
           <CustomButtonText>LOGIN</CustomButtonText>
         </CustomButton>
       </InputArea>
-      <SingMessageButton></SingMessageButton>
+      <SingMessageButton onPress={}></SingMessageButton>
     </Container>
   );
 };
