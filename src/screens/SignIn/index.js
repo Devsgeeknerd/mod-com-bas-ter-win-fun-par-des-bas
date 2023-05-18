@@ -63,6 +63,7 @@ export default () => {
           onChangeText={(t) => setPasswordField(t)}
           password={true}
         />
+        <CustomButton></CustomButton>
       </InputArea>
     </Container>
   );
