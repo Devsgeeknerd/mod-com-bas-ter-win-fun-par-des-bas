@@ -33,4 +33,4 @@ export const SignMessageButton = styled.TouchableOpacity`
   justify-content: center;
 `;
 
-export const
+export const SignMessageButtonText
