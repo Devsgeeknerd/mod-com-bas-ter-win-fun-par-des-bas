@@ -20,3 +20,5 @@ export const CustomButton = styled.TouchableOpacity`
   justify-content: center;
   align-items: center;
 `;
+
+export
