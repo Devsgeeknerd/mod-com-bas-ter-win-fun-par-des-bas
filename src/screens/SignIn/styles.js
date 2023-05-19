@@ -32,3 +32,5 @@ export const SignMessageButton = styled.TouchableOpacity`
   flex-direction: row;
   justify-content: center;
 `;
+
+export
