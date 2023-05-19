@@ -27,6 +27,7 @@ export const CustomButtonText = styled.Text`
 `;
 
 export const SignMessageButton = styled.TouchableOpacity`
+  margin-top: 50px;
   flex-direction: row;
   justify-content: center;
 `;
