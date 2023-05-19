@@ -33,4 +33,6 @@ export const SignMessageButton = styled.TouchableOpacity`
   justify-content: center;
 `;
 
-export const SignMessageButtonText = styled.Text``;
+export const SignMessageButtonText = styled.Text`
+  font-size: 16px;
+`;
