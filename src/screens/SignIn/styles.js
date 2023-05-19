@@ -13,4 +13,6 @@ export const InputArea = styled.View`
   padding: 40px;
 `;
 
-export const CustomButton = styled.TouchableOpacity``;
+export const CustomButton = styled.TouchableOpacity`
+  height: 60px;
+`;
