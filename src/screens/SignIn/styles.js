@@ -25,3 +25,5 @@ export const CustomButtonText = styled.Text`
   color: #ffffff;
   font-size: 18px;
 `;
+
+export
