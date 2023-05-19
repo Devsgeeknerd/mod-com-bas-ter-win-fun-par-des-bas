@@ -8,4 +8,6 @@ export const Container = styled.SafeAreaView`
   flex: 1;
 `;
 
-export const InputArea = styled.View``;
+export const InputArea = styled.View`
+  width: 100%;
+`;
