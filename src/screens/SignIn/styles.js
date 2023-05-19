@@ -1,2 +1,2 @@
 import React from "react";
-import styled from "";
+import styled from "styled-components/native";
