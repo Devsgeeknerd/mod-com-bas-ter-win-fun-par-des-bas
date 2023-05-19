@@ -13,4 +13,4 @@ export const InputArea = styled.View`
   padding: 40px;
 `;
 
-export
+export const
