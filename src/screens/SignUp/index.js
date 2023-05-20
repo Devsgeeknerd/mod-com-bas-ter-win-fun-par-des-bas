@@ -10,4 +10,5 @@ import {
   CustomButtonText,
   SignMessageButton,
   SignMessageButtonText,
+  SignMessageButtonTextBold,
 } from "./styles";
