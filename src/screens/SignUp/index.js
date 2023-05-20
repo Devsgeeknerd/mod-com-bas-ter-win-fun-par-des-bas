@@ -13,4 +13,4 @@ import {
   SignMessageButtonTextBold,
 } from "./styles";
 
-import SingInput
+import SingInput from "";
