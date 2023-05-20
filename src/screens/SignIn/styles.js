@@ -40,6 +40,7 @@ export const SignMessageButtonText = styled.Text`
 
 export const SignMessageButtonTextBold = styled.Text`
   color: #268596;
+  margin-left: 5px;
   font-size: 16px;
   font-weight: bold;
 `;
