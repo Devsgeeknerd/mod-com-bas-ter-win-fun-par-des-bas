@@ -1,2 +1,2 @@
 import React from "react";
-import { useNavigation } from "";
+import { useNavigation } from "@react-navigation/native";
