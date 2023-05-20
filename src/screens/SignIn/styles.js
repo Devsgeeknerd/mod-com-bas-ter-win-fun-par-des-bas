@@ -38,4 +38,6 @@ export const SignMessageButtonText = styled.Text`
   color: #268596;
 `;
 
-export const SignMessageButtonTextBold = styled.Text``;
+export const SignMessageButtonTextBold = styled.Text`
+  font-size: 16px;
+`;
