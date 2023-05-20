@@ -17,4 +17,4 @@ import SingInput from "../../components/SignInput";
 
 import Api from "../../Api";
 
-import BarberLogo
+import BarberLogo from "";
