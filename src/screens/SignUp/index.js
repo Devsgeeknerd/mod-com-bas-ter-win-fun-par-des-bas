@@ -23,5 +23,5 @@ import EmailIcon from "../../assets/email.svg";
 import LockIcon from "../../assets/lock.svg";
 
 export default () => {
-  const { dispatch: userDispatch } = useContext();
+  const { dispatch: userDispatch } = useContext(UserContext);
 };
