@@ -29,5 +29,8 @@ export default () => {
   const [emailField, setEmailField] = useState("");
   const [passwordField, setPasswordField] = useState("");
 
-  const handleSignClick = async () => {if(){}};
+  const handleSignClick = async () => {
+    if (nameField) {
+    }
+  };
 };
