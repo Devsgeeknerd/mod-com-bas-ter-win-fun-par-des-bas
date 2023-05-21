@@ -27,5 +27,5 @@ export default () => {
   const navigation = useNavigation();
   const [nameField, setNameField] = useState("");
   const [emailField, setEmailField] = useState("");
-  const [passwordField] = useState("");
+  const [passwordField, setPasswordField] = useState("");
 };
