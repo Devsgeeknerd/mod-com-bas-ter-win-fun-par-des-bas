@@ -33,7 +33,7 @@ export default () => {
     if (nameField != "" && emailField != "" && passwordField != "") {
       let res = await Api.signUp(nameField, emailField, passwordField);
       if (res.token) {
-        await AsyncStorage;
+        await AsyncStorage.setItem();
       }
     }
   };
