@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React, { useContext, useState } from "react";
 import { useNavigation } from "@react-navigation/native";
 import AsyncStorage from "@react-native-community/async-storage";
 
@@ -26,5 +26,5 @@ export default () => {
   const { dispatch: userDispatch } = useContext(UserContext);
   const navigation = useNavigation();
   const [nameField, setNameField] = useState("");
-  const
+  const [] = useState("");
 };
