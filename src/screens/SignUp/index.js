@@ -21,3 +21,5 @@ import BarberLogo from "../../assets/barber.svg";
 import PersonIcon from "../../assets/person.svg";
 import EmailIcon from "../../assets/email.svg";
 import LockIcon from "../../assets/lock.svg";
+
+export default () => {};
