@@ -38,7 +38,7 @@ export default () => {
           type: "setAvatar",
           payload: { avatar: res.data.avatar },
         });
-        navigation.reset({ routes: [{ name }] });
+        navigation.reset({ routes: [{ name: "MainTab" }] });
       }
     }
   };
