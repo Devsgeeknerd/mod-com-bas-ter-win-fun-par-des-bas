@@ -34,6 +34,7 @@ export default () => {
       let res = await Api.signUp(nameField, emailField, passwordField);
       if (res.token) {
         await AsyncStorage.setItem("token", res.token);
+        userDispatch({});
       }
     }
   };
