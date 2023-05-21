@@ -30,7 +30,7 @@ export default () => {
   const [passwordField, setPasswordField] = useState("");
 
   const handleSignClick = async () => {
-    if (nameField != "" && emailField) {
+    if (nameField != "" && emailField != "" && passwordField != "") {
     }
   };
 };
