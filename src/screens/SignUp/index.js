@@ -26,5 +26,5 @@ export default () => {
   const { dispatch: userDispatch } = useContext(UserContext);
   const navigation = useNavigation();
   const [nameField, setNameField] = useState("");
-  const [emailField] = useState("");
+  const [emailField, setEmailField] = useState("");
 };
