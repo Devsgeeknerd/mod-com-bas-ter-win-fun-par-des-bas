@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useContext } from "react";
 import { useNavigation } from "@react-navigation/native";
 import AsyncStorage from "@react-native-community/async-storage";
 
@@ -22,4 +22,6 @@ import PersonIcon from "../../assets/person.svg";
 import EmailIcon from "../../assets/email.svg";
 import LockIcon from "../../assets/lock.svg";
 
-export default () => {const};
+export default () => {
+  const {} = useContext();
+};
