@@ -25,5 +25,6 @@ import LockIcon from "../../assets/lock.svg";
 export default () => {
   const { dispatch: userDispatch } = useContext(UserContext);
   const navigation = useNavigation();
-  const [nameField, setNameField] = useState();
+  const [nameField, setNameField] = useState("");
+  const
 };
