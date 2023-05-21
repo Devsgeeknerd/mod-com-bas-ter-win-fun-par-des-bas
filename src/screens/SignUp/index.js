@@ -34,7 +34,7 @@ export default () => {
       let res = await Api.signUp(nameField, emailField, passwordField);
       if (res.token) {
         await AsyncStorage.setItem("token", res.token);
-        userDispatch({ type: "setAvatar", payload: { avatar: res } });
+        userDispatch({ type: "setAvatar", payload: { avatar: res.data } });
       }
     }
   };
