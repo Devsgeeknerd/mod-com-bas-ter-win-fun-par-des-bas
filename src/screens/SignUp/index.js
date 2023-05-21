@@ -29,5 +29,5 @@ export default () => {
   const [emailField, setEmailField] = useState("");
   const [passwordField, setPasswordField] = useState("");
 
-  const
+  const handleSignClick
 };
