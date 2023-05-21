@@ -31,7 +31,7 @@ export default () => {
 
   const handleSignClick = async () => {
     if (nameField != "" && emailField != "" && passwordField != "") {
-      let res = await Api.signUp();
+      let res = await Api.signUp(nameField);
     }
   };
 };
