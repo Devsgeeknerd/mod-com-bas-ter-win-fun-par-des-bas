@@ -13,7 +13,7 @@ import {
   SignMessageButtonTextBold,
 } from "./styles";
 
-import SingInput from "../../components/SignInput";
+import SignInput from "../../components/SignInput";
 
 import Api from "../../Api";
 
@@ -47,13 +47,13 @@ export default () => {
     }
   };
 
-  const handleMesageButtonClick = () => {
+  const handleMessageButtonClick = () => {
     navigation.reset({ routes: [{ name: "SignIn" }] });
   };
 
   return (
     <Container>
-      <SIgnInput></SIgnInput>
+      <SignInput></SignInput>
     </Container>
   );
 };
