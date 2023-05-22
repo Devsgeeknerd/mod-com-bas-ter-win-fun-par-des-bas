@@ -71,6 +71,7 @@ export default () => {
           IconSvg={LockIcon}
           placeholder="Digite sua senha"
           value={passwordField}
+          onChangeText={}
         />
       </InputArea>
     </Container>
