@@ -48,6 +48,6 @@ export default () => {
   };
 
   const handleMesageButtonClick = () => {
-    navigation.reset({});
+    navigation.reset({ routes });
   };
 };
