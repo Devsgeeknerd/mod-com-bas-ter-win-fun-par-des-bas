@@ -61,6 +61,7 @@ export default () => {
           value={nameField}
           onChangeText={(t) => setNameField(t)}
         />
+        <SignInput />
       </InputArea>
     </Container>
   );
