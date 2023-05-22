@@ -40,7 +40,7 @@ export default () => {
         });
         navigation.reset({ routes: [{ name: "MainTab" }] });
       } else {
-        alert("Erro: " + res);
+        alert("Erro: " + res.error);
       }
     }
   };
