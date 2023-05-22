@@ -47,5 +47,7 @@ export default () => {
     }
   };
 
-  const handleMesageButtonClick
+  const handleMesageButtonClick = () => {
+    navigation.reset({});
+  };
 };
