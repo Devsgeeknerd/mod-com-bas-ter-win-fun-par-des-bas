@@ -55,7 +55,7 @@ export default () => {
     <Container>
       <BarberLogo width="100%" height="160" />
       <InputArea>
-        <SignInput IconSvg={PersonIcon} />
+        <SignInput IconSvg={PersonIcon} placeholder="Digite seu nome" />
       </InputArea>
     </Container>
   );
