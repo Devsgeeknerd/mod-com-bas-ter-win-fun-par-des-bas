@@ -39,6 +39,7 @@ export default () => {
           payload: { avatar: res.data.avatar },
         });
         navigation.reset({ routes: [{ name: "MainTab" }] });
+      } else {
       }
     }
   };
