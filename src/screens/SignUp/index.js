@@ -53,7 +53,7 @@ export default () => {
 
   return (
     <Container>
-      <SignInput />
+      <SignInput IconSvg={}/>
     </Container>
   );
 };
