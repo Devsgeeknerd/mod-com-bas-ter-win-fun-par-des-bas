@@ -53,7 +53,7 @@ export default () => {
 
   return (
     <Container>
-      <BarberLogo />
+      <BarberLogo width="100%" />
       <SignInput IconSvg={PersonIcon} />
     </Container>
   );
