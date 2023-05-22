@@ -42,6 +42,7 @@ export default () => {
       } else {
         alert("Erro: " + res.error);
       }
+    } else {
     }
   };
 };
