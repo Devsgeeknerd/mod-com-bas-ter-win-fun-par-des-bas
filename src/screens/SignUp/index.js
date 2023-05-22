@@ -51,5 +51,9 @@ export default () => {
     navigation.reset({ routes: [{ name: "SignIn" }] });
   };
 
-  return <Container></Container>;
+  return (
+    <Container>
+      <SIgnInput></SIgnInput>
+    </Container>
+  );
 };
