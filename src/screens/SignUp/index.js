@@ -67,7 +67,7 @@ export default () => {
           value={emailField}
           onChangeText={(t) => setEmailField(t)}
         />
-        <SignInput IconSvg={LockIcon} placeholder="Digite sua senha" />
+        <SignInput IconSvg={LockIcon} placeholder="Digite sua senha" value={}/>
       </InputArea>
     </Container>
   );
