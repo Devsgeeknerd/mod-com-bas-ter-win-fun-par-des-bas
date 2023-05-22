@@ -43,7 +43,7 @@ export default () => {
         alert("Erro: " + res.error);
       }
     } else {
-      alert();
+      alert("Preencha os campos");
     }
   };
 };
