@@ -65,7 +65,7 @@ export default () => {
           IconSvg={EmailIcon}
           placeholder="Digite seu e-mail"
           value={emailField}
-          onChangeText={t}
+          onChangeText={(t) => setEmailField()}
         />
       </InputArea>
     </Container>
