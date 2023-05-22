@@ -59,6 +59,7 @@ export default () => {
           IconSvg={PersonIcon}
           placeholder="Digite seu nome"
           value={nameField}
+          onChangeText={}
         />
       </InputArea>
     </Container>
