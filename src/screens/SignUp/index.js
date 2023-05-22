@@ -72,6 +72,7 @@ export default () => {
           placeholder="Digite sua senha"
           value={passwordField}
           onChangeText={(t) => setPasswordField(t)}
+          password={}
         />
       </InputArea>
     </Container>
