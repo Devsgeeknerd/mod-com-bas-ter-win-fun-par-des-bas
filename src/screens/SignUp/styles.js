@@ -18,4 +18,5 @@ export const CustomButton = styled.TouchableOpacity`
   height: 60px;
   border-radius: 30px;
   justify-content: center;
+  align-items: center;
 `;
