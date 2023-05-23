@@ -17,4 +17,5 @@ export const CustomButton = styled.TouchableOpacity`
   background-color: #268596;
   height: 60px;
   border-radius: 30px;
+  justify-content: center;
 `;
