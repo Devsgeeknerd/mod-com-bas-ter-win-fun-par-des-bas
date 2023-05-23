@@ -74,7 +74,7 @@ export default () => {
           onChangeText={(t) => setPasswordField(t)}
           password={true}
         />
-        <CustomButton onPress={}></CustomButton>
+        <CustomButton onPress={handleSignClick}></CustomButton>
       </InputArea>
     </Container>
   );
