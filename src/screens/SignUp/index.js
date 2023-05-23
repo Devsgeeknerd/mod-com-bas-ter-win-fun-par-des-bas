@@ -78,6 +78,7 @@ export default () => {
           <CustomButtonText>CADASTRAR</CustomButtonText>
         </CustomButton>
       </InputArea>
+      <SignMessageButton></SignMessageButton>
     </Container>
   );
 };
