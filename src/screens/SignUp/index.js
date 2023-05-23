@@ -75,7 +75,7 @@ export default () => {
           password={true}
         />
         <CustomButton onPress={handleSignClick}>
-          <CustomButtonText></CustomButtonText>
+          <CustomButtonText>CADASTRAR</CustomButtonText>
         </CustomButton>
       </InputArea>
     </Container>
