@@ -8,7 +8,7 @@ export const Container = styled.SafeAreaView`
   flex: 1;
 `;
 
-export const InputArea
+export const InputArea = styled;
 
 export const CustomButton = styled.TouchableOpacity`
   height: 60px;
