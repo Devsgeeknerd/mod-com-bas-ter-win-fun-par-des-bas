@@ -79,7 +79,8 @@ export default () => {
         </CustomButton>
       </InputArea>
       <SignMessageButton onPress={handleMessageButtonClick}>
-        <SignMessageButtonText></SignMessageButtonText>
+        <SignMessageButtonText>Ja possui uma conta?</SignMessageButtonText>
+        <SignMessageButtonTextBold></SignMessageButtonTextBold>
       </SignMessageButton>
     </Container>
   );
