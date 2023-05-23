@@ -80,7 +80,7 @@ export default () => {
       </InputArea>
       <SignMessageButton onPress={handleMessageButtonClick}>
         <SignMessageButtonText>Ja possui uma conta?</SignMessageButtonText>
-        <SignMessageButtonTextBold></SignMessageButtonTextBold>
+        <SignMessageButtonTextBold>Faça Login</SignMessageButtonTextBold>
       </SignMessageButton>
     </Container>
   );
