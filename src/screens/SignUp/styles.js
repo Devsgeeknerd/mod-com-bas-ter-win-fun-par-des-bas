@@ -33,4 +33,4 @@ export const SignMessageButton = styled.TouchableOpacity`
   flex-direction: row;
 `;
 
-export const
+export const SignMessageButtonText
