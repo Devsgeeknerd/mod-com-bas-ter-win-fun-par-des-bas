@@ -26,4 +26,4 @@ export const CustomButtonText = styled.Text`
   font-size: 18px;
 `;
 
-export
+export const
