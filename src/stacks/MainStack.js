@@ -8,3 +8,5 @@ import MainTab from "../stacks/MainTab";
 import Barber from "../screens/Barber";
 
 const Stack = createStackNavigator();
+
+export
