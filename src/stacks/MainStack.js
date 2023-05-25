@@ -14,6 +14,6 @@ export default () => (
     initialRouteName="Preload"
     screenOptions={{ headerShow: false }}
   >
-    <Stack />
+    <Stack.Screen />
   </Stack.Navigator>
 );
