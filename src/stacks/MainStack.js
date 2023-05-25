@@ -3,4 +3,4 @@ import { createStackNavigator } from "@react-navigation/stack";
 
 import Preload from "../screens/Preload";
 import SignIn from "../screens/SignIn";
-import
+import SignUp
