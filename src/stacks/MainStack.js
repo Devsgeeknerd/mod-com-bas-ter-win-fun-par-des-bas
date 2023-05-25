@@ -7,4 +7,4 @@ import SignUp from "../screens/SignUp";
 import MainTab from "../stacks/MainTab";
 import Barber from "../screens/Barber";
 
-const 
+const Stack = createStackNavigator();
