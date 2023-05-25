@@ -5,4 +5,4 @@ import Preload from "../screens/Preload";
 import SignIn from "../screens/SignIn";
 import SignUp from "../screens/SignUp";
 import MainTab from "../stacks/MainTab";
-import Barber
+import Barber from "";
