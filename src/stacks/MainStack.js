@@ -15,7 +15,7 @@ export default () => (
     screenOptions={{ headerShow: false }}
   >
     <Stack.Screen name="Preload" component={Preload} />
-    <Stack.Screen name="SignIn" />
+    <Stack.Screen name="SignIn" component={}/>
     <Stack.Screen name="SignUp" />
   </Stack.Navigator>
 );
