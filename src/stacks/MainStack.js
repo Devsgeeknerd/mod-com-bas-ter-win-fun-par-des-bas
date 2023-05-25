@@ -16,6 +16,6 @@ export default () => (
   >
     <Stack.Screen name="Preload" component={Preload} />
     <Stack.Screen name="SignIn" component={SignIn} />
-    <Stack.Screen name="SignUp" />
+    <Stack.Screen name="SignUp" component={}/>
   </Stack.Navigator>
 );
