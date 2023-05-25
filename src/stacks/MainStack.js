@@ -9,4 +9,6 @@ import Barber from "../screens/Barber";
 
 const Stack = createStackNavigator();
 
-export default () => <Stack.Navigator initialRouteName=""></Stack.Navigator>;
+export default () => (
+  <Stack.Navigator initialRouteName="Preload"></Stack.Navigator>
+);
