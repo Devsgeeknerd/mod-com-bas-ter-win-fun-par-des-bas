@@ -6,3 +6,5 @@ import SignIn from "../screens/SignIn";
 import SignUp from "../screens/SignUp";
 import MainTab from "../stacks/MainTab";
 import Barber from "../screens/Barber";
+
+const 
