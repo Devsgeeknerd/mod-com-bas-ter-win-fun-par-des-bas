@@ -18,6 +18,6 @@ export default () => (
     <Stack.Screen name="SignIn" component={SignIn} />
     <Stack.Screen name="SignUp" component={SignUp} />
     <Stack.Screen name="MainTab" component={MainTab} />
-    <Stack.Screen name="Barber" component={}/>
+    <Stack.Screen name="Barber" component={Barber} />
   </Stack.Navigator>
 );
