@@ -1,2 +1,2 @@
 import React from "react";
-import {} from "@react-navigation/stack";
+import { createStackNavigator } from "@react-navigation/stack";
