@@ -9,4 +9,4 @@ import Barber from "../screens/Barber";
 
 const Stack = createStackNavigator();
 
-export
+export default ()=>()
