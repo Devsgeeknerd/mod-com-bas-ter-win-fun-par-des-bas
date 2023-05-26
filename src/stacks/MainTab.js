@@ -11,4 +11,4 @@ import Profile from "../screens/Profile";
 
 const Tab = createBottomNavigator();
 
-export
+export default()=>()
