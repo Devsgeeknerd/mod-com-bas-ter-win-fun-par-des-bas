@@ -10,3 +10,5 @@ import Favorites from "../screens/Favorites";
 import Profile from "../screens/Profile";
 
 const Tab = createBottomNavigator();
+
+export
