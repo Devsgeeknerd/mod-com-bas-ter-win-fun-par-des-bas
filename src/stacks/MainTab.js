@@ -9,4 +9,4 @@ import Appointments from "../screens/Appointments";
 import Favorites from "../screens/Favorites";
 import Profile from "../screens/Profile";
 
-const Tab
+const Tab = createBottomNavigator();
