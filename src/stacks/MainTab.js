@@ -14,6 +14,6 @@ const Tab = createBottomNavigator();
 export default () => (
   <Tab.Navigator tabBar={(props) => <CustomTabBar {...props} />}>
     <Tab.Screen name="Home" component={Home} />
-    <Tab.Screen name="Search" component={}/>
+    <Tab.Screen name="Search" component={Search} />
   </Tab.Navigator>
 );
