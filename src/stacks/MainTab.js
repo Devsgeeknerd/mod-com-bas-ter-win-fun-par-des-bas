@@ -13,6 +13,6 @@ const Tab = createBottomNavigator();
 
 export default () => (
   <Tab.Navigator tabBar={(props) => <CustomTabBar {...props} />}>
-    <Tab />
+    <Tab.Screen />
   </Tab.Navigator>
 );
