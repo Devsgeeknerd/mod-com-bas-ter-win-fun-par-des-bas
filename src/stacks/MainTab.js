@@ -3,4 +3,4 @@ import { createBottomNavigator } from "@react-navigation/bottom-tabs";
 
 import CustomTabBar from "../components/CustomTabBar";
 
-import Home from "";
+import Home from "../screens/Home";
