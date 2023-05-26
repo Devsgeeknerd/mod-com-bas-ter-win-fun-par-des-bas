@@ -12,5 +12,7 @@ import Profile from "../screens/Profile";
 const Tab = createBottomNavigator();
 
 export default () => (
-  <Tab.Navigator tabBar={(props) => <CustomTabBar />}></Tab.Navigator>
+  <Tab.Navigator
+    tabBar={(props) => <CustomTabBar {...props} />}
+  ></Tab.Navigator>
 );
