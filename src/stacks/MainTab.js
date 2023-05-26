@@ -6,4 +6,4 @@ import CustomTabBar from "../components/CustomTabBar";
 import Home from "../screens/Home";
 import Search from "../screens/Search";
 import Appointments from "../screens/Appointments";
-import
+import Favorites
