@@ -11,4 +11,4 @@ import Profile from "../screens/Profile";
 
 const Tab = createBottomNavigator();
 
-export default () => <Tab.Navigator></Tab.Navigator>;
+export default () => <Tab.Navigator tabBar={}></Tab.Navigator>;
