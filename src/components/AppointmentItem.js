@@ -67,12 +67,10 @@ export default ({ data }) => {
         <Avatar source={{ uri: data.barber.avatar }} />
         <UserName>{data.barber.name}</UserName>
       </UserArea>
-
       <SplitArea>
         <ServiceText>{data.barber.name}</ServiceText>
         <ServiceText>R$ {data.service.price.toFixed(2)}</ServiceText>
       </SplitArea>
-
       <SplitArea>
         <DateText>{dateString}</DateText>
         <DateText>{time}</DateText>
